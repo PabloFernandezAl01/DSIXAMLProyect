@@ -119,6 +119,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="InGame.xaml.cs">
+      <DependentUpon>InGame.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -154,6 +157,24 @@
     <Content Include="Assets\Listo.png" />
     <Content Include="Assets\listocirculo.png" />
     <Content Include="Assets\persona.png" />
+    <Content Include="Assets\BlackArrow.png" />
+    <Content Include="Assets\blue.png" />
+    <Content Include="Assets\bluePerson.png" />
+    <Content Include="Assets\bolaAzul.jpg" />
+    <Content Include="Assets\botonListo1.png" />
+    <Content Include="Assets\circuloAmarillo.png" />
+    <Content Include="Assets\InGame.png" />
+    <Content Include="Assets\joystick.png" />
+    <Content Include="Assets\outstand.png" />
+    <Content Include="Assets\red.png" />
+    <Content Include="Assets\redPerson.png" />
+    <Content Include="Assets\toolsIcon.png" />
+    <Content Include="Assets\white.png" />
+    <Content Include="Assets\Escenarios\1.jpg" />
+    <Content Include="Assets\Escenarios\2.jpg" />
+    <Content Include="Assets\Escenarios\3.jpg" />
+    <Content Include="Assets\Escenarios\4.jpg" />
+    <Content Include="Assets\Escenarios\5.jpg" />
     <Content Include="Assets\Volver.png" />
     <Content Include="Assets\Fondo.png" />
     <Content Include="Properties\Default.rd.xml" />
@@ -170,6 +191,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="InGame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
