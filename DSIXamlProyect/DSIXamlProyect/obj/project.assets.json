@@ -8151,24 +8151,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ivsm1\\.nuget\\packages\\": {},
+    "C:\\Users\\pablo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Usuarios\\Ivism18\\Escritorio\\DSIXAMLProyect\\DSIXamlProyect\\DSIXamlProyect\\DSIXamlProyect.csproj",
+      "projectUniqueName": "C:\\Users\\pablo\\Desktop\\DSI\\DSIXAMLProyect\\DSIXamlProyect\\DSIXamlProyect\\DSIXamlProyect.csproj",
       "projectName": "DSIXamlProyect",
-      "projectPath": "D:\\Usuarios\\Ivism18\\Escritorio\\DSIXAMLProyect\\DSIXamlProyect\\DSIXamlProyect\\DSIXamlProyect.csproj",
-      "packagesPath": "C:\\Users\\ivsm1\\.nuget\\packages\\",
-      "outputPath": "D:\\Usuarios\\Ivism18\\Escritorio\\DSIXAMLProyect\\DSIXamlProyect\\DSIXamlProyect\\obj\\",
+      "projectPath": "C:\\Users\\pablo\\Desktop\\DSI\\DSIXAMLProyect\\DSIXamlProyect\\DSIXamlProyect\\DSIXamlProyect.csproj",
+      "packagesPath": "C:\\Users\\pablo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pablo\\Desktop\\DSI\\DSIXAMLProyect\\DSIXamlProyect\\DSIXamlProyect\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\ivsm1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

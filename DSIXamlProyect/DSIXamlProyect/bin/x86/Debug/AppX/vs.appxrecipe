@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-329SSLM</Machine>
+    <WindowsUser>pablo</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>21f346f0-8920-46aa-8304-85a67f969f7f</PackageIdentityName>
+    <PackageIdentityPublisher>CN=pablo</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>35398C20700FA18ADB8998DF65503EA6FE256858D6491CF12C6D1F22FC274E33</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>21f346f0-8920-46aa-8304-85a67f969f7f_1.0.0.0_x86__va1129kak50zj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>21f346f0-8920-46aa-8304-85a67f969f7f_va1129kak50zj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>21f346f0-8920-46aa-8304-85a67f969f7f</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=pablo</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-10T22:02:12.253</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\DSIXamlProyect.exe">
+      <PackagePath>entrypoint\DSIXamlProyect.exe</PackagePath>
+      <Modified>2021-05-10T22:02:10.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2020-02-27T18:16:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T16:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\agilidad.png">
+      <PackagePath>Assets\agilidad.png</PackagePath>
+      <Modified>2021-05-10T21:04:32.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\barraagilidad.png">
+      <PackagePath>Assets\barraagilidad.png</PackagePath>
+      <Modified>2021-05-10T21:05:03.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\barrafuerza.png">
+      <PackagePath>Assets\barrafuerza.png</PackagePath>
+      <Modified>2021-05-10T21:06:03.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\barrahabilidad.png">
+      <PackagePath>Assets\barrahabilidad.png</PackagePath>
+      <Modified>2021-05-10T21:10:17.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\barravida.png">
+      <PackagePath>Assets\barravida.png</PackagePath>
+      <Modified>2021-05-10T20:51:22.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\bola.png">
+      <PackagePath>Assets\bola.png</PackagePath>
+      <Modified>2021-05-10T20:28:54.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\corasao.png">
+      <PackagePath>Assets\corasao.png</PackagePath>
+      <Modified>2021-05-10T20:35:54.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\flecha.png">
+      <PackagePath>Assets\flecha.png</PackagePath>
+      <Modified>2021-05-10T20:23:39.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\flechacaida.png">
+      <PackagePath>Assets\flechacaida.png</PackagePath>
+      <Modified>2021-05-10T21:56:28.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\fuerza.png">
+      <PackagePath>Assets\fuerza.png</PackagePath>
+      <Modified>2021-05-10T21:06:03.397</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\habilidad.png">
+      <PackagePath>Assets\habilidad.png</PackagePath>
+      <Modified>2021-05-10T21:12:26.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\hombregris.png">
+      <PackagePath>Assets\hombregris.png</PackagePath>
+      <Modified>2021-05-10T21:30:29.867</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Listo.png">
+      <PackagePath>Assets\Listo.png</PackagePath>
+      <Modified>2021-05-10T19:22:58.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\listocirculo.png">
+      <PackagePath>Assets\listocirculo.png</PackagePath>
+      <Modified>2021-05-10T21:19:21.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\persona.png">
+      <PackagePath>Assets\persona.png</PackagePath>
+      <Modified>2021-05-10T21:25:42.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Volver.png">
+      <PackagePath>Assets\Volver.png</PackagePath>
+      <Modified>2021-05-10T17:28:45.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Fondo.png">
+      <PackagePath>Assets\Fondo.png</PackagePath>
+      <Modified>2021-05-10T17:21:23.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2021-02-18T14:57:17.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-02-18T14:57:17.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-02-18T14:57:17.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-02-18T14:57:17.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-02-18T14:57:17.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-02-18T14:57:17.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-02-18T14:57:17.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2021-05-10T16:25:06.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\DSIXamlProyect.xr.xml">
+      <PackagePath>DSIXamlProyect.xr.xml</PackagePath>
+      <Modified>2021-05-10T22:00:08.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2021-05-10T21:49:49.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2021-05-10T21:49:49.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionEscenario.xbf">
+      <PackagePath>SeleccionEscenario.xbf</PackagePath>
+      <Modified>2021-05-10T21:49:49.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\ModoDeJuego.xbf">
+      <PackagePath>ModoDeJuego.xbf</PackagePath>
+      <Modified>2021-05-10T21:49:49.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionPersonaje.xbf">
+      <PackagePath>SeleccionPersonaje.xbf</PackagePath>
+      <Modified>2021-05-10T22:02:10.550</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T15:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2021-05-10T22:00:09.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\Core\DSIXamlProyect.exe">
+      <PackagePath>DSIXamlProyect.exe</PackagePath>
+      <Modified>2021-05-10T22:02:12.231</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

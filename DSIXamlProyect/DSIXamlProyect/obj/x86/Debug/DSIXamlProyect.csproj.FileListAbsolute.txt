@@ -69,3 +69,13 @@ D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\
 D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\XamlSaveStateFile.xml
 D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\DSIXamlProyect.exe
 D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\DSIXamlProyect.pdb
+C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionEscenario.xbf
+C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionEscenario.g.i.cs
+C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionEscenario.g.cs
+C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionEscenario.xaml
+C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionEscenario.xbf
+C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionPersonaje.xbf
+C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionPersonaje.g.i.cs
+C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionPersonaje.g.cs
+C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionPersonaje.xaml
+C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionPersonaje.xbf

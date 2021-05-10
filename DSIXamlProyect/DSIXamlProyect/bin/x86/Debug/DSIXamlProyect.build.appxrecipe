@@ -34,6 +34,51 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\agilidad.png">
+      <PackagePath>Assets\agilidad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\barraagilidad.png">
+      <PackagePath>Assets\barraagilidad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\barrafuerza.png">
+      <PackagePath>Assets\barrafuerza.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\barrahabilidad.png">
+      <PackagePath>Assets\barrahabilidad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\barravida.png">
+      <PackagePath>Assets\barravida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\bola.png">
+      <PackagePath>Assets\bola.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\corasao.png">
+      <PackagePath>Assets\corasao.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\flecha.png">
+      <PackagePath>Assets\flecha.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\flechacaida.png">
+      <PackagePath>Assets\flechacaida.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\fuerza.png">
+      <PackagePath>Assets\fuerza.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\habilidad.png">
+      <PackagePath>Assets\habilidad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\hombregris.png">
+      <PackagePath>Assets\hombregris.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Listo.png">
+      <PackagePath>Assets\Listo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\listocirculo.png">
+      <PackagePath>Assets\listocirculo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\persona.png">
+      <PackagePath>Assets\persona.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Volver.png">
       <PackagePath>Assets\Volver.png</PackagePath>
     </AppxPackagedFile>
@@ -79,8 +124,14 @@
     <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionEscenario.xbf">
+      <PackagePath>SeleccionEscenario.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\ModoDeJuego.xbf">
       <PackagePath>ModoDeJuego.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionPersonaje.xbf">
+      <PackagePath>SeleccionPersonaje.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
