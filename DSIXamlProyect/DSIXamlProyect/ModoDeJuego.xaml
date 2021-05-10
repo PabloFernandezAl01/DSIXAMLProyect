@@ -10,13 +10,13 @@
 
     <Grid>
         <Image x:Name="Fondo" Source="Assets/Fondo.png" Stretch="Fill"/>
-        <Button  Click="ClickAtras" AutomationProperties.Name="Pie" Height="138" Background="Transparent" Width="240" 
+        <Button   AutomationProperties.Name="Pie" Height="138" Background="Transparent" Width="240" 
                  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,20,0,0">
             <Image Source="/Assets/Volver.png" AutomationProperties.Name="Slice"/>
         </Button>
 
         <TextBlock Text="Selecciona modo de juego" FontSize="80" HorizontalAlignment="Left" 
-                   Margin="359,36,0,4" SelectionChanged="TextBlock_SelectionChanged" FontFamily="Kristen ITC">
+                   Margin="359,36,0,4" FontFamily="Kristen ITC">
 
         </TextBlock>
 
