@@ -7,109 +7,105 @@
       mc:Ignorable="d"
       Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <Image x:Name="Fondo"
-               Source="/Assets/Fondo.png"
-               Stretch="Fill" />
-        <ListView x:Name="Jugadores"
-                  VerticalAlignment="Center"
-                  Background="Orange"
-                  Width="222"
-                  Margin="756,234,302,109">
-            <Button x:Name="AMIGO1"
-                    Background="Green"
-                    Width="200"
-                    Height="70">
-                <TextBlock Text="AMIGO 1"
-                           FontSize="30"
-                           FontFamily="Kristen ITC"
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Center" />
-            </Button>
-            <Button x:Name="AMIGO2"
-                    Width="200"
-                    Height="70"
-                    Background="Green">
-                <TextBlock Text="AMIGO 2"
-                           FontSize="30"
-                           FontFamily="Kristen ITC"
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Center" />
-            </Button>
-            <Button x:Name="AMIGO3"
-                    Width="200"
-                    Height="70"
-                    Background="Red">
+    <Viewbox HorizontalAlignment="Stretch"
+             VerticalAlignment="Stretch"
+             Stretch="Fill">
+        <Canvas Height="1000"
+                Width="1500">
 
-                <TextBlock Text="AMIGO 3"
-                           FontSize="30"
-                           FontFamily="Kristen ITC"
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Center" />
+            <Image Source="/Assets/Fondo.png"
+                   Stretch="Fill"
+                   Height="1000"
+                   Width="1500" />
+
+            <TextBlock Text="Selecciona oponente "
+                       FontSize="70"
+                       Margin="228,136,0,0"
+                       FontFamily="Kristen ITC"
+                       Height="114"
+                       Canvas.Left="223"
+                       Canvas.Top="-52"
+                       Width="717" />
+
+            <StackPanel x:Name="Jugadores"
+                        Canvas.Left="850"
+                        Canvas.Top="300">
+
+                <Button Content="Amigo 1"
+                        Background="Green"
+                        FontFamily="Kristen ITC"
+                        Width="250"
+                        Height="100"
+                        FontSize="40"
+                        Foreground="Black" />
+                <Button Content="Amigo 2"
+                        Background="Green"
+                        FontFamily="Kristen ITC"
+                        Width="250"
+                        Height="100"
+                        FontSize="40"
+                        Foreground="Black" />
+                <Button Content="Amigo 3"
+                        Background="Red"
+                        FontFamily="Kristen ITC"
+                        Width="250"
+                        Height="100"
+                        FontSize="40"
+                        Foreground="Black" />
+                <Button Content="Amigo 4"
+                        Background="Red"
+                        FontFamily="Kristen ITC"
+                        Width="250"
+                        Height="100"
+                        FontSize="40"
+                        Foreground="Black" />
+                <Button Content="Amigo 5"
+                        Background="Red"
+                        FontFamily="Kristen ITC"
+                        Width="250"
+                        Height="100"
+                        FontSize="40"
+                        Foreground="Black" />
+            </StackPanel>
+            
+            <Button   AutomationProperties.Name="Volver"
+                      Height="138"
+                      Background="Transparent"
+                      Width="240"
+                      HorizontalAlignment="Left"
+                      VerticalAlignment="Top"
+                      Margin="20,70,0,0">
+                <Image Source="/Assets/Volver.png"
+                       AutomationProperties.Name="Slice" />
             </Button>
-            <Button x:Name="AMIGO4"
-                    Width="200"
-                    Height="70"
-                    Background="Red">
-                <TextBlock Text="AMIGO 4"
-                           FontSize="30"
-                           FontFamily="Kristen ITC"
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Center" />
+            <Button   AutomationProperties.Name="Listo"
+                      Height="138"
+                      Background="Transparent"
+                      Width="240"
+                      Margin="20,20,0,0"
+                      RenderTransformOrigin="0.51,0.504">
+                <Image Source="/Assets/listo.png"
+                       AutomationProperties.Name="Slice"
+                       Margin="1205,394,-1251,-440" />
             </Button>
-            <Button x:Name="AMIGO5"
-                    Width="200"
-                    Height="70"
-                    Background="Red">
-                <TextBlock Text="AMIGO 5"
-                           FontSize="30"
-                           FontFamily="Kristen ITC"
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Center" />
-            </Button>
-        </ListView>
-        <Button   AutomationProperties.Name="Volver" Click="GoBack"
-                  Height="138"
-                  Background="Transparent"
-                  Width="240"
-                  HorizontalAlignment="Left"
-                  VerticalAlignment="Top"
-                  Margin="20,20,0,0">
-            <Image Source="/Assets/Volver.png"
-                   AutomationProperties.Name="Slice" />
-        </Button>
-        <Button   AutomationProperties.Name="Listo" Click="GoToInGame"
-                  Height="138"
-                  Background="Transparent"
-                  Width="240"
-                  HorizontalAlignment="Right"
-                  VerticalAlignment="Center"
-                  Margin="20,20,0,0">
-            <Image Source="/Assets/listo.png"
-                   AutomationProperties.Name="Slice"  />
-        </Button>
-        <TextBlock Text="Selecciona amigo al que enfrentarte"
-                   FontSize="50"
-                   HorizontalAlignment="Left"
-                   VerticalAlignment="Top"
-                   Margin="228,136,0,0"
-                   FontFamily="Kristen ITC"
-                   Height="70"
-                   TextWrapping="Wrap" />
-        <TextBox Text="Jugador"
-                 Background="Orange"
-                 FontSize="75"
-                 FontFamily="kristen ITC"
-                 FontStretch="Normal"
-                 TextAlignment="Center"
-                 Margin="140,337,781,281" />
-        <TextBlock Text="VS"
-                   FontSize="75"
-                   VerticalAlignment="Top"
-                   HorizontalAlignment="Left"
-                   FontFamily="kristen ITC"
-                   Height="105"
-                   Width="105"
-                   Margin="539,337,0,0" />
-    </Grid>
+
+            <TextBox Text="Jugador"
+                     Background="Orange"
+                     FontSize="75"
+                     FontFamily="kristen ITC"
+                     FontStretch="Normal"
+                     TextAlignment="Center"
+                     Margin="140,337,781,281"
+                     Canvas.Left="-21"
+                     Canvas.Top="112" />
+            <TextBlock Text="VS"
+                       FontSize="75"
+                       FontFamily="kristen ITC"
+                       Height="105"
+                       Width="105"
+                       Margin="539,337,0,0"
+                       Canvas.Left="10"
+                       Canvas.Top="119" />
+        </Canvas>
+    </Viewbox>
 </Page>
