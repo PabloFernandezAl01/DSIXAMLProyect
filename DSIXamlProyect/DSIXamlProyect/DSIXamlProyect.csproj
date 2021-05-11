@@ -122,6 +122,9 @@
     <Compile Include="InGame.xaml.cs">
       <DependentUpon>InGame.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MainMenu.xaml.cs">
+      <DependentUpon>MainMenu.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -150,6 +153,8 @@
     <Content Include="Assets\blackOutstand.png" />
     <Content Include="Assets\bola.png" />
     <Content Include="Assets\corasao.png" />
+    <Content Include="Assets\Escenarios\Fondo_Menu.jpg" />
+    <Content Include="Assets\Fondo_Menu.jpg" />
     <Content Include="Assets\flecha.png" />
     <Content Include="Assets\flechacaida.png" />
     <Content Include="Assets\fuerza.png" />
@@ -193,6 +198,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="InGame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

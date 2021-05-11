@@ -67,9 +67,10 @@
       <RootProperty Name="FocusVisualSecondaryBrush" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="Content" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="RenderTransformOrigin" />
-      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="FontSize" />
     </RootType>
@@ -84,11 +85,15 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Inlines" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontStretch" />
       <RootProperty Name="FontFamily" />
     </RootType>
     <RootType FullName="DSIXamlProyect.InGame" />
+    <RootType FullName="DSIXamlProyect.MainMenu" />
     <RootType FullName="DSIXamlProyect.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
       <RootProperty Name="ScaleX" />

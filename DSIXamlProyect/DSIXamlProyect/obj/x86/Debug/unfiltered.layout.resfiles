@@ -18,9 +18,11 @@ Assets\Escenarios\2.jpg
 Assets\Escenarios\3.jpg
 Assets\Escenarios\4.jpg
 Assets\Escenarios\5.jpg
+Assets\Escenarios\Fondo_Menu.jpg
 Assets\flecha.png
 Assets\flechacaida.png
 Assets\Fondo.png
+Assets\Fondo_Menu.jpg
 Assets\fuerza.png
 Assets\habilidad.png
 Assets\hombregris.png
@@ -45,6 +47,7 @@ Assets\Wide310x150Logo.scale-200.png
 App.xbf
 DSIXamlProyect.xr.xml
 InGame.xbf
+MainMenu.xbf
 MainPage.xbf
 ModoDeJuego.xbf
 SeleccionEscenario.xbf
