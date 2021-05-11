@@ -12,7 +12,7 @@
                Source="/Assets/Fondo.png"
                Stretch="Fill"
                Margin="0,18,0,-18" />
-        <Button   AutomationProperties.Name="Volver"
+        <Button   AutomationProperties.Name="Volver" Click="GoBack"
                   Height="138"
                   Background="Transparent"
                   Width="240"
@@ -83,7 +83,7 @@
                    VerticalAlignment="Top"
                    Width="517"
                    Fill="#FFF9990D" />
-        <TextBlock x:Name="Ajustes"
+        <TextBlock x:Name="Ajustess"
                    Text="Ajustes de Juego"
                    Width="450"
                    Height="100"

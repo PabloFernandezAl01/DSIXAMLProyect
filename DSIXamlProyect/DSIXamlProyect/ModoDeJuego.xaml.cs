@@ -26,5 +26,21 @@ namespace DSIXamlProyect
         {
             this.InitializeComponent();
         }
+
+        private void GoBack(object sender, RoutedEventArgs e)
+        {
+            if (this.Frame.CanGoBack)
+                this.Frame.GoBack();
+        }
+
+        private void GoToSeleccionEscenario(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(SeleccionEscenario), e);
+        }
+
+        private void GoToModoLocal(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ModoLocal), e);
+        }
     }
 }

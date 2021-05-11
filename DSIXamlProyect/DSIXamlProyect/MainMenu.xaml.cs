@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel.Core;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -20,23 +21,26 @@ namespace DSIXamlProyect
     /// <summary>
     /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
-    public sealed partial class SeleccionEscenario : Page
+    public sealed partial class MainMenu : Page
     {
-        public SeleccionEscenario()
+        public MainMenu()
         {
             this.InitializeComponent();
         }
 
-        private void GoBack(object sender, RoutedEventArgs e)
+        private void GoToAjustes(object sender, RoutedEventArgs e)
         {
-            if (this.Frame.CanGoBack)
-                this.Frame.GoBack();
+            this.Frame.Navigate(typeof(Ajustes), e);
         }
 
-        private void GoToIngame(object sender, RoutedEventArgs e)
+        private void ExitApp(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(InGame), e);
+            CoreApplication.Exit();
         }
 
+        private void GoToModoDeJuego(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ModoDeJuego), e);
+        }
     }
 }

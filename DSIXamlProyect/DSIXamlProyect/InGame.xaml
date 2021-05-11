@@ -10,65 +10,42 @@
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="242*"/>
-            <ColumnDefinition Width="139*"/>
-            <ColumnDefinition Width="492*"/>
-            <ColumnDefinition Width="90*"/>
-            <ColumnDefinition Width="295*"/>
-            <ColumnDefinition Width="242*"/>
+            <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="209*"/>
-            <RowDefinition Height="168*"/>
-            <RowDefinition Height="247*"/>
-            <RowDefinition Height="97*"/>
-            <RowDefinition Height="279*"/>
+            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
 
-        <Viewbox Stretch="Fill" Grid.RowSpan="5" Grid.ColumnSpan="6" >
-            <Image Source="Assets/InGame.png" Stretch="Fill"/>
-        </Viewbox>
 
-        <Viewbox Grid.Column="0" Grid.Row="0" Stretch="Fill">
-            <Image Source="Assets/red.png" Stretch="Fill"/>
-        </Viewbox>
-        <Viewbox Grid.Column="0" Grid.Row="0" Stretch="Fill">
-            <TextBlock Text="5" Foreground="Black" Margin="6,3,0,0" Height="24" Width="14"/>
-        </Viewbox>
+        <Viewbox Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
+            <Canvas Width="1500" Height="1000">
 
-        <Viewbox Grid.Column="5" Grid.Row="0" Stretch="Fill">
-            <Image Source="Assets/blue.png" Stretch="Fill"/>
-        </Viewbox>
-        <Viewbox Grid.Column="5" Grid.Row="0" Stretch="Fill">
-            <TextBlock Text="2" Foreground="Black" Margin="7,3,0,0" Height="24" Width="14"/>
-        </Viewbox>
+                <Image Source="Assets/InGame.png" Stretch="Fill" Height="1000" Width="1500"/>
 
-        <Viewbox Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Grid.RowSpan="2" Stretch="Fill">
-            <Image Source="Assets/joystick.png" Stretch="Fill" Width="513"/>
-        </Viewbox>
+                <Image Source="Assets/blue.png" Height="194" Width="232" Stretch="Fill"/>
+                <TextBlock Text="5" FontSize="150" Height="200" Width="75" Canvas.Top="-12" Canvas.Left="76" Foreground="Black"/>
 
-        <Viewbox Grid.Column="4" Grid.Row="4"  Stretch="Fill">
-            <Image Source="Assets/bolaAzul.jpg" Stretch="Fill" Width="513" Margin="0,-50,0,50"/>
-        </Viewbox>
+                <Image Source="Assets/red.png" Height="194" Width="232" Canvas.Left="1268" Stretch="Fill"/>
+                <TextBlock Text="2" FontSize="150" Height="200" Width="75" Canvas.Top="-12" Canvas.Left="1344" Foreground="Black"/>
 
-        <Viewbox Grid.Column="5" Grid.Row="4"  Stretch="Fill">
-            <Image Source="Assets/circuloAmarillo.png" Stretch="Fill" Width="513" Margin="0,-30,0,30"/>
-        </Viewbox>
+                <Image Source="Assets/joystick.png" Canvas.Top="653" Height="297" Width="272" Canvas.Left="76"/>
 
-        <Viewbox Grid.Column="5" Grid.Row="1">
-            <Button AutomationProperties.Name="Pie" Height="20" Background="{x:Null}"
-                Margin="0,0,0,10"
-                FontStretch="Normal" BorderBrush="{x:Null}" Foreground="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}">
-                <Image Source="/Assets/toolsIcon.png" AutomationProperties.Name="Slice" Stretch="Fill" Margin="-10,-6,-10,-7" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}"/>
-            </Button>
-        </Viewbox>
+                <Button Canvas.Left="1177" Canvas.Top="678" Height="248" Width="248" Background="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}">
+                    <Image Source="Assets/bolaAzul.jpg"  Height="248" Width="248" Stretch="Fill" Margin="-10,-6,-10,-7" />
+                </Button>
 
-        <Viewbox Grid.ColumnSpan="6" Grid.RowSpan="5" Stretch="Fill">
-            <Canvas Width="3318" Height="1000">
-                <Image Source="/Assets/bluePerson.png" Canvas.Left="1049" Canvas.Top="534" Height="240" Width="240"></Image>
-                <Image Source="/Assets/redPerson.png" Canvas.Left="1905" Canvas.Top="393" Height="198" Width="198"></Image>
+                <Button Canvas.Left="1071" Canvas.Top="844" Height="106" Width="106" Background="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" >
+                    <Image Source="Assets/circuloAmarillo.png"   Height="106" Width="106" Stretch="Fill" Margin="-10,-6,-10,-7" />
+                </Button>
+
+                <Button Canvas.Left="1331" Canvas.Top="194" Height="106" Width="106" Background="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Click="GoToAjustes">
+                    <Image Source="Assets/toolsIcon.png"   Height="106" Width="106" Stretch="Fill" Margin="-10,-6,-10,-7" />
+                </Button>
+
+                <Image Source="Assets/redPerson.png" Height="233" Width="133" Canvas.Left="477" Canvas.Top="556" Stretch="Fill"/>
+                <Image Source="Assets/bluePerson.png" Height="193" Width="110" Canvas.Left="885" Canvas.Top="383" Stretch="Fill"/>
+
             </Canvas>
         </Viewbox>
-
     </Grid>
 </Page>

@@ -26,5 +26,10 @@ namespace DSIXamlProyect
         {
             this.InitializeComponent();
         }
+
+        private void GoToAjustes(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Ajustes), e);
+        }
     }
 }
