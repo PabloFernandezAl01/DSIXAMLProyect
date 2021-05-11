@@ -154,6 +154,7 @@
     <Content Include="Assets\bola.png" />
     <Content Include="Assets\corasao.png" />
     <Content Include="Assets\Escenarios\Fondo_Menu.jpg" />
+    <Content Include="Assets\exit_icon.png" />
     <Content Include="Assets\Fondo_Menu.jpg" />
     <Content Include="Assets\flecha.png" />
     <Content Include="Assets\flechacaida.png" />
@@ -172,8 +173,10 @@
     <Content Include="Assets\InGame.png" />
     <Content Include="Assets\joystick.png" />
     <Content Include="Assets\outstand.png" />
+    <Content Include="Assets\play_Button.png" />
     <Content Include="Assets\red.png" />
     <Content Include="Assets\redPerson.png" />
+    <Content Include="Assets\spain_flag.png" />
     <Content Include="Assets\toolsIcon.png" />
     <Content Include="Assets\user button.jpg" />
     <Content Include="Assets\white.png" />
