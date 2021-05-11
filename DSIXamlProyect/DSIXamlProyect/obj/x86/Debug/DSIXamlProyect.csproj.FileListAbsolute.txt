@@ -124,3 +124,9 @@ D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\
 D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\ProjectArchitectures.txt
 D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\InGame.xbf
+C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\InGame.g.i.cs
+C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\InGame.g.cs
+C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\InGame.xaml
+C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\InGame.xbf
+C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json

@@ -9,76 +9,34 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="4*"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="4*"/>
-            <ColumnDefinition Width="2*"/>
-        </Grid.ColumnDefinitions>
-
-        <Viewbox  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
-            <Image x:ConnectionId='3'  x:Name="Fondo" Source="Assets/Fondo.png" Stretch="Fill" Height="1000" Width="1500" />
-        </Viewbox>
-
-        <Viewbox Grid.Row="0" Grid.Column="0"   HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
-            <Button x:ConnectionId='2' x:Name="volver" AutomationProperties.Name="Pie" Height="40" Background="{x:Null}" Width="40"
-                Margin="37,28,28,37"
-                FontStretch="Normal" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}" >
-                <Image Source="/Assets/Volver.png" AutomationProperties.Name="Slice" Stretch="Fill" Margin="-10,-6,-10,-7"/>
-            </Button>
-        </Viewbox>
-        <Viewbox Grid.Row="1" Grid.Column="2"   HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
-            <Button AutomationProperties.Name="Pie" Height="20" Background="{x:Null}" Width="130" 
-                Margin="37,28,28,37"
-                FontStretch="Normal" Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" BorderBrush="{x:Null}" >
-                <Image Source="/Assets/Listo.png" AutomationProperties.Name="Slice" Stretch="Fill" Margin="-10,-6,-10,-7"/>
-            </Button>
-        </Viewbox>
-
-        <Viewbox Grid.Column="1"  Margin="0,13,0,0" Height="102" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Stretch="Fill">
-            <TextBlock  Text="Seleccion de modo de juego" FontSize="50" FontStretch="Condensed" 
-                    FontFamily="Kristen ITC"  Foreground="Black"  RelativePanel.RightOf="volver" Height="109" Width="730"/>
-        </Viewbox>
-
-        <Viewbox  Grid.Row="1" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
-            <Grid Margin="0,0,0,200" Width="720">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-                <StackPanel Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" Margin="0,200,0,0">
-                    <Viewbox VerticalAlignment="Center" Width="300">
-                        <Button Content="Jugador Vs IA" Background="Orange"  Foreground="Black" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}"/>
-                    </Viewbox>
-                    <Viewbox VerticalAlignment="Center" Width="300" Height="90">
-                        <Button Content="Fácil" Background="#FFF4F0AF" Width="300" Height="90" FontSize="40"  Foreground="Black" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}"/>
-                    </Viewbox>
-                    <Viewbox VerticalAlignment="Center" Width="300" Height="90">
-                        <Button Content="Medio" Background="#FFF4F0AF" Width="300"  Height="90" FontSize="40"  Foreground="Black" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}"/>
-                    </Viewbox>
-                    <Viewbox VerticalAlignment="Center" Width="300"  Height="90">
-                        <Button Content="Dificil" Background="#FFF4F0AF" Width="300"  Height="90" FontSize="40" Foreground="Black" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}"/>
-                    </Viewbox>
+        <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
+            <Canvas Width="1500" Height="1000">
+                <Image x:ConnectionId='2'  x:Name="Fondo" Source="Assets/Fondo.png" Stretch="Fill" Height="1000" Width="1500" />
+                <Button x:ConnectionId='3' x:Name="volver" Background="Transparent" FontStretch="Normal" Height="150" Width="250">
+                    <Image Source="/Assets/Volver.png" AutomationProperties.Name="Slice" Stretch="Fill" />
+                </Button>
+                <Button  FontStretch="Normal" Background="Transparent" Height="200" Width="250" Canvas.Top="400" Canvas.Left="1200">
+                    <Image Source="/Assets/Listo.png" AutomationProperties.Name="Slice" Stretch="Fill"/>
+                </Button>
+                <TextBlock Canvas.Left="220" Canvas.Top="150" Text="Seleccion de modo de juego" FontSize="70" FontStretch="Condensed" 
+                    FontFamily="Kristen ITC" Foreground="Black" Height="100" Width="1000"/>
+                <StackPanel Canvas.Left="400" Canvas.Top="400">
+                    <StackPanel Background="Orange" Height="120">
+                        <TextBlock Text="Jugador vs IA" FontSize="30" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                    <Button Content="Fácil" Background="#FFF4F0AF" Width="250" Height="100" FontSize="30"  Foreground="Black" />
+                    <Button Content="Medio" Background="#FFF4F0AF" Width="250" Height="100" FontSize="30"  Foreground="Black" />
+                    <Button Content="Dificil" Background="#FFF4F0AF" Width="250" Height="100" FontSize="30"  Foreground="Black" />
                 </StackPanel>
-
-                <StackPanel Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" Margin="0,200,0,0">
-                    <Viewbox VerticalAlignment="Center" Width="300">
-                        <Button Content="Multijugador" Background="Orange"  Foreground="Black" BorderBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}"/>
-                    </Viewbox>
-                    <Viewbox VerticalAlignment="Center" Width="300"  Height="90">
-                        <Button Content="Local" Background="#FFF4F0AF"  Height="90" Width="300" FontSize="40"  Foreground="Black" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}"/>
-                    </Viewbox>
-                    <Viewbox VerticalAlignment="Center" Width="300"  Height="90">
-                        <Button Content="Online" Background="#FFF4F0AF"  Height="90" Width="300" FontSize="40"  Foreground="Black" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}"/>
-                    </Viewbox>
-
+                <StackPanel Canvas.Left="800" Canvas.Top="400">
+                    <StackPanel Background="Orange" Height="120">
+                        <TextBlock Text="Multijugador" FontSize="30" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                    <Button Content="Local" Background="#FFF4F0AF" Width="250" Height="120" FontSize="30"  Foreground="Black" />
+                    <Button Content="Online" Background="#FFF4F0AF" Width="250" Height="120" FontSize="30"  Foreground="Black"/>
                 </StackPanel>
-            </Grid>
+            </Canvas>
         </Viewbox>
     </Grid>
-
 </Page>
 

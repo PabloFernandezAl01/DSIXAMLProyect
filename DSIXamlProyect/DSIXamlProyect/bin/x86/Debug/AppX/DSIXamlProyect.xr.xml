@@ -11,8 +11,6 @@
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Width" />
       <RootMethod Name="GetRowSpan" />
       <RootMethod Name="SetRowSpan" />
       <RootMethod Name="GetColumnSpan" />
@@ -34,8 +32,6 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
       <RootProperty Name="Width" />
@@ -87,12 +83,12 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontStretch" />
       <RootProperty Name="FontFamily" />
+      <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="DSIXamlProyect.InGame" />
     <RootType FullName="DSIXamlProyect.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
       <RootProperty Name="ScaleX" />
-      <RootProperty Name="Rotation" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
       <RootMethod Name="GetRightOf" />
@@ -100,10 +96,9 @@
     </RootType>
     <RootType FullName="DSIXamlProyect.SeleccionEscenario" />
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="Children" />
-      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Orientation" />
     </RootType>
     <RootType FullName="DSIXamlProyect.ModoDeJuego" />

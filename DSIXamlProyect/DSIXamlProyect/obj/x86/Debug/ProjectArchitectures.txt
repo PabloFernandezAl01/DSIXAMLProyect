@@ -1,1 +1,1 @@
-D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\DSIXamlProyect.csproj;x86
+C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\DSIXamlProyect.csproj;x86
