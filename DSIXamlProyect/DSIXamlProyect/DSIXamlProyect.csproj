@@ -125,6 +125,9 @@
     <Compile Include="InGame.xaml.cs">
       <DependentUpon>InGame.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MainMenu.xaml.cs">
+      <DependentUpon>MainMenu.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -156,6 +159,7 @@
     <Content Include="Assets\blackOutstand.png" />
     <Content Include="Assets\bola.png" />
     <Content Include="Assets\corasao.png" />
+    <Content Include="Assets\exit_icon.png" />
     <Content Include="Assets\flecha.png" />
     <Content Include="Assets\flechacaida.png" />
     <Content Include="Assets\fuerza.png" />
@@ -163,6 +167,7 @@
     <Content Include="Assets\hombregris.png" />
     <Content Include="Assets\Listo.png" />
     <Content Include="Assets\listocirculo.png" />
+    <Content Include="Assets\Menu.jpg" />
     <Content Include="Assets\persona.png" />
     <Content Include="Assets\BlackArrow.png" />
     <Content Include="Assets\blue.png" />
@@ -173,9 +178,12 @@
     <Content Include="Assets\InGame.png" />
     <Content Include="Assets\joystick.png" />
     <Content Include="Assets\outstand.png" />
+    <Content Include="Assets\play_icon.png" />
     <Content Include="Assets\red.png" />
     <Content Include="Assets\redPerson.png" />
+    <Content Include="Assets\spain_flag.png" />
     <Content Include="Assets\toolsIcon.png" />
+    <Content Include="Assets\user_icon.jpg" />
     <Content Include="Assets\white.png" />
     <Content Include="Assets\Escenarios\1.jpg" />
     <Content Include="Assets\Escenarios\2.jpg" />
@@ -203,6 +211,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="InGame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
