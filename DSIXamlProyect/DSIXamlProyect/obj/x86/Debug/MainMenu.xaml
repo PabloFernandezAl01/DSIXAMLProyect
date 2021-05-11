@@ -25,14 +25,13 @@
                    Grid.ColumnSpan="3"
                    Source="Assets/Escenarios/Fondo_Menu.jpg"></Image>
 
-            <Viewbox Grid.Column="1">
-                <TextBlock FontSize="100"
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Center">Psycho-Fronton</TextBlock>
-            </Viewbox>
+        <Viewbox Grid.Column="1">
+            <TextBlock FontSize="100"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center">Psycho-Fronton</TextBlock>
+        </Viewbox>
 
-
-            <Grid Margin="100"
+        <Grid Margin="100"
                   Grid.Row="1"
                   Grid.Column="1">
                 <Grid.RowDefinitions>
