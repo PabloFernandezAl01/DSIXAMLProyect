@@ -99,30 +99,34 @@
                     </Viewbox>
                 </Button>
 
-                <Image Grid.Column="1"
+            <Image Grid.Column="1"
                        Grid.Row="0"
-                       Source="/Assets/blue.png"
+                       Source="/Assets/play_Button.png"
                        Margin="0,20,0,20"
                        Stretch="Fill">
                 </Image>
                 <Image Grid.Column="1"
                        Grid.Row="1"
-                       Source="/Assets/blue.png"
+                       Source="/Assets/toolsIcon.png"
                        Margin="0,20,0,20"
                        Stretch="Fill">
                 </Image>
                 <Image Grid.Column="1"
                        Grid.Row="2"
-                       Source="/Assets/blue.png"
+                       Source="/Assets/spain_flag.png"
                        Margin="0,20,0,20"
                        Stretch="Fill">
                 </Image>
                 <Image Grid.Column="1"
                        Grid.Row="3"
-                       Source="/Assets/blue.png"
+                       Source="/Assets/exit_icon.png"
                        Margin="0,20,0,20"
                        Stretch="Fill">
                 </Image>
             </Grid>
+
+        <Button HorizontalAlignment="Right" Grid.Column="2" Grid.Row="2">
+            <Image Source="Assets/user button.jpg"></Image>
+        </Button>   
         </Grid>
 </Page>

@@ -67,8 +67,8 @@
       <RootProperty Name="FocusVisualSecondaryBrush" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="Content" />
-      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="RenderTransform" />
@@ -93,6 +93,14 @@
       <RootProperty Name="FontFamily" />
     </RootType>
     <RootType FullName="DSIXamlProyect.InGame" />
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Orientation" />
+    </RootType>
     <RootType FullName="DSIXamlProyect.MainMenu" />
     <RootType FullName="DSIXamlProyect.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
@@ -104,13 +112,6 @@
       <RootMethod Name="SetRightOf" />
     </RootType>
     <RootType FullName="DSIXamlProyect.SeleccionEscenario" />
-    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Children" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Orientation" />
-    </RootType>
     <RootType FullName="DSIXamlProyect.ModoDeJuego" />
     <RootType FullName="Windows.UI.Xaml.Media.TransformGroup">
       <RootProperty Name="Children" />

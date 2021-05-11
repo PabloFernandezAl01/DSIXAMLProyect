@@ -160,6 +160,9 @@
     <AppxPackagedFile Include="C:\Users\Yojhan\Documents\Universidad\Diseño Sistemas Interactivos\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\bolaAzul.jpg">
       <PackagePath>Assets\bolaAzul.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yojhan\Documents\Universidad\Diseño Sistemas Interactivos\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\user button.jpg">
+      <PackagePath>Assets\user button.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yojhan\Documents\Universidad\Diseño Sistemas Interactivos\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Escenarios\1.jpg">
       <PackagePath>Assets\Escenarios\1.jpg</PackagePath>
     </AppxPackagedFile>
