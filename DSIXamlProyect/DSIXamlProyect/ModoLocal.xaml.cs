@@ -26,5 +26,16 @@ namespace DSIXamlProyect
         {
             this.InitializeComponent();
         }
+
+        private void GoBack(object sender, RoutedEventArgs e)
+        {
+            if (this.Frame.CanGoBack)
+                this.Frame.GoBack();
+        }
+
+        private void GoToInGame(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(InGame), e);
+        }
     }
 }

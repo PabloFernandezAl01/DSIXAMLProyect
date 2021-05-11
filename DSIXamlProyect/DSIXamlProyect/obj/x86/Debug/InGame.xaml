@@ -38,7 +38,7 @@
                     <Image Source="Assets/circuloAmarillo.png"   Height="106" Width="106" Stretch="Fill" Margin="-10,-6,-10,-7" />
                 </Button>
 
-                <Button Canvas.Left="1331" Canvas.Top="194" Height="106" Width="106" Background="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Click="GoToAjustes">
+                <Button x:ConnectionId='2' Canvas.Left="1331" Canvas.Top="194" Height="106" Width="106" Background="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}"                    >
                     <Image Source="Assets/toolsIcon.png"   Height="106" Width="106" Stretch="Fill" Margin="-10,-6,-10,-7" />
                 </Button>
 
@@ -49,3 +49,4 @@
         </Viewbox>
     </Grid>
 </Page>
+

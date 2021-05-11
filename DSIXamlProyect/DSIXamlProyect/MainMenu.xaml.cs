@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel.Core;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -25,6 +26,21 @@ namespace DSIXamlProyect
         public MainMenu()
         {
             this.InitializeComponent();
+        }
+
+        private void GoToAjustes(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Ajustes), e);
+        }
+
+        private void ExitApp(object sender, RoutedEventArgs e)
+        {
+            CoreApplication.Exit();
+        }
+
+        private void GoToModoDeJuego(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ModoDeJuego), e);
         }
     }
 }

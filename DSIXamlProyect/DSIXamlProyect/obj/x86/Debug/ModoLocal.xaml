@@ -16,7 +16,7 @@
                   Background="Orange"
                   Width="222"
                   Margin="756,234,302,109">
-            <Button x:ConnectionId='4' x:Name="AMIGO1"
+            <Button x:ConnectionId='6' x:Name="AMIGO1"
                     Background="Green"
                     Width="200"
                     Height="70">
@@ -26,7 +26,7 @@
                            HorizontalAlignment="Center"
                            VerticalAlignment="Center" />
             </Button>
-            <Button x:ConnectionId='5' x:Name="AMIGO2"
+            <Button x:ConnectionId='7' x:Name="AMIGO2"
                     Width="200"
                     Height="70"
                     Background="Green">
@@ -36,7 +36,7 @@
                            HorizontalAlignment="Center"
                            VerticalAlignment="Center" />
             </Button>
-            <Button x:ConnectionId='6' x:Name="AMIGO3"
+            <Button x:ConnectionId='8' x:Name="AMIGO3"
                     Width="200"
                     Height="70"
                     Background="Red">
@@ -47,7 +47,7 @@
                            HorizontalAlignment="Center"
                            VerticalAlignment="Center" />
             </Button>
-            <Button x:ConnectionId='7' x:Name="AMIGO4"
+            <Button x:ConnectionId='9' x:Name="AMIGO4"
                     Width="200"
                     Height="70"
                     Background="Red">
@@ -57,7 +57,7 @@
                            HorizontalAlignment="Center"
                            VerticalAlignment="Center" />
             </Button>
-            <Button x:ConnectionId='8' x:Name="AMIGO5"
+            <Button x:ConnectionId='10' x:Name="AMIGO5"
                     Width="200"
                     Height="70"
                     Background="Red">
@@ -68,7 +68,7 @@
                            VerticalAlignment="Center" />
             </Button>
         </ListView>
-        <Button   AutomationProperties.Name="Volver"
+        <Button x:ConnectionId='4'   AutomationProperties.Name="Volver"               
                   Height="138"
                   Background="Transparent"
                   Width="240"
@@ -78,7 +78,7 @@
             <Image Source="/Assets/Volver.png"
                    AutomationProperties.Name="Slice" />
         </Button>
-        <Button   AutomationProperties.Name="Listo"
+        <Button x:ConnectionId='5'   AutomationProperties.Name="Listo"                   
                   Height="138"
                   Background="Transparent"
                   Width="240"
@@ -86,7 +86,7 @@
                   VerticalAlignment="Center"
                   Margin="20,20,0,0">
             <Image Source="/Assets/listo.png"
-                   AutomationProperties.Name="Slice" />
+                   AutomationProperties.Name="Slice"  />
         </Button>
         <TextBlock Text="Selecciona amigo al que enfrentarte"
                    FontSize="50"

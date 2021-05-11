@@ -52,7 +52,7 @@
 
 
 
-            <Button Grid.Row="0"
+            <Button Grid.Row="0" Click="GoToModoDeJuego"
                     Margin="0,20,0,20"
                     Background="#FFF4F0AF"
                     VerticalAlignment="Stretch"
@@ -64,7 +64,7 @@
                 </Viewbox>
             </Button>
 
-            <Button Grid.Row="1"
+            <Button Grid.Row="1" Click="GoToAjustes"
                     Margin="0,20,0,20"
                     Background="#FFF4F0AF"
                     VerticalAlignment="Stretch"
@@ -88,7 +88,7 @@
                 </Viewbox>
             </Button>
 
-            <Button Grid.Row="3"
+            <Button Grid.Row="3" Click="ExitApp"
                     Margin="0,20,0,20"
                     Background="#FFF4F0AF"
                     VerticalAlignment="Stretch"

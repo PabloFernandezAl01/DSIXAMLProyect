@@ -20,18 +20,18 @@
         </Grid.ColumnDefinitions>
 
         <Viewbox  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
-            <Image x:ConnectionId='3'  x:Name="Fondo" Source="Assets/Fondo.png" Stretch="Fill" Height="1000" Width="1500" />
+            <Image x:ConnectionId='4'  x:Name="Fondo" Source="Assets/Fondo.png" Stretch="Fill" Height="1000" Width="1500" />
         </Viewbox>
 
         <Viewbox Grid.Row="0" Grid.Column="0"   HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
-            <Button x:ConnectionId='2' x:Name="volver" AutomationProperties.Name="Pie" Height="40" Background="{x:Null}" Width="40"
+            <Button x:ConnectionId='3' x:Name="volver" AutomationProperties.Name="Pie" Height="40" Background="{x:Null}" Width="40"               
                 Margin="37,28,28,37"
                 FontStretch="Normal" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}" >
                 <Image Source="/Assets/Volver.png" AutomationProperties.Name="Slice" Stretch="Fill" Margin="-10,-6,-10,-7"/>
             </Button>
         </Viewbox>
         <Viewbox Grid.Row="1" Grid.Column="2"   HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
-            <Button AutomationProperties.Name="Pie" Height="20" Background="{x:Null}" Width="130" 
+            <Button x:ConnectionId='2' AutomationProperties.Name="Pie" Height="20" Background="{x:Null}" Width="130"                               
                 Margin="37,28,28,37"
                 FontStretch="Normal" Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" BorderBrush="{x:Null}" >
                 <Image Source="/Assets/Listo.png" AutomationProperties.Name="Slice" Stretch="Fill" Margin="-10,-6,-10,-7"/>
@@ -54,10 +54,10 @@
                         <Button Content="Jugador Vs IA" Background="Orange"  Foreground="Black" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}"/>
                     </Viewbox>
                     <Viewbox VerticalAlignment="Center" Width="300" Height="90">
-                        <Button Content="Fácil" Background="#FFF4F0AF" Width="300" Height="90" FontSize="40"  Foreground="Black" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}"/>
+                        <Button Content="Fácil" Background="#FFF4F0AF" Width="300" Height="90" FontSize="40"  Foreground="Black" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" />
                     </Viewbox>
                     <Viewbox VerticalAlignment="Center" Width="300" Height="90">
-                        <Button Content="Medio" Background="#FFF4F0AF" Width="300"  Height="90" FontSize="40"  Foreground="Black" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}"/>
+                        <Button Content="Medio" Background="#FFF4F0AF" Width="300"  Height="90" FontSize="40"  Foreground="Black" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" />
                     </Viewbox>
                     <Viewbox VerticalAlignment="Center" Width="300"  Height="90">
                         <Button Content="Dificil" Background="#FFF4F0AF" Width="300"  Height="90" FontSize="40" Foreground="Black" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}"/>
@@ -72,7 +72,7 @@
                         <Button Content="Local" Background="#FFF4F0AF"  Height="90" Width="300" FontSize="40"  Foreground="Black" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}"/>
                     </Viewbox>
                     <Viewbox VerticalAlignment="Center" Width="300"  Height="90">
-                        <Button Content="Online" Background="#FFF4F0AF"  Height="90" Width="300" FontSize="40"  Foreground="Black" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}"/>
+                        <Button Content="Online" Background="#FFF4F0AF"  Height="90" Width="300" FontSize="40"  Foreground="Black" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" />
                     </Viewbox>
 
                 </StackPanel>
