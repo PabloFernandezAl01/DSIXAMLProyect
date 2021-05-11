@@ -24,10 +24,10 @@
         </Viewbox>
 
         <Viewbox Grid.Row="0" Grid.Column="0"   HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
-            <Button x:ConnectionId='2' x:Name="volver" AutomationProperties.Name="Pie" Height="138" Background="Transparent" Width="240"
-                Margin="37,28,0,0"
-                FontStretch="Normal">
-                <Image Source="/Assets/Volver.png" AutomationProperties.Name="Slice" Stretch="Fill" Margin="-10,18,48,3"/>
+            <Button x:ConnectionId='2' x:Name="volver" AutomationProperties.Name="Pie" Height="50" Background="{x:Null}" Width="200" 
+                Margin="27,30,60,10"
+                FontStretch="Normal" BorderBrush="{x:Null}" Foreground="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}">
+                <Image Source="/Assets/Volver.png" AutomationProperties.Name="Slice" Stretch="Fill" Margin="-10,-6,-10,-7" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}"/>
             </Button>
         </Viewbox>
 
@@ -36,7 +36,69 @@
                     FontFamily="Kristen ITC"  Foreground="Black" Margin="0,43,0,0" RelativePanel.RightOf="volver" Height="109" Width="730"  />
         </Viewbox>
 
-       
+        <Grid Grid.Row="1" Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="38*"/>
+                <RowDefinition Height="105*"/>
+                <RowDefinition Height="57*"/>
+            </Grid.RowDefinitions>
+
+            <Viewbox  Grid.Row="1" Grid.Column="1" Stretch="Fill">
+                <Canvas Grid.Row="1" Grid.Column="1" Width="752" Height="324">
+                    <Image  Source="Assets/white.png" Height="200" Width="311" Canvas.Top="72" Stretch="Fill"/>
+                    <Image  Source="Assets/white.png" Height="200" Width="305" Canvas.Top="72" Stretch="Fill" Canvas.Left="454"/>
+
+                    <Image Source="Assets/Escenarios/3.jpg" Height="191" Width="229" Canvas.Left="523" Stretch="Fill" Canvas.Top="76"/>
+                    <Image  Source="Assets/white.png" Height="238" Width="315" Canvas.Top="52" Stretch="Fill" Canvas.Left="341"/>
+                    <Image Source="Assets/Escenarios/2.jpg" Width="229" Canvas.Left="424" Height="233"  Stretch="Fill" Canvas.Top="55"/>
+
+
+                    <Image Source="Assets/Escenarios/5.jpg"  Height="191" Width="229" Canvas.Left="6"  Stretch="Fill" Canvas.Top="76"/>
+                    <Image  Source="Assets/white.png" Height="240" Width="315" Canvas.Top="52" Stretch="Fill" Canvas.Left="104"/>
+                    <Image Source="Assets/Escenarios/4.jpg" Width="229" Canvas.Left="109" Height="233"  Stretch="Fill" Canvas.Top="55"/>
+
+
+                    <Image  Source="Assets/white.png" Height="287" Width="292" Canvas.Top="30" Stretch="Fill" Canvas.Left="231"/>
+                    <Image Source="Assets/Escenarios/1.jpg" Height="281" Width="283" Canvas.Left="235"  Stretch="Fill" Canvas.Top="33"/>
+                    <Image Source="Assets/outstand.png" Height="313" Width="322" Canvas.Left="216"  Stretch="Fill" Canvas.Top="17"/>
+                </Canvas>
+            </Viewbox>
+
+            <Viewbox Grid.Column="1" Grid.Row="2" Margin="0,20,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
+                <TextBlock Text="Estadio Espinaca" FontSize="10"  FontStretch="Condensed" Foreground="Black"   FontFamily="Kristen ITC" Margin="41,0,0,0" Height="45" Width="127"/>
+            </Viewbox>
+
+            <Viewbox Grid.Column="0" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
+                <Button  AutomationProperties.Name="Pie" Height="15" Background="{x:Null}" Width="100" 
+                Margin="50,15,60,10"
+                FontStretch="Normal" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}">
+                    <Image Source="/Assets/BlackArrow.png" AutomationProperties.Name="Slice" Stretch="Fill" Margin="-10,-6,-10,-7" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}"/>
+                </Button>
+            </Viewbox>
+            <Viewbox Grid.Column="2" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
+                <Button  AutomationProperties.Name="Pie" Height="15" Background="{x:Null}" Width="100" 
+                Margin="65,15,60,10"
+                FontStretch="Normal" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Top" BorderBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" Foreground="{x:Null}">
+                    <Button.RenderTransform>
+                        <CompositeTransform ScaleX="-1"/>
+                    </Button.RenderTransform>
+                    <Image Source="/Assets/BlackArrow.png" AutomationProperties.Name="Slice" Stretch="Fill" Margin="-10,-6,-10,-7" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}"/>
+                </Button>
+            </Viewbox>
+
+            <Viewbox Grid.Column="3" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
+                <Button  AutomationProperties.Name="Pie" Height="35" Background="{x:Null}" Width="200" 
+                Margin="65,15,60,10"
+                FontStretch="Normal" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Top" BorderBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" Foreground="{x:Null}">
+                    <Image Source="/Assets/botonListo1.png" AutomationProperties.Name="Slice" Stretch="Fill" Margin="-10,-6,-10,-7" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}"/>
+                </Button>
+            </Viewbox>
+        </Grid>
     </Grid>
 
 </Page>

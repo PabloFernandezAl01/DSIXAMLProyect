@@ -61,13 +61,13 @@
             </Button>
         </Viewbox>
 
-        <Viewbox Grid.Column="0" Grid.Row="1" Width="180" VerticalAlignment="Bottom" Margin="100,0,0,20">
+        <Viewbox Grid.Column="0" Grid.Row="1" Width="180" VerticalAlignment="Bottom" Margin="100,0,0,40">
             <Image Source="Assets/bola.png"/>
         </Viewbox>
 
         <Viewbox Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Bottom"  >
-            <Button x:ConnectionId='2' x:Name="listo" AutomationProperties.Name="Pie" Height="138" Background="Transparent" Width="240"
-                Margin="37,28,0,0"
+            <Button x:ConnectionId='2' x:Name="listo" AutomationProperties.Name="Pie" Height="138" Background="Transparent" Width="240" 
+                Margin="37,0,0,10"
                 FontStretch="Normal">
                 <Image Source="/Assets/listocirculo.png" AutomationProperties.Name="Slice" Margin="-10,18,48,3"/>
             </Button>

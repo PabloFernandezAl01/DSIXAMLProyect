@@ -147,6 +147,7 @@
     <Content Include="Assets\barrafuerza.png" />
     <Content Include="Assets\barrahabilidad.png" />
     <Content Include="Assets\barravida.png" />
+    <Content Include="Assets\blackOutstand.png" />
     <Content Include="Assets\bola.png" />
     <Content Include="Assets\corasao.png" />
     <Content Include="Assets\flecha.png" />

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-329SSLM</Machine>
-    <WindowsUser>pablo</WindowsUser>
+    <Machine>ISM18</Machine>
+    <WindowsUser>ivsm18</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>21f346f0-8920-46aa-8304-85a67f969f7f</PackageIdentityName>
     <PackageIdentityPublisher>CN=pablo</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\DSIXamlProyect.exe">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\DSIXamlProyect.exe">
       <PackagePath>entrypoint\DSIXamlProyect.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,112 +34,172 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\agilidad.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\agilidad.png">
       <PackagePath>Assets\agilidad.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\barraagilidad.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\barraagilidad.png">
       <PackagePath>Assets\barraagilidad.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\barrafuerza.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\barrafuerza.png">
       <PackagePath>Assets\barrafuerza.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\barrahabilidad.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\barrahabilidad.png">
       <PackagePath>Assets\barrahabilidad.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\barravida.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\barravida.png">
       <PackagePath>Assets\barravida.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\bola.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\blackOutstand.png">
+      <PackagePath>Assets\blackOutstand.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\bola.png">
       <PackagePath>Assets\bola.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\corasao.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\corasao.png">
       <PackagePath>Assets\corasao.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\flecha.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\flecha.png">
       <PackagePath>Assets\flecha.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\flechacaida.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\flechacaida.png">
       <PackagePath>Assets\flechacaida.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\fuerza.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\fuerza.png">
       <PackagePath>Assets\fuerza.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\habilidad.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\habilidad.png">
       <PackagePath>Assets\habilidad.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\hombregris.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\hombregris.png">
       <PackagePath>Assets\hombregris.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Listo.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Listo.png">
       <PackagePath>Assets\Listo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\listocirculo.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\listocirculo.png">
       <PackagePath>Assets\listocirculo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\persona.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\persona.png">
       <PackagePath>Assets\persona.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Volver.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\BlackArrow.png">
+      <PackagePath>Assets\BlackArrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\blue.png">
+      <PackagePath>Assets\blue.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\bluePerson.png">
+      <PackagePath>Assets\bluePerson.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\botonListo1.png">
+      <PackagePath>Assets\botonListo1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\circuloAmarillo.png">
+      <PackagePath>Assets\circuloAmarillo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\InGame.png">
+      <PackagePath>Assets\InGame.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\joystick.png">
+      <PackagePath>Assets\joystick.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\outstand.png">
+      <PackagePath>Assets\outstand.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\red.png">
+      <PackagePath>Assets\red.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\redPerson.png">
+      <PackagePath>Assets\redPerson.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\toolsIcon.png">
+      <PackagePath>Assets\toolsIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\white.png">
+      <PackagePath>Assets\white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Volver.png">
       <PackagePath>Assets\Volver.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Fondo.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Fondo.png">
       <PackagePath>Assets\Fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\bolaAzul.jpg">
+      <PackagePath>Assets\bolaAzul.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Escenarios\1.jpg">
+      <PackagePath>Assets\Escenarios\1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Escenarios\2.jpg">
+      <PackagePath>Assets\Escenarios\2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Escenarios\3.jpg">
+      <PackagePath>Assets\Escenarios\3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Escenarios\4.jpg">
+      <PackagePath>Assets\Escenarios\4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Escenarios\5.jpg">
+      <PackagePath>Assets\Escenarios\5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\DSIXamlProyect.xr.xml">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\DSIXamlProyect.xr.xml">
       <PackagePath>DSIXamlProyect.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\InGame.xbf">
+      <PackagePath>InGame.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionEscenario.xbf">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionEscenario.xbf">
       <PackagePath>SeleccionEscenario.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\ModoDeJuego.xbf">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\ModoDeJuego.xbf">
       <PackagePath>ModoDeJuego.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionPersonaje.xbf">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionPersonaje.xbf">
       <PackagePath>SeleccionPersonaje.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\Core\DSIXamlProyect.exe">
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\Core\DSIXamlProyect.exe">
       <PackagePath>DSIXamlProyect.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
