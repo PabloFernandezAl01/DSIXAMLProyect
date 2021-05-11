@@ -83,7 +83,7 @@
                    VerticalAlignment="Top"
                    Width="517"
                    Fill="#FFF9990D" />
-        <TextBlock x:Name="Ajustes"
+        <TextBlock x:Name="Ajustess"
                    Text="Ajustes de Juego"
                    Width="450"
                    Height="100"
