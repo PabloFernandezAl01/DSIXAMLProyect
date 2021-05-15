@@ -42,5 +42,6 @@ namespace DSIXamlProyect
         {
             this.Frame.Navigate(typeof(ModoDeJuego), e);
         }
+
     }
 }

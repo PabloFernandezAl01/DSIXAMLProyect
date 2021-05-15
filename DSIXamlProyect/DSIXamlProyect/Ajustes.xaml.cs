@@ -32,5 +32,10 @@ namespace DSIXamlProyect
             if (this.Frame.CanGoBack)
                 this.Frame.GoBack();
         }
+
+        private void VolverAlMenu(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainMenu));
+        }
     }
 }

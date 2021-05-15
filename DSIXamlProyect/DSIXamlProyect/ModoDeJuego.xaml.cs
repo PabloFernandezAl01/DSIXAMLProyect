@@ -26,5 +26,19 @@ namespace DSIXamlProyect
         {
             this.InitializeComponent();
         }
+
+        private void VolverAlMenu(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainMenu));
+        }
+
+        private void GoToModoLocal(object sender, RoutedEventArgs e)
+        {
+            if(Local.FocusState != FocusState.Unfocused || Online.FocusState != FocusState.Unfocused)
+            {
+                this.Frame.Navigate(typeof(ModoLocal));
+            }
+            else this.Frame.Navigate(typeof(SeleccionEscenario));
+        }
     }
 }

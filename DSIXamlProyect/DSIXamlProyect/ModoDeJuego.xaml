@@ -9,10 +9,10 @@
     <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
         <Canvas Width="1500" Height="1000">
             <Image  x:Name="Fondo" Source="Assets/Fondo.png" Stretch="Fill" Height="1000" Width="1500" />
-            <Button x:Name="volver" Background="Transparent" FontStretch="Normal" Height="150" Width="250">
+            <Button x:Name="volver" Click="VolverAlMenu" Background="Transparent" FontStretch="Normal" Height="150" Width="250">
                 <Image Source="/Assets/Volver.png" AutomationProperties.Name="Slice" Stretch="Fill" />
             </Button>
-            <Button  FontStretch="Normal" Background="Transparent" Height="200" Width="250" Canvas.Top="400" Canvas.Left="1200">
+            <Button  FontStretch="Normal" Background="Transparent" Click="GoToModoLocal" Height="200" Width="250" Canvas.Top="400" Canvas.Left="1200">
                 <Image Source="/Assets/Listo.png" AutomationProperties.Name="Slice" Stretch="Fill"/>
             </Button>
             <TextBlock Canvas.Left="220" Canvas.Top="150" Text="Seleccion de modo de juego" FontSize="70" FontStretch="Condensed" 
@@ -29,8 +29,8 @@
                 <StackPanel Background="Orange" Height="120">
                     <TextBlock Text="Multijugador" FontSize="30" HorizontalAlignment="Center"/>
                 </StackPanel>
-                <Button Content="Local" Background="#FFF4F0AF" Width="250" Height="120" FontSize="30"  Foreground="Black" />
-                <Button Content="Online" Background="#FFF4F0AF" Width="250" Height="120" FontSize="30"  Foreground="Black"/>
+                <Button Content="Local" x:Name="Local" Background="#FFF4F0AF" Width="250" Height="120" FontSize="30"  Foreground="Black" />
+                <Button Content="Online" x:Name="Online" Background="#FFF4F0AF" Width="250" Height="120" FontSize="30"  Foreground="Black"/>
             </StackPanel>
         </Canvas>
     </Viewbox>

@@ -51,7 +51,6 @@
             </Grid.ColumnDefinitions>
 
 
-
             <Button Grid.Row="0" Click="GoToModoDeJuego"
                     Margin="0,20,0,20"
                     Background="#FFF4F0AF"

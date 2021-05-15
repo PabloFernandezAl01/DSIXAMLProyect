@@ -37,5 +37,15 @@ namespace DSIXamlProyect
         {
             this.Frame.Navigate(typeof(InGame), e);
         }
+
+        private void VolverAModoDeJuego(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ModoDeJuego));
+        }
+
+        private void GoToEscanario(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(SeleccionEscenario));
+        }
     }
 }

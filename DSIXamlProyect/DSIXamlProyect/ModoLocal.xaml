@@ -75,6 +75,7 @@
             
             <Button   AutomationProperties.Name="Volver"
                       Height="138"
+                      Click="VolverAModoDeJuego"
                       Background="Transparent"
                       Width="240"
                       HorizontalAlignment="Left"
@@ -84,14 +85,16 @@
                        AutomationProperties.Name="Slice" />
             </Button>
             <Button   AutomationProperties.Name="Listo"
+                      Canvas.Left="1200"
+                      Canvas.Top="400"
+                      Click="GoToEscanario"
                       Height="138"
                       Background="Transparent"
                       Width="240"
                       Margin="20,20,0,0"
                       RenderTransformOrigin="0.51,0.504">
                 <Image Source="/Assets/listo.png"
-                       AutomationProperties.Name="Slice"
-                       Margin="1205,394,-1251,-440" />
+                       AutomationProperties.Name="Slice"/>
             </Button>
 
             <TextBox Text="Jugador"
