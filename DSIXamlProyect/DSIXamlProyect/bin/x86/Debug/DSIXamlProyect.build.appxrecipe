@@ -58,6 +58,9 @@
     <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\corasao.png">
       <PackagePath>Assets\corasao.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\exit_icon.png">
+      <PackagePath>Assets\exit_icon.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\flecha.png">
       <PackagePath>Assets\flecha.png</PackagePath>
     </AppxPackagedFile>
@@ -106,11 +109,17 @@
     <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\outstand.png">
       <PackagePath>Assets\outstand.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\play_icon.png">
+      <PackagePath>Assets\play_icon.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\red.png">
       <PackagePath>Assets\red.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\redPerson.png">
       <PackagePath>Assets\redPerson.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\spain_flag.png">
+      <PackagePath>Assets\spain_flag.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\toolsIcon.png">
       <PackagePath>Assets\toolsIcon.png</PackagePath>
@@ -151,8 +160,14 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Menu.jpg">
+      <PackagePath>Assets\Menu.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\bolaAzul.jpg">
       <PackagePath>Assets\bolaAzul.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\user_icon.jpg">
+      <PackagePath>Assets\user_icon.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Escenarios\1.jpg">
       <PackagePath>Assets\Escenarios\1.jpg</PackagePath>
@@ -178,17 +193,26 @@
     <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\Ajustes.xbf">
+      <PackagePath>Ajustes.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\InGame.xbf">
       <PackagePath>InGame.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\MainMenu.xbf">
+      <PackagePath>MainMenu.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionEscenario.xbf">
-      <PackagePath>SeleccionEscenario.xbf</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\ModoDeJuego.xbf">
       <PackagePath>ModoDeJuego.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\ModoLocal.xbf">
+      <PackagePath>ModoLocal.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionEscenario.xbf">
+      <PackagePath>SeleccionEscenario.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pablo\Desktop\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionPersonaje.xbf">
       <PackagePath>SeleccionPersonaje.xbf</PackagePath>

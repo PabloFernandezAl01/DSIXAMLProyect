@@ -8,8 +8,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"><Grid>
     <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
         <Canvas Width="1500" Height="1000">
-            <Image x:ConnectionId='2'  x:Name="Fondo" Source="Assets/Fondo.png" Stretch="Fill" Height="1000" Width="1500" />
-            <Button x:ConnectionId='3' x:Name="volver" Background="Transparent" FontStretch="Normal" Height="150" Width="250">
+            <Image  x:Name="Fondo" Source="Assets/Fondo.png" Stretch="Fill" Height="1000" Width="1500" />
+            <Button x:Name="volver" Background="Transparent" FontStretch="Normal" Height="150" Width="250">
                 <Image Source="/Assets/Volver.png" AutomationProperties.Name="Slice" Stretch="Fill" />
             </Button>
             <Button  FontStretch="Normal" Background="Transparent" Height="200" Width="250" Canvas.Top="400" Canvas.Left="1200">
@@ -36,4 +36,3 @@
     </Viewbox>
 </Grid>
     </Page>
-

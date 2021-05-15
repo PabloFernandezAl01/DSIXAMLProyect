@@ -59,7 +59,9 @@
                     <Image Source="Assets/barrahabilidad.png" Width="395"/>
                 </StackPanel>
             </StackPanel>
-            <Image Source="/Assets/listocirculo.png" Width="200" Height="200" Canvas.Left="1200" Canvas.Top="800"/>
+            <Button x:ConnectionId='6' x:Name="Listo" Background="Transparent" FontStretch="Normal" Width="200" Height="200" Canvas.Left="1200" Canvas.Top="800">
+                <Image Source="/Assets/listocirculo.png" />
+            </Button>
             <Image Source="Assets/hombregris.png"  Canvas.Left="800" Canvas.Top="200"/>
             <Image Source="Assets/hombregris.png"  Canvas.Left="400" Canvas.Top="200"/>
             <Image Source="Assets/hombregris.png"  Canvas.Left="900" Canvas.Top="350"/>

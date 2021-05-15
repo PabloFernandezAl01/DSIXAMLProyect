@@ -32,6 +32,7 @@
                         Canvas.Top="300">
 
                 <Button Content="Amigo 1"
+                        x:Name="AMIGO1"
                         Background="Green"
                         FontFamily="Kristen ITC"
                         Width="250"
@@ -39,6 +40,7 @@
                         FontSize="40"
                         Foreground="Black" />
                 <Button Content="Amigo 2"
+                        x:Name="AMIGO2"
                         Background="Green"
                         FontFamily="Kristen ITC"
                         Width="250"
@@ -46,6 +48,7 @@
                         FontSize="40"
                         Foreground="Black" />
                 <Button Content="Amigo 3"
+                        x:Name="AMIGO3"
                         Background="Red"
                         FontFamily="Kristen ITC"
                         Width="250"
@@ -53,6 +56,7 @@
                         FontSize="40"
                         Foreground="Black" />
                 <Button Content="Amigo 4"
+                        x:Name="AMIGO4"
                         Background="Red"
                         FontFamily="Kristen ITC"
                         Width="250"
@@ -60,6 +64,7 @@
                         FontSize="40"
                         Foreground="Black" />
                 <Button Content="Amigo 5"
+                        x:Name="AMIGO5"
                         Background="Red"
                         FontFamily="Kristen ITC"
                         Width="250"

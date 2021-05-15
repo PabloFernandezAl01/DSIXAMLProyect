@@ -18,9 +18,9 @@
 
         <Viewbox Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
             <Canvas Width="1500" Height="1000">
-                <Image Source="Assets/Fondo.png" Stretch="Fill" Height="1000" Width="1500"/>
+                <Image x:ConnectionId='2' Source="Assets/Fondo.png" x:Name="Fondo" Stretch="Fill" Height="1000" Width="1500"/>
 
-                <Button x:ConnectionId='2' Width="180" Height="106" Canvas.Left="111" Canvas.Top="38" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" 
+                <Button x:ConnectionId='3' Width="180" Height="106" Canvas.Left="111" x:Name="Volver" Canvas.Top="38" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" 
                         Foreground="{x:Null}"               >
                     <Image Source="Assets/Volver.png" Height="106" Width="180" Margin="-10,-6,-10,-7"/>
                 </Button>
@@ -61,7 +61,7 @@
                 <TextBlock  Text="Estadio espinaca" FontSize="55"  FontStretch="Condensed" 
                     FontFamily="Kristen ITC"  Foreground="Black" Margin="0,43,0,0" Height="81" Width="452" Canvas.Left="525" Canvas.Top="685"/>
 
-                <Button x:ConnectionId='3' Canvas.Left="1190" Canvas.Top="765" Height="152" Width="248" Background="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" 
+                <Button x:ConnectionId='4' Canvas.Left="1190" Canvas.Top="765" Height="152" Width="248" Background="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" 
                         FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}"                   >
                     <Image Source="Assets/listocirculo.png"  Height="152" Width="248" Stretch="Fill" Margin="-10,-6,-10,-7" />
                 </Button>

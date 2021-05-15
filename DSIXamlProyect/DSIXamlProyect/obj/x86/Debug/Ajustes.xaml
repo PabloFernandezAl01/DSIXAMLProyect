@@ -7,190 +7,184 @@
       mc:Ignorable="d"
       Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <Image x:ConnectionId='2' x:Name="Fondo"
-               Source="/Assets/Fondo.png"
-               Stretch="Fill"
-               Margin="0,18,0,-18" />
-        <Button   AutomationProperties.Name="Volver"
-                  Height="138"
-                  Background="Transparent"
-                  Width="240"
-                  HorizontalAlignment="Left"
-                  VerticalAlignment="Top"
-                  Margin="20,20,0,0">
-            <Image Source="/Assets/Volver.png"
-                   AutomationProperties.Name="Slice" />
-        </Button>
+    <Viewbox HorizontalAlignment="Stretch"
+             VerticalAlignment="Stretch"
+             Stretch="Fill">
+        <Canvas Height="1000"
+                Width="1500">
 
-
-        <Rectangle HorizontalAlignment="Left"
-                   Height="436"
-                   Margin="416,181,0,0"
-                   Stroke="Black"
-                   VerticalAlignment="Top"
-                   Width="1"
-                   StrokeThickness="3" />
-        <Rectangle HorizontalAlignment="Left"
-                   Height="1"
-                   Margin="416,259,0,0"
-                   Stroke="Black"
-                   VerticalAlignment="Top"
-                   Width="110"
-                   StrokeThickness="3" />
-        <ToggleSwitch x:ConnectionId='3' x:Name="MusicSwitch"
-                      FontSize="15"
-                      Margin="814,248,0,0"
-                      VerticalAlignment="Top"
-                      FontWeight="Bold"
-                      HorizontalAlignment="Left" />
-        <ToggleSwitch x:ConnectionId='4' x:Name="EfectsSwitch"
-                      FontSize="15"
-                      Margin="814,363,0,0"
-                      VerticalAlignment="Top"
-                      FontWeight="Bold" />
-
-        <Rectangle HorizontalAlignment="Left"
-                   Height="1"
-                   Margin="416,378,0,0"
-                   Stroke="Black"
-                   VerticalAlignment="Top"
-                   Width="110"
-                   StrokeThickness="3" />
-        <Rectangle HorizontalAlignment="Left"
-                   Height="1"
-                   Margin="417,492,0,0"
-                   Stroke="Black"
-                   VerticalAlignment="Top"
-                   Width="109"
-                   StrokeThickness="3" />
-        <Rectangle HorizontalAlignment="Left"
-                   Height="1"
-                   Margin="416,616,0,0"
-                   Stroke="Black"
-                   VerticalAlignment="Top"
-                   Width="110"
-                   StrokeThickness="3" />
-        <ToggleSwitch x:ConnectionId='5' x:Name="TutorialSwitch"
-                      FontSize="15"
-                      Margin="814,477,0,0"
-                      VerticalAlignment="Top"
-                      FontWeight="Bold" />
-        <Rectangle HorizontalAlignment="Left"
-                   Height="118"
-                   Margin="403,63,0,0"
-                   Stroke="Black"
-                   VerticalAlignment="Top"
-                   Width="517"
-                   Fill="#FFF9990D" />
-        <TextBlock x:ConnectionId='6' x:Name="Ajustess"
-                   Text="Ajustes de Juego"
-                   Width="450"
-                   Height="100"
-                   FontFamily="Kristen ITC"
-                   FontSize="50"
-                   HorizontalAlignment="Left"
-                   VerticalAlignment="Top"
-                   Margin="436,72,0,0"
-                   SelectionHighlightColor="{x:Null}">
-
-        </TextBlock>
-
-
-        <Rectangle HorizontalAlignment="Left"
-                   Height="54"
-                   Margin="526,236,0,0"
-                   Stroke="Black"
-                   VerticalAlignment="Top"
-                   Width="270"
-                   Fill="#FFF9990D" />
-        <Rectangle HorizontalAlignment="Left"
-                   Height="54"
-                   Margin="526,351,0,0"
-                   Stroke="Black"
-                   VerticalAlignment="Top"
-                   Width="270"
-                   Fill="#FFF9990D" />
-        <Rectangle HorizontalAlignment="Left"
-                   Height="54"
-                   Margin="526,466,0,0"
-                   Stroke="Black"
-                   VerticalAlignment="Top"
-                   Width="270"
-                   Fill="#FFF9990D" />
-        <Rectangle HorizontalAlignment="Left"
-                   Height="54"
-                   Margin="526,590,0,0"
-                   Stroke="Black"
-                   VerticalAlignment="Top"
-                   Width="270"
-                   Fill="#FFF9990D" />
-        <TextBlock x:ConnectionId='7' x:Name="MusicaText"
-                   Text="MÚSICA"
-                   Width="175"
-                   Height="50"
-                   FontFamily="Kristen ITC"
-                   FontSize="30"
-                   HorizontalAlignment="Left"
-                   VerticalAlignment="Top"
-                   Margin="574,236,0,0"
-                   SelectionHighlightColor="{x:Null}" />
-        <TextBlock x:ConnectionId='8' x:Name="EfectosText"
-                   Text="EFECTOS"
-                   Width="175"
-                   Height="50"
-                   FontFamily="Kristen ITC"
-                   FontSize="30"
-                   HorizontalAlignment="Left"
-                   VerticalAlignment="Top"
-                   Margin="574,353,0,0"
-                   SelectionHighlightColor="{x:Null}" />
-        <TextBlock x:ConnectionId='9' x:Name="Tutoriales"
-                   Text="TUTORIALES"
-                   Width="240"
-                   Height="50"
-                   FontFamily="Kristen ITC"
-                   FontSize="30"
-                   HorizontalAlignment="Left"
-                   VerticalAlignment="Top"
-                   Margin="542,468,0,0"
-                   SelectionHighlightColor="{x:Null}" />
-        <TextBlock x:ConnectionId='10' x:Name="EmparejadoText"
-                   Text="EMPAREJADO"
-                   Width="270"
-                   Height="50"
-                   FontFamily="Kristen ITC"
-                   FontSize="30"
-                   HorizontalAlignment="Left"
-                   VerticalAlignment="Top"
-                   Margin="526,594,484,76"
-                   SelectionHighlightColor="{x:Null}" />
-        <RadioButton x:ConnectionId='11' x:Name="radioButtonEspaña"
-                     Margin="818,588,0,0"
-                     VerticalAlignment="Top">
-            <Image Source="/Assets/España.jpg"
+            <Image Source="/Assets/Fondo.png"
                    Stretch="Fill"
-                   Width="71"
-                   Height="50" />
-        </RadioButton>
-        <RadioButton x:ConnectionId='12' x:Name="radioButtonChino"
-                     Margin="938,588,0,0"
-                     VerticalAlignment="Top">
-            <Image Source="/Assets/Chino.png"
-                   Stretch="Fill"
-                   Width="71"
-                   Height="50" />
-        </RadioButton>
-        <RadioButton x:ConnectionId='13' x:Name="radioButtonIngles"
-                     Margin="1058,588,0,0"
-                     VerticalAlignment="Top">
-            <Image Source="/Assets/Ingles.png"
-                   Stretch="Fill"
-                   Width="71"
-                   Height="50" />
-        </RadioButton>
+                   Height="1000"
+                   Width="1500" />
+
+            <StackPanel Canvas.Left="414"
+                        Canvas.Top="51"
+                        Height="123"
+                        Width="467"
+                        Background="Orange">
+                <TextBlock Text="Ajustes del Juego"
+                           FontSize="50"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontFamily="Kristen ITC"
+                           FontWeight="Bold"
+                           Height="124" />
+            </StackPanel>
+            <Rectangle Height="559"
+                       Canvas.Left="437"
+                       Stroke="Black"
+                       StrokeThickness="4"
+                       Canvas.Top="179"
+                       Width="1" />
+            <Rectangle Height="1"
+                       Canvas.Left="443"
+                       Stroke="Black"
+                       StrokeThickness="4"
+                       Canvas.Top="273"
+                       Width="150" />
+            <Rectangle Height="1"
+                       Canvas.Left="443"
+                       Stroke="Black"
+                       StrokeThickness="4"
+                       Canvas.Top="575"
+                       Width="150" />
+            <Rectangle Height="1"
+                       Canvas.Left="443"
+                       Stroke="Black"
+                       StrokeThickness="4"
+                       Canvas.Top="737"
+                       Width="150" />
+            <Rectangle Height="1"
+                       Canvas.Left="443"
+                       Stroke="Black"
+                       StrokeThickness="4"
+                       Canvas.Top="421"
+                       Width="150" />
 
 
-    </Grid>
+
+            <Button x:ConnectionId='2' x:Name="button_Copy2"
+                    Content="EMPAREJADO"
+                    FontFamily="Kristen ITC"
+                    FontSize="20"
+                    Background="Orange"
+                    Foreground="Black"
+                    Canvas.Left="598"
+                    Canvas.Top="713"
+                    Width="250"
+                    Height="50"
+                    FontWeight="Bold" />
+            <ToggleSwitch x:ConnectionId='3' x:Name="toggleSwitch"
+                          Canvas.Left="870"
+                          Canvas.Top="258"
+                          Width="168" />
+            <ToggleSwitch x:ConnectionId='4' x:Name="toggleSwitch_Copy"
+                          Canvas.Left="870"
+                          Canvas.Top="406"
+                          Width="168" />
+            <ToggleSwitch x:ConnectionId='5' x:Name="toggleSwitch_Copy1"
+                          Canvas.Left="870"
+                          Canvas.Top="560"
+                          Width="168" />
+            <RadioButton x:ConnectionId='6' x:Name="radioButton"
+                         Canvas.Left="853"
+                         Canvas.Top="716"
+                         Height="48"
+                         Width="153">
+                <Image Source="/Assets/España.jpg" />
+
+            </RadioButton>
+
+            <RadioButton x:ConnectionId='7' x:Name="radioButton1"
+                         Canvas.Left="978"
+                         Canvas.Top="716"
+                         Height="48"
+                         Width="100">
+                <Image Source="/Assets/Chino.png" />
+
+            </RadioButton>
+            <RadioButton x:ConnectionId='8' x:Name="radioButton2"
+                         Canvas.Left="1103"
+                         Canvas.Top="715"
+                         Height="48"
+                         Width="97">
+                <Image Source="/Assets/Ingles.png" />
+
+            </RadioButton>
+            <Button x:ConnectionId='9' x:Name="button1"
+                    Canvas.Left="35"
+                    Canvas.Top="36"
+                    Background="Transparent"
+                    Height="119"
+                    Width="184">
+                <Image Source="Assets/Volver.png"
+                       Stretch="Fill"
+                       FocusVisualPrimaryBrush="{x:Null}" />
+            </Button>
+
+            <StackPanel Canvas.Left="598"
+                        Canvas.Top="249"
+                        Width="175"
+                        Height="50"
+                        Background="Orange">
+                <TextBlock Text="MUSICA"
+                           FontSize="30"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           FontFamily="Kristen ITC"
+                           FontWeight="Bold">
+
+                </TextBlock>
+            </StackPanel>
+            <StackPanel Canvas.Left="598"
+                        Canvas.Top="397"
+                        Width="175"
+                        Height="50"
+                        Background="Orange">
+                <TextBlock Text="EFECTOS"
+                           FontSize="30"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           FontFamily="Kristen ITC"
+                           FontWeight="Bold">
+
+                </TextBlock>
+            </StackPanel>
+            <StackPanel Canvas.Left="598"
+                        Canvas.Top="551"
+                        Width="250"
+                        Height="50"
+                        Background="Orange">
+                <TextBlock Text="TUTORIALES"
+                           FontSize="30"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           FontFamily="Kristen ITC"
+                           FontWeight="Bold">
+
+                </TextBlock>
+            </StackPanel>
+            <StackPanel Canvas.Left="598"
+                        Canvas.Top="713"
+                        Width="250"
+                        Height="50"
+                        Background="Orange">
+                <TextBlock Text="EMPAREJADO"
+                           FontSize="30"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           FontFamily="Kristen ITC"
+                           FontWeight="Bold">
+
+                </TextBlock>
+            </StackPanel>
+
+
+
+
+
+        </Canvas>
+    </Viewbox>
 </Page>
 
