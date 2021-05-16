@@ -6,6 +6,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel.Core;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -43,5 +44,35 @@ namespace DSIXamlProyect
             this.Frame.Navigate(typeof(ModoDeJuego), e);
         }
 
+        private void Canvas_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            DependencyObject candidate = null; //Candidato a ser el siguiente foco 
+
+            if (e.Key == VirtualKey.Down)
+            {
+                candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Down);
+                if (candidate == null) candidate = Jugar;
+                (candidate as Control).Focus(FocusState.Keyboard);
+            }
+            else if (e.Key == VirtualKey.Up)
+            {
+                candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Up);
+                if (candidate == null) candidate = Salir;
+                (candidate as Control).Focus(FocusState.Keyboard);
+            }
+            else if (e.Key == VirtualKey.GamepadDPadDown)
+            {
+                candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Down);
+                if (candidate == null) candidate = Jugar;
+                (candidate as Control).Focus(FocusState.Keyboard);
+            }
+            else if (e.Key == VirtualKey.GamepadDPadUp)
+            {
+                candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Up);
+                if (candidate == null) candidate = Salir;
+                (candidate as Control).Focus(FocusState.Keyboard);
+            }
+            e.Handled = true; //Activar el manejo del objeto
+        }
     }
 }

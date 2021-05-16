@@ -8,128 +8,43 @@
       Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition Width="2*"></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
+        <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
+        <Canvas x:ConnectionId='2' Width="1500" Height="1000" x:Name="MiCanvas">
+            <Image x:ConnectionId='3' x:Name="Fondo" Source="Assets/Fondo.png" Stretch="Fill" Height="1000" Width="1500"/>
 
-        <Grid.RowDefinitions>
-            <RowDefinition Height="1*"></RowDefinition>
-            <RowDefinition Height="3*"></RowDefinition>
-            <RowDefinition Height=".2*"></RowDefinition>
-        </Grid.RowDefinitions>
-
-        <Image Stretch="Fill"
-               Grid.RowSpan="3"
-               Grid.ColumnSpan="3"
-               Source="Assets/Menu.jpg"></Image>
-
-        <Viewbox Grid.Column="1">
-            <StackPanel Background="Orange">
-                <TextBlock FontSize="100"
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Center"
+            <StackPanel Background="Orange" Width="920" Canvas.Left="280" Canvas.Top="100">
+                <TextBlock FontSize="120"
                            FontFamily="Kristen ITC">
-                Psycho-Fronton</TextBlock>
+                     Psycho-Fronton</TextBlock>
             </StackPanel>
-        </Viewbox>
 
-        <Grid Margin="100"
-              Grid.Row="1"
-              Grid.Column="1">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"></RowDefinition>
-                <RowDefinition Height="*"></RowDefinition>
-                <RowDefinition Height="*"></RowDefinition>
-                <RowDefinition Height="*"></RowDefinition>
-            </Grid.RowDefinitions>
+                <StackPanel x:ConnectionId='4' Canvas.Left="450" Canvas.Top="400"                         >
+                <Button x:ConnectionId='5'                         Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True" IsTabStop="True" x:Name="Jugar">
+                    <TextBlock Text=" Jugar" FontSize="40" VerticalAlignment="Center"/>
+                </Button>
 
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="9*"></ColumnDefinition>
-                <ColumnDefinition Width="1*"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
+                <Button x:ConnectionId='6'                      Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True" IsTabStop="True" x:Name="Ajustes" Margin="0,39.5,0,0">
+                    <TextBlock Text="Ajustes" FontSize="40" VerticalAlignment="Center"/>
+                </Button>
+                <Button x:ConnectionId='7' Width="600" Height="70" Background="#FFF4F0AF" x:Name="Idioma" UseSystemFocusVisuals="True" IsTabStop="True" Margin="0,40,0,0">
+                    <TextBlock Text="Idioma" FontSize="40" VerticalAlignment="Center"/>
+                </Button>
+                <Button x:ConnectionId='8'                  Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True"  IsTabStop="True" x:Name="Salir" Margin="0,40,0,0">
+                    <TextBlock Text="Salir" FontSize="40" VerticalAlignment="Center"/>
+                </Button>
+            </StackPanel>
 
+            <Image Source="/Assets/play_icon.png" Width="80" Canvas.Left="970" Canvas.Top="400" Height="70" Stretch="Fill"/>
+            <Image Source="/Assets/toolsIcon.png" Width="80" Canvas.Left="970" Canvas.Top="509" Height="70" Stretch="Fill"/>
+            <Image Source="/Assets/spain_flag.png" Width="80" Canvas.Left="970" Canvas.Top="619" Height="70" Stretch="Fill"/>
+            <Image Source="/Assets/exit_icon.png" Width="80" Canvas.Left="970" Canvas.Top="731" Height="70" Stretch="Fill"/>
 
-            <Button x:ConnectionId='2' Grid.Row="0"                        
-                    Margin="0,20,0,20"
-                    Background="#FFF4F0AF"
-                    VerticalAlignment="Stretch"
-                    HorizontalAlignment="Stretch">
-                <Viewbox>
-                    <TextBlock>
-                    Jugar
-                    </TextBlock>
-                </Viewbox>
+            <Button Canvas.Left="1400" Canvas.Top="900" Width="80" IsEnabled="False" Height="80">
+                <Image Source="Assets/user_icon.jpg"></Image>
             </Button>
 
-            <Button x:ConnectionId='3' Grid.Row="1"                    
-                    Margin="0,20,0,20"
-                    Background="#FFF4F0AF"
-                    VerticalAlignment="Stretch"
-                    HorizontalAlignment="Stretch">
-                <Viewbox>
-                    <TextBlock>
-                    Ajustes
-                    </TextBlock>
-                </Viewbox>
-            </Button>
-
-            <Button Grid.Row="2"
-                    Margin="0,20,0,20"
-                    Background="#FFF4F0AF"
-                    VerticalAlignment="Stretch"
-                    HorizontalAlignment="Stretch">
-                <Viewbox>
-                    <TextBlock>
-                    Idioma
-                    </TextBlock>
-                </Viewbox>
-            </Button>
-
-            <Button x:ConnectionId='4' Grid.Row="3"                
-                    Margin="0,20,0,20"
-                    Background="#FFF4F0AF"
-                    VerticalAlignment="Stretch"
-                    HorizontalAlignment="Stretch">
-                <Viewbox>
-                    <TextBlock>
-                    Salir
-                    </TextBlock>
-                </Viewbox>
-            </Button>
-
-            <Image Grid.Column="1"
-                   Grid.Row="0"
-                   Source="/Assets/play_icon.png"
-                   Margin="0,20,0,20"
-                   Stretch="Fill">
-            </Image>
-            <Image Grid.Column="1"
-                   Grid.Row="1"
-                   Source="/Assets/toolsIcon.png"
-                   Margin="0,20,0,20"
-                   Stretch="Fill">
-            </Image>
-            <Image Grid.Column="1"
-                   Grid.Row="2"
-                   Source="/Assets/spain_flag.png"
-                   Margin="0,20,0,20"
-                   Stretch="Fill">
-            </Image>
-            <Image Grid.Column="1"
-                   Grid.Row="3"
-                   Source="/Assets/exit_icon.png"
-                   Margin="0,20,0,20"
-                   Stretch="Fill">
-            </Image>
-        </Grid>
-
-        <Button HorizontalAlignment="Right"
-                Grid.Column="2"
-                Grid.Row="2">
-            <Image Source="Assets/user_icon.jpg"></Image>
-        </Button>
+        </Canvas>
+    </Viewbox>
     </Grid>
 </Page>
 
