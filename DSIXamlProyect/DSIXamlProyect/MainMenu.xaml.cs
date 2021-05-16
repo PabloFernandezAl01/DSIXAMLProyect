@@ -50,25 +50,25 @@ namespace DSIXamlProyect
 
             if (e.Key == VirtualKey.Down)
             {
-                candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Down);
-                if (candidate == null) candidate = Jugar;
+                candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Next);
+                //if (candidate == null) candidate = Jugar;
                 (candidate as Control).Focus(FocusState.Keyboard);
             }
             else if (e.Key == VirtualKey.Up)
             {
-                candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Up);
-                if (candidate == null) candidate = Salir;
+                candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Previous);
+                //if (candidate == null) candidate = Salir;
                 (candidate as Control).Focus(FocusState.Keyboard);
             }
             else if (e.Key == VirtualKey.GamepadDPadDown)
             {
-                candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Down);
+                candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Next);
                 if (candidate == null) candidate = Jugar;
                 (candidate as Control).Focus(FocusState.Keyboard);
             }
             else if (e.Key == VirtualKey.GamepadDPadUp)
             {
-                candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Up);
+                candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Previous);
                 if (candidate == null) candidate = Salir;
                 (candidate as Control).Focus(FocusState.Keyboard);
             }

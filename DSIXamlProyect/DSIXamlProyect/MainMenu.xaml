@@ -19,17 +19,17 @@
             </StackPanel>
 
             <StackPanel Canvas.Left="450" Canvas.Top="400">
-                <Button Click="GoToModoDeJuego" Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True" IsTabStop="True" x:Name="Jugar">
+                <Button Click="GoToModoDeJuego" Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True" IsTabStop="True" IsEnabled="True" TabIndex="0" x:Name="Jugar">
                     <TextBlock Text=" Jugar" FontSize="40" VerticalAlignment="Center"/>
                 </Button>
 
-                <Button  Click="GoToAjustes" Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True" IsTabStop="True" x:Name="Ajustes" Margin="0,39.5,0,0">
+                    <Button  Click="GoToAjustes" Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True" IsTabStop="True"  IsEnabled="True" TabIndex="1" x:Name="Ajustes" Margin="0,39.5,0,0">
                     <TextBlock Text="Ajustes" FontSize="40" VerticalAlignment="Center"/>
                 </Button>
-                <Button Width="600" Height="70" Background="#FFF4F0AF" x:Name="Idioma" UseSystemFocusVisuals="True" IsTabStop="True" Margin="0,40,0,0">
+                    <Button Width="600" Height="70" Background="#FFF4F0AF" x:Name="Idioma" UseSystemFocusVisuals="True" IsTabStop="True" Margin="0,40,0,0" IsEnabled="True" TabIndex="2">
                     <TextBlock Text="Idioma" FontSize="40" VerticalAlignment="Center"/>
                 </Button>
-                <Button  Click="ExitApp" Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True"  IsTabStop="True" x:Name="Salir" Margin="0,40,0,0">
+                    <Button  Click="ExitApp" Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True"  IsTabStop="True" x:Name="Salir" Margin="0,40,0,0"  IsEnabled="True" TabIndex="3">
                     <TextBlock Text="Salir" FontSize="40" VerticalAlignment="Center"/>
                 </Button>
             </StackPanel>

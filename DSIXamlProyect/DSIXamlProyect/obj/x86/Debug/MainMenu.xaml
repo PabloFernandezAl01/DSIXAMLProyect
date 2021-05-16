@@ -9,7 +9,7 @@
 
     <Grid>
         <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
-        <Canvas x:ConnectionId='2' Width="1500" Height="1000" x:Name="MiCanvas">
+        <Canvas x:ConnectionId='2' Width="1500" Height="1000" x:Name="MiCanvas"                         >
             <Image x:ConnectionId='3' x:Name="Fondo" Source="Assets/Fondo.png" Stretch="Fill" Height="1000" Width="1500"/>
 
             <StackPanel Background="Orange" Width="920" Canvas.Left="280" Canvas.Top="100">
@@ -18,18 +18,18 @@
                      Psycho-Fronton</TextBlock>
             </StackPanel>
 
-                <StackPanel x:ConnectionId='4' Canvas.Left="450" Canvas.Top="400"                         >
-                <Button x:ConnectionId='5'                         Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True" IsTabStop="True" x:Name="Jugar">
+            <StackPanel Canvas.Left="450" Canvas.Top="400">
+                <Button x:ConnectionId='4'                         Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True" IsTabStop="True" IsEnabled="True" TabIndex="0" x:Name="Jugar">
                     <TextBlock Text=" Jugar" FontSize="40" VerticalAlignment="Center"/>
                 </Button>
 
-                <Button x:ConnectionId='6'                      Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True" IsTabStop="True" x:Name="Ajustes" Margin="0,39.5,0,0">
+                    <Button x:ConnectionId='5'                      Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True" IsTabStop="True"  IsEnabled="True" TabIndex="1" x:Name="Ajustes" Margin="0,39.5,0,0">
                     <TextBlock Text="Ajustes" FontSize="40" VerticalAlignment="Center"/>
                 </Button>
-                <Button x:ConnectionId='7' Width="600" Height="70" Background="#FFF4F0AF" x:Name="Idioma" UseSystemFocusVisuals="True" IsTabStop="True" Margin="0,40,0,0">
+                    <Button x:ConnectionId='6' Width="600" Height="70" Background="#FFF4F0AF" x:Name="Idioma" UseSystemFocusVisuals="True" IsTabStop="True" Margin="0,40,0,0" IsEnabled="True" TabIndex="2">
                     <TextBlock Text="Idioma" FontSize="40" VerticalAlignment="Center"/>
                 </Button>
-                <Button x:ConnectionId='8'                  Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True"  IsTabStop="True" x:Name="Salir" Margin="0,40,0,0">
+                    <Button x:ConnectionId='7'                  Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True"  IsTabStop="True" x:Name="Salir" Margin="0,40,0,0"  IsEnabled="True" TabIndex="3">
                     <TextBlock Text="Salir" FontSize="40" VerticalAlignment="Center"/>
                 </Button>
             </StackPanel>
