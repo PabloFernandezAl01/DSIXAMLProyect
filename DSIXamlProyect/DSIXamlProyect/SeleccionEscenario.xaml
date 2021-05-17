@@ -29,27 +29,27 @@
                     FontFamily="Kristen ITC"  Foreground="Black" Margin="0,43,0,0" Height="109" Width="730" Canvas.Left="392"/>
 
                 <Image Source="Assets/white.png" Canvas.Left="375" Canvas.Top="363" Height="274" Stretch="Fill" Width="225"/>
-                <Image Source="Assets/Escenarios/3.jpg" Canvas.Left="381" Canvas.Top="367" Height="266" Stretch="Fill" Width="219"/>
+                <Image x:Name="Escenario1" Source="Assets/Escenarios/3.jpg" Canvas.Left="381" Canvas.Top="367" Height="266" Stretch="Fill" Width="219"/>
 
                 <Image Source="Assets/white.png" Canvas.Left="487" Canvas.Top="339" Height="321" Stretch="Fill" Width="263"/>
-                <Image Source="Assets/Escenarios/2.jpg" Canvas.Left="491" Canvas.Top="343" Height="314" Stretch="Fill" Width="259"/>
+                <Image x:Name="Escenario2" Source="Assets/Escenarios/2.jpg" Canvas.Left="491" Canvas.Top="343" Height="314" Stretch="Fill" Width="259"/>
 
                 <Image Source="Assets/white.png" Canvas.Left="1010" Canvas.Top="363" Height="274" Stretch="Fill" Width="113"/>
-                <Image Source="Assets/Escenarios/5.jpg" Canvas.Left="900" Canvas.Top="367" Height="266" Stretch="Fill" Width="219"/>
+                <Image x:Name="Escenario5" Source="Assets/Escenarios/5.jpg" Canvas.Left="900" Canvas.Top="367" Height="266" Stretch="Fill" Width="219"/>
 
                 <Image Source="Assets/white.png" Canvas.Left="885" Canvas.Top="339" Height="322" Stretch="Fill" Width="134"/>
-                <Image Source="Assets/Escenarios/4.jpg" Canvas.Left="755" Canvas.Top="343" Height="314" Stretch="Fill" Width="259"/>
+                <Image x:Name="Escenario4" Source="Assets/Escenarios/4.jpg" Canvas.Left="755" Canvas.Top="343" Height="314" Stretch="Fill" Width="259"/>
 
                 <Image Source="Assets/white.png" Canvas.Left="600" Canvas.Top="320" Height="360" Stretch="Fill" Width="300"/>
-                <Image Source="Assets/Escenarios/1.jpg" Canvas.Left="605" Canvas.Top="324" Height="352" Stretch="Fill" Width="290"/>
+                <Image  x:Name="Escenario3" Source="Assets/Escenarios/1.jpg" Canvas.Left="605" Canvas.Top="324" Height="352" Stretch="Fill" Width="290"/>
 
 
-                <Button Canvas.Left="111" Canvas.Top="431" Height="125" Width="126" Background="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}">
+                <Button Canvas.Left="111" Canvas.Top="431" Height="125" Width="126" Background="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Click="ArrowLeft">
                     <Image Source="Assets/BlackArrow.png"  Height="125" Width="126" Stretch="Fill" Margin="-10,-6,-10,-7"/>
                 </Button>
 
-                <Button Canvas.Left="1251" Canvas.Top="431" Height="125" Width="126" Background="{x:Null}" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}">
-                    <Image Source="Assets/BlackArrow.png"  Height="125" Width="126" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Margin="-10,-6,-10,-7">
+                <Button Canvas.Left="1251" Canvas.Top="431" Height="125" Width="126" Background="{x:Null}" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Click="ArrowRight">
+                    <Image Source="Assets/BlackArrow.png"  Height="125" Width="126" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Margin="-10,-6,-10,-7" >
                         <Image.RenderTransform>
                             <CompositeTransform ScaleX="-1"/>
                         </Image.RenderTransform>
