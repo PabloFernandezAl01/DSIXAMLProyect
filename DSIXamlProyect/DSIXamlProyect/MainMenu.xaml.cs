@@ -14,8 +14,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
+
 
 namespace DSIXamlProyect
 {
@@ -27,6 +27,13 @@ namespace DSIXamlProyect
         public MainMenu()
         {
             this.InitializeComponent();
+
+            Idioma.actual = Idioma.Idiomas.Aleman;
+
+            BotonJugar.Text = Idioma.getText(Idioma.Texto.jugar);
+            BotonAjustes.Text = Idioma.getText(Idioma.Texto.opciones);
+            BotonIdioma.Text = Idioma.getText(Idioma.Texto.idioma);
+            BotonSalir.Text = Idioma.getText(Idioma.Texto.salir);
         }
 
         private void GoToAjustes(object sender, RoutedEventArgs e)
