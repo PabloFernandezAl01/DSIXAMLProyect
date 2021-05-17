@@ -26,6 +26,8 @@ namespace DSIXamlProyect
 
         string[] imagesSrc = { "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg" };
         Image[] images = new Image[5];
+        string[] nombres = { "Estadio Espinaca", "Estadio Lechuga", "Estadio Yojhan", "Estadio Estadio", "Amamos XAML" };
+
         int index = 0;
 
         public SeleccionEscenario()
@@ -37,6 +39,7 @@ namespace DSIXamlProyect
             images[3] = Escenario4;
             images[4] = Escenario5;
 
+            NombreEscenario.Text = nombres[index];
         }
 
         void StablishImages()
@@ -54,6 +57,7 @@ namespace DSIXamlProyect
                 j++;
                 if (j == 5) j = 0;
             }
+            NombreEscenario.Text = nombres[index];
         }
 
         private void GoBack(object sender, RoutedEventArgs e)

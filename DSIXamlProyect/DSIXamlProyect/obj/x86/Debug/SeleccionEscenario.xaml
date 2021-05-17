@@ -58,10 +58,10 @@
 
                 <Image Source="Assets/outstand.png" Canvas.Left="586" Canvas.Top="303" Height="394" Width="329" Stretch="Fill"/>
 
-                <TextBlock  Text="Estadio espinaca" FontSize="55"  FontStretch="Condensed" 
-                    FontFamily="Kristen ITC"  Foreground="Black" Margin="0,43,0,0" Height="81" Width="452" Canvas.Left="525" Canvas.Top="685"/>
+                <TextBlock x:ConnectionId='11'  x:Name="NombreEscenario" Text="Estadio espinaca" FontSize="55"  FontStretch="Condensed" 
+                    FontFamily="Kristen ITC"  Foreground="Black" Margin="0,43,0,0" Height="81" Width="485" Canvas.Left="525" Canvas.Top="666"/>
 
-                <Button x:ConnectionId='11' Canvas.Left="1190" Canvas.Top="765" Height="152" Width="248" Background="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" 
+                <Button x:ConnectionId='12' Canvas.Left="1190" Canvas.Top="765" Height="152" Width="248" Background="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" 
                         FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}"                   >
                     <Image Source="Assets/listocirculo.png"  Height="152" Width="248" Stretch="Fill" Margin="-10,-6,-10,-7" />
                 </Button>
