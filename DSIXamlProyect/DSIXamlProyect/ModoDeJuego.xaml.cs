@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -22,6 +23,8 @@ namespace DSIXamlProyect
     /// </summary>
     public sealed partial class ModoDeJuego : Page
     {
+        Thickness ceroThickness = new Thickness(0, 0, 0, 0);
+        Thickness someThickness = new Thickness(5, 5, 5, 5);
         public ModoDeJuego()
         {
             this.InitializeComponent();
@@ -39,6 +42,76 @@ namespace DSIXamlProyect
                 this.Frame.Navigate(typeof(ModoLocal));
             }
             else this.Frame.Navigate(typeof(SeleccionEscenario));
+        }
+
+        private void FacilClick(object sender, RoutedEventArgs e)
+        {
+            JugadroVsIA.Opacity = 1;
+            Multijugador.Opacity = 0.5;
+            Facil.BorderThickness = someThickness;
+            Medio.BorderThickness = ceroThickness;
+            Dificil.BorderThickness = ceroThickness;
+
+            Local.BorderThickness = ceroThickness;
+            Online.BorderThickness = ceroThickness;
+
+            Listo.Opacity = 1;
+        }
+
+        private void MedioClick(object sender, RoutedEventArgs e)
+        {
+            JugadroVsIA.Opacity = 1;
+            Multijugador.Opacity = 0.5;
+            Facil.BorderThickness = ceroThickness;
+            Medio.BorderThickness = someThickness;
+            Dificil.BorderThickness = ceroThickness;
+
+            Local.BorderThickness = ceroThickness;
+            Online.BorderThickness = ceroThickness;
+
+            Listo.Opacity = 1;
+        }
+
+        private void DificilClick(object sender, RoutedEventArgs e)
+        {
+            JugadroVsIA.Opacity = 1;
+            Multijugador.Opacity = 0.5;
+            Facil.BorderThickness = ceroThickness;
+            Medio.BorderThickness = ceroThickness;
+            Dificil.BorderThickness = someThickness;
+
+            Local.BorderThickness = ceroThickness;
+            Online.BorderThickness = ceroThickness;
+
+            Listo.Opacity = 1;
+        }
+
+        private void LocalClick(object sender, RoutedEventArgs e)
+        {
+            JugadroVsIA.Opacity = 0.5;
+            Multijugador.Opacity = 1;
+            Local.BorderThickness = someThickness;
+            Online.BorderThickness = ceroThickness;
+
+            Facil.BorderThickness = ceroThickness;
+            Medio.BorderThickness = ceroThickness;
+            Dificil.BorderThickness = ceroThickness;
+
+            Listo.Opacity = 1;
+        }
+
+        private void OnlineClick(object sender, RoutedEventArgs e)
+        {
+            JugadroVsIA.Opacity = 0.5;
+            Multijugador.Opacity = 1;
+            Local.BorderThickness = ceroThickness;
+            Online.BorderThickness = someThickness;
+
+            Facil.BorderThickness = ceroThickness;
+            Medio.BorderThickness = ceroThickness;
+            Dificil.BorderThickness = ceroThickness;
+
+            Listo.Opacity = 1;
         }
     }
 }
