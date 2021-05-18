@@ -113,7 +113,7 @@
 
             </RadioButton>
             <Button x:Name="button1"
-                    Click="VolverAlMenu"
+                    Click="GoBack"
                     Canvas.Left="35"
                     Canvas.Top="36"
                     Background="Transparent"

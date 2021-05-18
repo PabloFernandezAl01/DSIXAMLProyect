@@ -27,6 +27,9 @@ namespace DSIXamlProyect
             this.InitializeComponent();
         }
 
+        protected override void OnNavigatedTo(NavigationEventArgs e) {
+        }
+
         private void GoBack(object sender, RoutedEventArgs e)
         {
             if (this.Frame.CanGoBack)

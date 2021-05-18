@@ -10,7 +10,7 @@
     <Grid>
         <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
         <Canvas x:ConnectionId='2' Width="1500" Height="1000" x:Name="MiCanvas"                         >
-            <Image x:ConnectionId='3' x:Name="Fondo" Source="Assets/Fondo.png" Stretch="Fill" Height="1000" Width="1500"/>
+            <Image x:ConnectionId='3' x:Name="Fondo" Source="Assets/Menu.jpg" Stretch="Fill" Height="1000" Width="1500"/>
 
             <StackPanel Background="Orange" Width="920" Canvas.Left="280" Canvas.Top="100">
                 <TextBlock FontSize="120"
