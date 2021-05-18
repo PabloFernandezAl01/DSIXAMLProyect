@@ -10,7 +10,7 @@
     <Viewbox HorizontalAlignment="Stretch"
              VerticalAlignment="Stretch"
              Stretch="Fill">
-        <Canvas Height="1000"
+        <Canvas x:ConnectionId='2' Height="1000"                         
                 Width="1500">
 
             <Image Source="/Assets/Fondo.png"
@@ -27,44 +27,49 @@
                        Canvas.Top="-52"
                        Width="717" />
 
-            <StackPanel x:ConnectionId='2' x:Name="Jugadores"
+            <StackPanel x:ConnectionId='3' x:Name="Jugadores" BorderBrush="#FF2733B1" BorderThickness="5"
                         Canvas.Left="850"
                         Canvas.Top="300">
 
-                <Button x:ConnectionId='5' Content="Amigo 1"
+                <Button x:ConnectionId='6' Content="Amigo 1" BorderBrush="Black" BorderThickness="0"
                         x:Name="AMIGO1"
+                                      
                         Background="Green"
                         FontFamily="Kristen ITC"
                         Width="250"
                         Height="100"
                         FontSize="40"
                         Foreground="Black" />
-                <Button x:ConnectionId='6' Content="Amigo 2"
+                <Button x:ConnectionId='7' Content="Amigo 2" BorderBrush="Black" BorderThickness="0"
                         x:Name="AMIGO2"
+                                       
                         Background="Green"
                         FontFamily="Kristen ITC"
                         Width="250"
                         Height="100"
                         FontSize="40"
                         Foreground="Black" />
-                <Button x:ConnectionId='7' Content="Amigo 3"
+                <Button x:ConnectionId='8' Content="Amigo 3" BorderBrush="Black" BorderThickness="0"
                         x:Name="AMIGO3"
+                                       
                         Background="Red"
                         FontFamily="Kristen ITC"
                         Width="250"
                         Height="100"
                         FontSize="40"
                         Foreground="Black" />
-                <Button x:ConnectionId='8' Content="Amigo 4"
+                <Button x:ConnectionId='9' Content="Amigo 4" BorderBrush="Black" BorderThickness="0"
                         x:Name="AMIGO4"
+                                       
                         Background="Red"
                         FontFamily="Kristen ITC"
                         Width="250"
                         Height="100"
                         FontSize="40"
                         Foreground="Black" />
-                <Button x:ConnectionId='9' Content="Amigo 5"
+                <Button x:ConnectionId='10' Content="Amigo 5" BorderBrush="Black" BorderThickness="0"
                         x:Name="AMIGO5"
+                                       
                         Background="Red"
                         FontFamily="Kristen ITC"
                         Width="250"
@@ -73,9 +78,9 @@
                         Foreground="Black" />
             </StackPanel>
             
-            <Button x:ConnectionId='3'   AutomationProperties.Name="Volver"
+            <Button x:ConnectionId='4'   AutomationProperties.Name="Volver"
                       Height="138"
-                                                
+                                    
                       Background="Transparent"
                       Width="240"
                       HorizontalAlignment="Left"
@@ -84,13 +89,15 @@
                 <Image Source="/Assets/Volver.png"
                        AutomationProperties.Name="Slice" />
             </Button>
-            <Button x:ConnectionId='4'   AutomationProperties.Name="Listo"
+            <Button x:ConnectionId='5'   AutomationProperties.Name="Listo"
+                      x:Name="Listo"
                       Canvas.Left="1200"
                       Canvas.Top="400"
+                      Opacity="0.5"
                                            
-                      Height="138"
+                      Height="158"
                       Background="Transparent"
-                      Width="240"
+                      Width="270"
                       Margin="20,20,0,0"
                       RenderTransformOrigin="0.51,0.504">
                 <Image Source="/Assets/listo.png"
@@ -98,6 +105,7 @@
             </Button>
 
             <TextBox Text="Jugador"
+                     IsTabStop="False"
                      Background="Orange"
                      FontSize="75"
                      FontFamily="kristen ITC"

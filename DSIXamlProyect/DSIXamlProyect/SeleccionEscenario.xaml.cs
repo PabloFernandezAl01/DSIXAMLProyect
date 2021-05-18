@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -83,6 +84,23 @@ namespace DSIXamlProyect
             index++;
             if (index == 5) index = 0;
             StablishImages();
+        }
+
+        void findNextElement(DependencyObject candidate, FocusNavigationDirection next)
+        {
+            candidate = FocusManager.FindNextFocusableElement(next);
+            if (candidate != null)
+                (candidate as Control).Focus(FocusState.Keyboard);
+        }
+
+        private void Canvas_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            DependencyObject candidate = null; //Candidato a ser el siguiente foco 
+
+            //Teclado
+            if (e.Key == VirtualKey.Down || e.Key == VirtualKey.GamepadDPadDown) findNextElement(candidate, FocusNavigationDirection.Next);
+            else if (e.Key == VirtualKey.Up || e.Key == VirtualKey.GamepadDPadUp) findNextElement(candidate, FocusNavigationDirection.Previous);
+            e.Handled = true; //Activar el manejo del objeto
         }
     }
 }

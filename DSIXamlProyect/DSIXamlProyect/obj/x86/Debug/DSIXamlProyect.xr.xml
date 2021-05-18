@@ -122,6 +122,7 @@
     <RootType FullName="DSIXamlProyect.ModoDeJuego" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Text" />
+      <RootProperty Name="IsTabStop" />
       <RootProperty Name="Background" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontFamily" />

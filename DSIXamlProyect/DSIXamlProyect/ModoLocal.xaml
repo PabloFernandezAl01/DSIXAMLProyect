@@ -10,7 +10,7 @@
     <Viewbox HorizontalAlignment="Stretch"
              VerticalAlignment="Stretch"
              Stretch="Fill">
-        <Canvas Height="1000"
+        <Canvas Height="1000" KeyDown="Canvas_keyDown"
                 Width="1500">
 
             <Image Source="/Assets/Fondo.png"
@@ -27,44 +27,49 @@
                        Canvas.Top="-52"
                        Width="717" />
 
-            <StackPanel x:Name="Jugadores"
+            <StackPanel x:Name="Jugadores" BorderBrush="#FF2733B1" BorderThickness="5"
                         Canvas.Left="850"
                         Canvas.Top="300">
 
-                <Button Content="Amigo 1"
+                <Button Content="Amigo 1" BorderBrush="Black" BorderThickness="0"
                         x:Name="AMIGO1"
+                        Click="Amigo1"
                         Background="Green"
                         FontFamily="Kristen ITC"
                         Width="250"
                         Height="100"
                         FontSize="40"
                         Foreground="Black" />
-                <Button Content="Amigo 2"
+                <Button Content="Amigo 2" BorderBrush="Black" BorderThickness="0"
                         x:Name="AMIGO2"
+                         Click="Amigo2"
                         Background="Green"
                         FontFamily="Kristen ITC"
                         Width="250"
                         Height="100"
                         FontSize="40"
                         Foreground="Black" />
-                <Button Content="Amigo 3"
+                <Button Content="Amigo 3" BorderBrush="Black" BorderThickness="0"
                         x:Name="AMIGO3"
+                         Click="Amigo3"
                         Background="Red"
                         FontFamily="Kristen ITC"
                         Width="250"
                         Height="100"
                         FontSize="40"
                         Foreground="Black" />
-                <Button Content="Amigo 4"
+                <Button Content="Amigo 4" BorderBrush="Black" BorderThickness="0"
                         x:Name="AMIGO4"
+                         Click="Amigo4"
                         Background="Red"
                         FontFamily="Kristen ITC"
                         Width="250"
                         Height="100"
                         FontSize="40"
                         Foreground="Black" />
-                <Button Content="Amigo 5"
+                <Button Content="Amigo 5" BorderBrush="Black" BorderThickness="0"
                         x:Name="AMIGO5"
+                         Click="Amigo5"
                         Background="Red"
                         FontFamily="Kristen ITC"
                         Width="250"
@@ -75,7 +80,7 @@
             
             <Button   AutomationProperties.Name="Volver"
                       Height="138"
-                      Click="VolverAModoDeJuego"
+                      Click="GoBack"
                       Background="Transparent"
                       Width="240"
                       HorizontalAlignment="Left"
@@ -85,12 +90,14 @@
                        AutomationProperties.Name="Slice" />
             </Button>
             <Button   AutomationProperties.Name="Listo"
+                      x:Name="Listo"
                       Canvas.Left="1200"
                       Canvas.Top="400"
-                      Click="GoToEscanario"
-                      Height="138"
+                      Opacity="0.5"
+                      Click="GoToEscenario"
+                      Height="158"
                       Background="Transparent"
-                      Width="240"
+                      Width="270"
                       Margin="20,20,0,0"
                       RenderTransformOrigin="0.51,0.504">
                 <Image Source="/Assets/listo.png"
@@ -98,6 +105,7 @@
             </Button>
 
             <TextBox Text="Jugador"
+                     IsTabStop="False"
                      Background="Orange"
                      FontSize="75"
                      FontFamily="kristen ITC"

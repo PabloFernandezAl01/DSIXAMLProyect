@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.System;
 using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -25,6 +26,7 @@ namespace DSIXamlProyect
     {
         Thickness ceroThickness = new Thickness(0, 0, 0, 0);
         Thickness someThickness = new Thickness(5, 5, 5, 5);
+        bool selectioned = false;
         public ModoDeJuego()
         {
             this.InitializeComponent();
@@ -37,11 +39,7 @@ namespace DSIXamlProyect
 
         private void GoToModoLocal(object sender, RoutedEventArgs e)
         {
-            if(Local.FocusState != FocusState.Unfocused || Online.FocusState != FocusState.Unfocused)
-            {
-                this.Frame.Navigate(typeof(ModoLocal));
-            }
-            else this.Frame.Navigate(typeof(SeleccionEscenario));
+           if(selectioned) this.Frame.Navigate(typeof(ModoLocal));
         }
 
         private void FacilClick(object sender, RoutedEventArgs e)
@@ -56,6 +54,8 @@ namespace DSIXamlProyect
             Online.BorderThickness = ceroThickness;
 
             Listo.Opacity = 1;
+
+            selectioned = true;
         }
 
         private void MedioClick(object sender, RoutedEventArgs e)
@@ -70,6 +70,8 @@ namespace DSIXamlProyect
             Online.BorderThickness = ceroThickness;
 
             Listo.Opacity = 1;
+
+            selectioned = true;
         }
 
         private void DificilClick(object sender, RoutedEventArgs e)
@@ -84,6 +86,8 @@ namespace DSIXamlProyect
             Online.BorderThickness = ceroThickness;
 
             Listo.Opacity = 1;
+
+            selectioned = true;
         }
 
         private void LocalClick(object sender, RoutedEventArgs e)
@@ -98,6 +102,8 @@ namespace DSIXamlProyect
             Dificil.BorderThickness = ceroThickness;
 
             Listo.Opacity = 1;
+
+            selectioned = true;
         }
 
         private void OnlineClick(object sender, RoutedEventArgs e)
@@ -112,6 +118,27 @@ namespace DSIXamlProyect
             Dificil.BorderThickness = ceroThickness;
 
             Listo.Opacity = 1;
+
+            selectioned = true;
+        }
+
+        void findNextElement(DependencyObject candidate, FocusNavigationDirection next)
+        {
+            candidate = FocusManager.FindNextFocusableElement(next);
+            if (candidate != null)
+                (candidate as Control).Focus(FocusState.Keyboard);
+        }
+
+        private void Canvas_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            DependencyObject candidate = null; //Candidato a ser el siguiente foco 
+
+            //Teclado
+            if (e.Key == VirtualKey.Down || e.Key == VirtualKey.GamepadDPadDown) findNextElement(candidate, FocusNavigationDirection.Next);
+            else if (e.Key == VirtualKey.Up || e.Key == VirtualKey.GamepadDPadUp) findNextElement(candidate, FocusNavigationDirection.Previous);
+            else if (e.Key == VirtualKey.Right || e.Key == VirtualKey.GamepadDPadRight) findNextElement(candidate, FocusNavigationDirection.Right);
+            else if(e.Key == VirtualKey.Left || e.Key == VirtualKey.GamepadDPadLeft) findNextElement(candidate, FocusNavigationDirection.Left);
+            e.Handled = true; //Activar el manejo del objeto
         }
     }
 }

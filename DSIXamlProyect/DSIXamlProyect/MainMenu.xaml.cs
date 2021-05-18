@@ -55,6 +55,7 @@ namespace DSIXamlProyect
         {
             DependencyObject candidate = null; //Candidato a ser el siguiente foco 
 
+            //Teclado
             if (e.Key == VirtualKey.Down)
             {
                 candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Next);
@@ -67,6 +68,8 @@ namespace DSIXamlProyect
                 //if (candidate == null) candidate = Salir;
                 (candidate as Control).Focus(FocusState.Keyboard);
             }
+
+            //Mando
             else if (e.Key == VirtualKey.GamepadDPadDown)
             {
                 candidate = FocusManager.FindNextFocusableElement(FocusNavigationDirection.Next);
