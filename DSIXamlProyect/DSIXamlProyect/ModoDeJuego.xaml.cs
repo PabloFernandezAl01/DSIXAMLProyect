@@ -30,6 +30,18 @@ namespace DSIXamlProyect
         public ModoDeJuego()
         {
             this.InitializeComponent();
+            CambiarTexto();
+        }
+
+        void CambiarTexto()
+        {
+            seleccionModoJuego.Text = Idioma.getText(Idioma.Texto.seleccionModoDeJuego);
+            Facil.Content = Idioma.getText(Idioma.Texto.facil);
+            Medio.Content = Idioma.getText(Idioma.Texto.medio);
+            Dificil.Content = Idioma.getText(Idioma.Texto.dificil);
+            multijugador.Text = Idioma.getText(Idioma.Texto.multijugador);
+            Local.Content = Idioma.getText(Idioma.Texto.local);
+            Online.Content = Idioma.getText(Idioma.Texto.online);
         }
 
         private void VolverAlMenu(object sender, RoutedEventArgs e)

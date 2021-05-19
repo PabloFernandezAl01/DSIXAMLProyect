@@ -18,7 +18,8 @@
                    Height="1000"
                    Width="1500" />
 
-            <TextBlock Text="Selecciona oponente "
+            <TextBlock x:Name="seleccionarOponente"
+                Text="Selecciona oponente "
                        FontSize="70"
                        Margin="228,136,0,0"
                        FontFamily="Kristen ITC"
@@ -105,7 +106,8 @@
                        AutomationProperties.Name="Slice" Stretch="Fill" Margin="-10,-6,-10,-7"/>
             </Button>
 
-            <TextBox Text="Jugador"
+            <TextBox x:Name="Jugador"
+                     Text="Jugador"
                      IsTabStop="False"
                      Background="Orange"
                      FontSize="75"

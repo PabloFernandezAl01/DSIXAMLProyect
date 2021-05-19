@@ -14,10 +14,24 @@ namespace DSIXamlProyect
 
         public enum Texto
         {
+            //===========================
             jugar,
             opciones,
             idioma,
-            salir
+            salir,
+            //===========================
+            seleccionModoDeJuego,
+            facil,
+            medio,
+            dificil,
+            jugadorVsIA,
+            multijugador,
+            local,
+            online,
+            //==========================
+            seleccionaOponente,
+            jugador, 
+            amigo
         }
 
         public static string getText(Texto texto)
@@ -35,25 +49,77 @@ namespace DSIXamlProyect
                 "Jugar",
                 "Opciones",
                 "Idioma",
-                "Salir"
+                "Salir",
+
+                "Seleccion Modo de juego",
+                "Facil",
+                "Medio",
+                "Dificil",
+                "Jugador vs IA",
+                "Multijugador",
+                "Local",
+                "Online",
+
+                "Seleccion oponente",
+                "Jugador",
+                "Amigo"
             },
             { //Ingles
                 "Play",
                 "Options",
                 "Language",
-                "Exit"
+                "Exit",
+
+                "Select game mode",
+                "Easy",
+                "Medium",
+                "Difficult",
+                "Player vs IA",
+                "Mutiplayer",
+                "Local",
+                "Online",
+
+                "Select oponent",
+                "Player",
+                "Friend"
             },
             { //Aleman
                 "Adasdaskdj",
                 "asdhöS",
                 "#~@#€@",
-                "Ä'sòí"
+                "Ä'sòí",
+
+                 "Seleccion Modo de juego",
+                "Facil",
+                "Medio",
+                "Dificil",
+                "Jugador vs IA",
+                "Multijugador",
+                "Local",
+                "Online",
+
+                "Seleccion oponente",
+                "Jugador",
+                "Amigo"
             },
             { //Frances
                 "Ulala",
                 "Tacos",
                 "UwU",
-                "Oni chan"
+                "Oni chan",
+
+                "Seleccion Modo de juego",
+                "Facil",
+                "Medio",
+                "Dificil",
+                "Jugador vs IA",
+                "Multijugador",
+                "Local",
+                "Online",
+
+                "Seleccion oponente",
+                "Jugador",
+                "Amigo"
             }};
     }
 }

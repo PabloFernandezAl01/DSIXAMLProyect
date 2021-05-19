@@ -18,29 +18,29 @@
                 <Button x:ConnectionId='5' x:Name="Listo" FontStretch="Normal" Background="Transparent"                       IsTabStop="True" Height="200" Width="250" Canvas.Top="400" Opacity="0.5" Canvas.Left="1200">
                 <Image Source="/Assets/Listo.png" AutomationProperties.Name="Slice" Stretch="Fill"/>
             </Button>
-            <TextBlock Canvas.Left="220" Canvas.Top="180" Text="Seleccion de modo de juego" FontSize="70" FontStretch="Condensed" 
+            <TextBlock x:ConnectionId='6' x:Name="seleccionModoJuego" Canvas.Left="220" Canvas.Top="180" Text="Seleccion de modo de juego" FontSize="70" FontStretch="Condensed" 
                     FontFamily="Kristen ITC" Foreground="Black" Height="100" Width="1000"/>
-                <StackPanel x:ConnectionId='6' x:Name="JugadroVsIA" Canvas.Left="400" Canvas.Top="400" BorderBrush="#FF2733B1" BorderThickness="5">
+                <StackPanel x:ConnectionId='7' x:Name="JugadroVsIA" Canvas.Left="400" Canvas.Top="400" BorderBrush="#FF2733B1" BorderThickness="5">
                 <StackPanel Background="Orange" Height="80" >
-                    <TextBlock Text="Jugador vs IA" FontSize="40" HorizontalAlignment="Center"/>
+                    <TextBlock x:ConnectionId='15' x:Name="jugadorVsIA" Text="Jugador vs IA" FontSize="40" HorizontalAlignment="Center"/>
                 </StackPanel>
-                    <Button x:ConnectionId='10' Content="Fácil" x:Name="Facil" Background="#FFF4F0AF"                    IsTabStop="True" TabIndex="0"
+                    <Button x:ConnectionId='12'  Content="Fácil" x:Name="Facil" Background="#FFF4F0AF"                    IsTabStop="True" TabIndex="0"
                         Width="250" Height="100" FontSize="30"  Foreground="Black" BorderBrush="Black"  BorderThickness="0" />
 
-                    <Button x:ConnectionId='11' Content="Medio" x:Name="Medio" Background="#FFF4F0AF"                    IsTabStop="True" TabIndex="1"
+                    <Button x:ConnectionId='13' Content="Medio" x:Name="Medio" Background="#FFF4F0AF"                    IsTabStop="True" TabIndex="1"
                             Width="250" Height="100" FontSize="30"  Foreground="Black" BorderBrush="Black" BorderThickness="0"/>
 
-                    <Button x:ConnectionId='12' Content="Dificil" x:Name="Dificil" Background="#FFF4F0AF"                      IsTabStop="True" TabIndex="2"
+                    <Button x:ConnectionId='14'  Content="Dificil" x:Name="Dificil" Background="#FFF4F0AF"                      IsTabStop="True" TabIndex="2"
                             Width="250" Height="100" FontSize="30"  Foreground="Black"  BorderBrush="Black" BorderThickness="0" />
             </StackPanel>
-                <StackPanel x:ConnectionId='7' x:Name="Multijugador" Canvas.Left="800" Canvas.Top="400" BorderBrush="#FF2733B1" BorderThickness="5">
+                <StackPanel x:ConnectionId='8' x:Name="Multijugador" Canvas.Left="800" Canvas.Top="400" BorderBrush="#FF2733B1" BorderThickness="5">
                 <StackPanel Background="Orange" Height="80">
-                    <TextBlock Text="Multijugador" FontSize="40" HorizontalAlignment="Center"/>
+                    <TextBlock x:ConnectionId='11' x:Name="multijugador" Text="Multijugador" FontSize="40" HorizontalAlignment="Center"/>
                 </StackPanel>
-                    <Button x:ConnectionId='8' Content="Local" x:Name="Local"                    Background="#FFF4F0AF"  IsTabStop="True" TabIndex="3"
+                    <Button x:ConnectionId='9' Content="Local" x:Name="Local"                    Background="#FFF4F0AF"  IsTabStop="True" TabIndex="3"
                         Width="250" Height="120" FontSize="30"  Foreground="Black" BorderBrush="Black" BorderThickness="0" />
 
-                    <Button x:ConnectionId='9' Content="Online" x:Name="Online"                      Background="#FFF4F0AF" IsTabStop="True" TabIndex="4"
+                    <Button x:ConnectionId='10' Content="Online" x:Name="Online"                      Background="#FFF4F0AF" IsTabStop="True" TabIndex="4"
                         Width="250" Height="120" FontSize="30"  Foreground="Black" BorderBrush="Black" BorderThickness="0"/>
             </StackPanel>
         </Canvas>

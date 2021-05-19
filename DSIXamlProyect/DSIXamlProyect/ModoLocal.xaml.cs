@@ -34,6 +34,20 @@ namespace DSIXamlProyect
             buttons[0] = AMIGO1; buttons[1] = AMIGO2;
             buttons[2] = AMIGO3; buttons[3] = AMIGO4;
             buttons[4] = AMIGO5;
+
+            CambiarIdioma();
+        }
+
+        void CambiarIdioma()
+        {
+            seleccionarOponente.Text = Idioma.getText(Idioma.Texto.seleccionModoDeJuego);
+            Jugador.Text = Idioma.getText(Idioma.Texto.jugador);
+
+            for(int i = 0; i < buttons.Length; i++)
+            {
+                var b = buttons[i];
+                b.Content = Idioma.getText(Idioma.Texto.amigo) + " " + (i + 1);
+            }
         }
 
         private void GoBack(object sender, RoutedEventArgs e)

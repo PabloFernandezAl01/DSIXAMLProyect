@@ -18,7 +18,8 @@
                    Height="1000"
                    Width="1500" />
 
-            <TextBlock Text="Selecciona oponente "
+            <TextBlock x:ConnectionId='3' x:Name="seleccionarOponente"
+                Text="Selecciona oponente "
                        FontSize="70"
                        Margin="228,136,0,0"
                        FontFamily="Kristen ITC"
@@ -27,11 +28,11 @@
                        Canvas.Top="-52"
                        Width="717" />
 
-            <StackPanel x:ConnectionId='3' x:Name="Jugadores" BorderBrush="#FF2733B1" BorderThickness="5"
+            <StackPanel x:ConnectionId='4' x:Name="Jugadores" BorderBrush="#FF2733B1" BorderThickness="5"
                         Canvas.Left="850"
                         Canvas.Top="300">
 
-                <Button x:ConnectionId='6' Content="Amigo 1" BorderBrush="Black" BorderThickness="0"
+                <Button x:ConnectionId='8' Content="Amigo 1" BorderBrush="Black" BorderThickness="0"
                         x:Name="AMIGO1"
                                       
                         Background="Green"
@@ -40,7 +41,7 @@
                         Height="100"
                         FontSize="40"
                         Foreground="Black" />
-                <Button x:ConnectionId='7' Content="Amigo 2" BorderBrush="Black" BorderThickness="0"
+                <Button x:ConnectionId='9' Content="Amigo 2" BorderBrush="Black" BorderThickness="0"
                         x:Name="AMIGO2"
                                        
                         Background="Green"
@@ -49,7 +50,7 @@
                         Height="100"
                         FontSize="40"
                         Foreground="Black" />
-                <Button x:ConnectionId='8' Content="Amigo 3" BorderBrush="Black" BorderThickness="0"
+                <Button x:ConnectionId='10' Content="Amigo 3" BorderBrush="Black" BorderThickness="0"
                         x:Name="AMIGO3"
                                        
                         Background="Red"
@@ -58,7 +59,7 @@
                         Height="100"
                         FontSize="40"
                         Foreground="Black" />
-                <Button x:ConnectionId='9' Content="Amigo 4" BorderBrush="Black" BorderThickness="0"
+                <Button x:ConnectionId='11' Content="Amigo 4" BorderBrush="Black" BorderThickness="0"
                         x:Name="AMIGO4"
                                        
                         Background="Red"
@@ -67,7 +68,7 @@
                         Height="100"
                         FontSize="40"
                         Foreground="Black" />
-                <Button x:ConnectionId='10' Content="Amigo 5" BorderBrush="Black" BorderThickness="0"
+                <Button x:ConnectionId='12' Content="Amigo 5" BorderBrush="Black" BorderThickness="0"
                         x:Name="AMIGO5"
                                        
                         Background="Red"
@@ -78,7 +79,7 @@
                         Foreground="Black" />
             </StackPanel>
 
-            <Button x:ConnectionId='4'   AutomationProperties.Name="Volver"
+            <Button x:ConnectionId='5'   AutomationProperties.Name="Volver"
                       Height="109"
                                     
                       Background="Transparent"
@@ -87,7 +88,7 @@
                 <Image Source="/Assets/Volver.png"
                        AutomationProperties.Name="Slice" Stretch="Fill" Margin="-10,-6,-10,-7" />
             </Button>
-            <Button x:ConnectionId='5'   AutomationProperties.Name="Listo"
+            <Button x:ConnectionId='6'   AutomationProperties.Name="Listo"
                       x:Name="Listo"
                       Canvas.Left="1211"
                       Canvas.Top="426"
@@ -105,7 +106,8 @@
                        AutomationProperties.Name="Slice" Stretch="Fill" Margin="-10,-6,-10,-7"/>
             </Button>
 
-            <TextBox Text="Jugador"
+            <TextBox x:ConnectionId='7' x:Name="Jugador"
+                     Text="Jugador"
                      IsTabStop="False"
                      Background="Orange"
                      FontSize="75"
