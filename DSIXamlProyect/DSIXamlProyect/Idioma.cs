@@ -31,7 +31,13 @@ namespace DSIXamlProyect
             //==========================
             seleccionaOponente,
             jugador, 
-            amigo
+            amigo,
+            //==========================
+            ajustes,
+            musica, 
+            efectos, 
+            tutoriales,
+            emparejado
         }
 
         public static string getText(Texto texto)
@@ -60,9 +66,15 @@ namespace DSIXamlProyect
                 "Local",
                 "Online",
 
-                "Seleccion oponente",
+                "Selecciona oponente",
                 "Jugador",
-                "Amigo"
+                "Amigo",
+
+                "Ajustes de juego",
+                "Música",
+                "Efectos",
+                "Tutoriales",
+                "Emparejados"
             },
             { //Ingles
                 "Play",
@@ -81,7 +93,13 @@ namespace DSIXamlProyect
 
                 "Select oponent",
                 "Player",
-                "Friend"
+                "Friend",
+
+                "Game options",
+                "Music",
+                "Visual effects",
+                "Tutorials",
+                "MatchMaking"
             },
             { //Aleman
                 "Adasdaskdj",
@@ -100,7 +118,13 @@ namespace DSIXamlProyect
 
                 "Seleccion oponente",
                 "Jugador",
-                "Amigo"
+                "Amigo",
+
+                "Ajustes de juego",
+                "Música",
+                "Efectos",
+                "Tutoriales",
+                "Emparejados"
             },
             { //Frances
                 "Ulala",
@@ -119,7 +143,13 @@ namespace DSIXamlProyect
 
                 "Seleccion oponente",
                 "Jugador",
-                "Amigo"
+                "Amigo",
+
+                "Ajustes de juego",
+                "Música",
+                "Efectos",
+                "Tutoriales",
+                "Emparejados"
             }};
     }
 }

@@ -40,7 +40,7 @@ namespace DSIXamlProyect
 
         void CambiarIdioma()
         {
-            seleccionarOponente.Text = Idioma.getText(Idioma.Texto.seleccionModoDeJuego);
+            seleccionarOponente.Text = Idioma.getText(Idioma.Texto.seleccionaOponente);
             Jugador.Text = Idioma.getText(Idioma.Texto.jugador);
 
             for(int i = 0; i < buttons.Length; i++)

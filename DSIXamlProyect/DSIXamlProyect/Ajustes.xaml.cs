@@ -30,6 +30,16 @@ namespace DSIXamlProyect
         {
             this.InitializeComponent();
             one = two = three = false;
+            cambiarIdioma();
+        }
+
+        void cambiarIdioma()
+        {
+            ajustesJuego.Text = Idioma.getText(Idioma.Texto.ajustes);
+            musica.Text = Idioma.getText(Idioma.Texto.musica);
+            efectos.Text = Idioma.getText(Idioma.Texto.efectos);
+            tutoriales.Text = Idioma.getText(Idioma.Texto.tutoriales);
+            emparejado.Text = Idioma.getText(Idioma.Texto.emparejado);
         }
 
         private void GoBack(object sender, RoutedEventArgs e)

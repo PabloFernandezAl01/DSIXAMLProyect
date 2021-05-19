@@ -12,8 +12,8 @@
             
             <Image Source="/Assets/Fondo.png" Stretch="Fill" Height="1000" Width="1500" />
 
-            <StackPanel Canvas.Left="414" Canvas.Top="51"  Height="105" Width="592" Background="Orange">
-                <TextBlock Text="Ajustes del Juego" FontSize="70" Foreground="Black" FontWeight="Bold" Height="87" Width="625"/>
+            <StackPanel Canvas.Left="414" Canvas.Top="51"  Height="105" Width="auto" Background="Orange">
+                <TextBlock TextAlignment="Center" x:Name="ajustesJuego" Text="Ajustes del Juego" FontSize="70" Foreground="Black" FontWeight="Bold" Height="87" Width="625"/>
             </StackPanel>
 
             <Rectangle Height="577" Canvas.Left="437" Stroke="Black" StrokeThickness="4" Canvas.Top="161"  Width="1"/>
@@ -28,9 +28,7 @@
             </Rectangle>
 
 
-            <Button x:Name="button_Copy2"  Content="EMPAREJADO"  FontFamily="Kristen ITC" FontSize="20" Background="Orange"
-                    Foreground="Black" Canvas.Left="598" Canvas.Top="713"  Width="250"  Height="50"  FontWeight="Bold" />
-
+           
             <Button x:Name="MusicaButton" Width="70" Height="70" Canvas.Left="1000" Canvas.Top="240" Background="Red" TabIndex="1"
                     BorderBrush="Black" BorderThickness="3" Click="MusicaButtonClick"/>
 
@@ -65,24 +63,24 @@
                 <Image Source="Assets/Volveralmenu.png" Stretch="Fill"  Margin="-10,-6,-10,-7" />
             </Button>
 
-            <StackPanel Canvas.Left="598" Canvas.Top="249"  Width="175"  Height="50"  Background="Orange">
-                <TextBlock Text="MUSICA" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center" 
+            <StackPanel Canvas.Left="598" Canvas.Top="249"  Width="auto"  Height="50"  Background="Orange">
+                <TextBlock TextAlignment="Left" x:Name="musica" Text="MUSICA" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Left" 
                            Foreground="Black" FontWeight="Bold"/>
             </StackPanel>
 
-            <StackPanel Canvas.Left="596"  Canvas.Top="410"  Width="175" Height="50" Background="Orange">
-                <TextBlock Text="EFECTOS" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"  Foreground="Black"
+            <StackPanel Canvas.Left="596"  Canvas.Top="410"  Width="auto" Height="50" Background="Orange">
+                <TextBlock x:Name="efectos" Text="EFECTOS" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Left"  Foreground="Black"
                         FontWeight="Bold"/>
 
             </StackPanel>
 
-            <StackPanel Canvas.Left="598" Canvas.Top="551"  Width="250" Height="50" Background="Orange">
-                <TextBlock Text="TUTORIALES"  FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center" 
+            <StackPanel Canvas.Left="598" Canvas.Top="551"  Width="auto" Height="50" Background="Orange">
+                <TextBlock x:Name="tutoriales" Text="TUTORIALES"  FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Left" 
                             Foreground="Black"  FontWeight="Bold"/>
             </StackPanel>
 
-            <StackPanel Canvas.Left="598"  Canvas.Top="713"  Width="250"  Height="50" IsTapEnabled="False" Background="Orange">
-                <TextBlock Text="EMPAREJADO" FontSize="30" VerticalAlignment="Center " HorizontalAlignment="Center"
+            <StackPanel Canvas.Left="598"  Canvas.Top="713"  Width="Auto"  Height="auto" IsTapEnabled="False" Background="Orange">
+                <TextBlock x:Name="emparejado" Text="EMPAREJADO" FontSize="30" VerticalAlignment="Center " HorizontalAlignment="Left"
                              Foreground="Black"  FontWeight="Bold"/>
             </StackPanel>
         </Canvas>

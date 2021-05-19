@@ -1,49 +1,152 @@
 ﻿<Page x:Class="DSIXamlProyect.ModoDeJuego"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:DSIXamlProyect"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    
-<Grid>
-    <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
-        <Canvas Width="1500" Height="1000" KeyDown="Canvas_KeyDown">
-            <Image  x:Name="Fondo" Source="Assets/Fondo.png" Stretch="Fill" Height="1000" Width="1500" />
-            <Button x:Name="volver" Click="VolverAlMenu" Background="Transparent" FontStretch="Normal"
-                    IsTabStop="True" Height="120" Width="220" Canvas.Left="20" Canvas.Top="10">
-                <Image Source="/Assets/Volver.png" AutomationProperties.Name="Slice" Stretch="Fill" />
-            </Button>
-                <Button x:Name="Listo" FontStretch="Normal" Background="Transparent" Click="GoToModoLocal" IsTabStop="True" Height="200" Width="250" Canvas.Top="400" Opacity="0.5" Canvas.Left="1200">
-                <Image Source="/Assets/Listo.png" AutomationProperties.Name="Slice" Stretch="Fill"/>
-            </Button>
-            <TextBlock x:Name="seleccionModoJuego" Canvas.Left="220" Canvas.Top="180" Text="Seleccion de modo de juego" FontSize="70" FontStretch="Condensed" 
-                    FontFamily="Kristen ITC" Foreground="Black" Height="100" Width="1000"/>
-                <StackPanel x:Name="JugadroVsIA" Canvas.Left="400" Canvas.Top="400" BorderBrush="#FF2733B1" BorderThickness="5">
-                <StackPanel Background="Orange" Height="80" >
-                    <TextBlock x:Name="jugadorVsIA" Text="Jugador vs IA" FontSize="40" HorizontalAlignment="Center"/>
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:DSIXamlProyect"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d"
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Viewbox HorizontalAlignment="Stretch"
+                 VerticalAlignment="Stretch"
+                 Stretch="Fill">
+            <Canvas Width="1500"
+                    Height="1000"
+                    KeyDown="Canvas_KeyDown">
+                <Image  x:Name="Fondo"
+                        Source="Assets/Fondo.png"
+                        Stretch="Fill"
+                        Height="1000"
+                        Width="1500" />
+                <Button x:Name="volver"
+                        Click="VolverAlMenu"
+                        Background="Transparent"
+                        FontStretch="Normal"
+                        IsTabStop="True"
+                        Height="120"
+                        Width="220"
+                        Canvas.Left="20"
+                        Canvas.Top="10">
+                    <Image Source="/Assets/Volver.png"
+                           AutomationProperties.Name="Slice"
+                           Stretch="Fill" />
+                </Button>
+                <Button x:Name="Listo"
+                        FontStretch="Normal"
+                        Background="Transparent"
+                        Click="GoToModoLocal"
+                        IsTabStop="True"
+                        Height="200"
+                        Width="250"
+                        Canvas.Top="400"
+                        Opacity="0.5"
+                        Canvas.Left="1200">
+                    <Image Source="/Assets/Listo.png"
+                           AutomationProperties.Name="Slice"
+                           Stretch="Fill" />
+                </Button>
+                <TextBlock x:Name="seleccionModoJuego"
+                           Canvas.Left="273"
+                           Canvas.Top="173"
+                           Text="Seleccion de modo de juego"
+                           FontSize="70"
+                           FontStretch="Condensed"
+                           TextAlignment="Center"
+                           FontFamily="Kristen ITC"
+                           Foreground="Black"
+                           Height="100"
+                           Width="1000" />
+                <StackPanel x:Name="JugadroVsIA"
+                            Canvas.Left="400"
+                            Canvas.Top="400"
+                            BorderBrush="#FF2733B1"
+                            BorderThickness="5">
+                    <StackPanel Background="Orange"
+                                Height="80">
+                        <TextBlock x:Name="jugadorVsIA"
+                                   Text="Jugador vs IA"
+                                   FontSize="40"
+                                   HorizontalAlignment="Center" />
+                    </StackPanel>
+                    <Button  Content="Fácil"
+                             x:Name="Facil"
+                             Background="#FFF4F0AF"
+                             Click="FacilClick"
+                             IsTabStop="True"
+                             TabIndex="0"
+                             Width="250"
+                             Height="100"
+                             FontSize="30"
+                             Foreground="Black"
+                             BorderBrush="Black"
+                             BorderThickness="0" />
+
+                    <Button Content="Medio"
+                            x:Name="Medio"
+                            Background="#FFF4F0AF"
+                            Click="MedioClick"
+                            IsTabStop="True"
+                            TabIndex="1"
+                            Width="250"
+                            Height="100"
+                            FontSize="30"
+                            Foreground="Black"
+                            BorderBrush="Black"
+                            BorderThickness="0" />
+
+                    <Button  Content="Dificil"
+                             x:Name="Dificil"
+                             Background="#FFF4F0AF"
+                             Click="DificilClick"
+                             IsTabStop="True"
+                             TabIndex="2"
+                             Width="250"
+                             Height="100"
+                             FontSize="30"
+                             Foreground="Black"
+                             BorderBrush="Black"
+                             BorderThickness="0" />
                 </StackPanel>
-                    <Button  Content="Fácil" x:Name="Facil" Background="#FFF4F0AF" Click="FacilClick" IsTabStop="True" TabIndex="0"
-                        Width="250" Height="100" FontSize="30"  Foreground="Black" BorderBrush="Black"  BorderThickness="0" />
+                <StackPanel x:Name="Multijugador"
+                            Canvas.Left="800"
+                            Canvas.Top="400"
+                            BorderBrush="#FF2733B1"
+                            BorderThickness="5">
+                    <StackPanel Background="Orange"
+                                Height="80">
+                        <TextBlock x:Name="multijugador"
+                                   Text="Multijugador"
+                                   FontSize="40"
+                                   HorizontalAlignment="Center" />
+                    </StackPanel>
+                    <Button Content="Local"
+                            x:Name="Local"
+                            Click="LocalClick"
+                            Background="#FFF4F0AF"
+                            IsTabStop="True"
+                            TabIndex="3"
+                            Width="250"
+                            Height="120"
+                            FontSize="30"
+                            Foreground="Black"
+                            BorderBrush="Black"
+                            BorderThickness="0" />
 
-                    <Button Content="Medio" x:Name="Medio" Background="#FFF4F0AF" Click="MedioClick" IsTabStop="True" TabIndex="1"
-                            Width="250" Height="100" FontSize="30"  Foreground="Black" BorderBrush="Black" BorderThickness="0"/>
-
-                    <Button  Content="Dificil" x:Name="Dificil" Background="#FFF4F0AF" Click="DificilClick" IsTabStop="True" TabIndex="2"
-                            Width="250" Height="100" FontSize="30"  Foreground="Black"  BorderBrush="Black" BorderThickness="0" />
-            </StackPanel>
-                <StackPanel x:Name="Multijugador" Canvas.Left="800" Canvas.Top="400" BorderBrush="#FF2733B1" BorderThickness="5">
-                <StackPanel Background="Orange" Height="80">
-                    <TextBlock x:Name="multijugador" Text="Multijugador" FontSize="40" HorizontalAlignment="Center"/>
+                    <Button Content="Online"
+                            x:Name="Online"
+                            Click="OnlineClick"
+                            Background="#FFF4F0AF"
+                            IsTabStop="True"
+                            TabIndex="4"
+                            Width="250"
+                            Height="120"
+                            FontSize="30"
+                            Foreground="Black"
+                            BorderBrush="Black"
+                            BorderThickness="0" />
                 </StackPanel>
-                    <Button Content="Local" x:Name="Local" Click="LocalClick" Background="#FFF4F0AF"  IsTabStop="True" TabIndex="3"
-                        Width="250" Height="120" FontSize="30"  Foreground="Black" BorderBrush="Black" BorderThickness="0" />
-
-                    <Button Content="Online" x:Name="Online"  Click="OnlineClick" Background="#FFF4F0AF" IsTabStop="True" TabIndex="4"
-                        Width="250" Height="120" FontSize="30"  Foreground="Black" BorderBrush="Black" BorderThickness="0"/>
-            </StackPanel>
-        </Canvas>
-    </Viewbox>
-</Grid>
-    </Page>
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</Page>
