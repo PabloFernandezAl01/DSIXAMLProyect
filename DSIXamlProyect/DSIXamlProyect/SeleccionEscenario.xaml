@@ -25,7 +25,7 @@
                     <Image Source="Assets/Volver.png" Height="106" Width="180" Margin="-10,-6,-10,-7"/>
                 </Button>
 
-                <TextBlock  Text="Selecciona escenario" FontSize="70"  FontStretch="Condensed" 
+                <TextBlock x:Name="SeleccionaEscenario" Text="Selecciona escenario" FontSize="70"  FontStretch="Condensed" 
                     FontFamily="Kristen ITC"  Foreground="Black" Margin="0,43,0,0" Height="109" Width="730" Canvas.Left="392"/>
 
                 <Image Source="Assets/white.png" Canvas.Left="375" Canvas.Top="363" Height="274" Stretch="Fill" Width="225"/>

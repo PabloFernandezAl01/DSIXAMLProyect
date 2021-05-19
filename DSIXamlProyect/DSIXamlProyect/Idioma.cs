@@ -37,7 +37,14 @@ namespace DSIXamlProyect
             musica, 
             efectos, 
             tutoriales,
-            emparejado
+            emparejado,
+            //==========================
+            seleccionEscenario, 
+            nombre1,
+            nombre2,
+            nombre3,
+            nombre4,
+            nombre5
         }
 
         public static string getText(Texto texto)
@@ -74,7 +81,14 @@ namespace DSIXamlProyect
                 "Música",
                 "Efectos",
                 "Tutoriales",
-                "Emparejados"
+                "Emparejados",
+
+                "Selecciona estadio",
+                "Estadio Espinaca", 
+                "Estadio Lechuga", 
+                "Estadio Yojhan", 
+                "Estadio Estadio", 
+                "Amamos XAML"
             },
             { //Ingles
                 "Play",
@@ -99,7 +113,14 @@ namespace DSIXamlProyect
                 "Music",
                 "Visual effects",
                 "Tutorials",
-                "MatchMaking"
+                "MatchMaking",
+
+                "Select stadium",
+                "Spinach's stadium",
+                "Lettuce's stadium",
+                "Yojhan's stadium",
+                "Stadium Stadium",
+                "We Love XAML"
             },
             { //Aleman
                 "Adasdaskdj",
@@ -107,24 +128,31 @@ namespace DSIXamlProyect
                 "#~@#€@",
                 "Ä'sòí",
 
-                 "Seleccion Modo de juego",
-                "Facil",
-                "Medio",
-                "Dificil",
-                "Jugador vs IA",
-                "Multijugador",
-                "Local",
-                "Online",
+                "OCHORCOJOLO",
+                "awd36ddd",
+                "sñolll",
+                "miiiii",
+                "Jüghadör vs IA",
+                "MultiJüghadör",
+                "IOLLD",
+                "YEPES",
 
-                "Seleccion oponente",
-                "Jugador",
-                "Amigo",
+                "Ö",
+                "ÓMÒ",
+                "NICHINJAGUER",
 
-                "Ajustes de juego",
-                "Música",
-                "Efectos",
-                "Tutoriales",
-                "Emparejados"
+                "DO JOU SKUCHER",
+                "CHEHZ",
+                "KIKIKIKI",
+                "PAHRMOOON",
+                "ROTANFORTA",
+
+                "Ruthenförd",
+                "Estadio Mariposas",
+                "Estadio Amor",
+                "Estadio Abejita",
+                "Estadio Felicidad",
+                "<3 XAML"
             },
             { //Frances
                 "Ulala",
@@ -145,11 +173,18 @@ namespace DSIXamlProyect
                 "Jugador",
                 "Amigo",
 
-                "Ajustes de juego",
+                "Paramètres de jeu",
                 "Música",
                 "Efectos",
                 "Tutoriales",
-                "Emparejados"
+                "Emparejados",
+
+                "Sélectionnez le stade",
+                "Stade Épinards",
+                "Stade Lechuga",
+                "Stade Yojhan",
+                "Stade Stade",
+                "Nous aimons XAML"
             }};
     }
 }

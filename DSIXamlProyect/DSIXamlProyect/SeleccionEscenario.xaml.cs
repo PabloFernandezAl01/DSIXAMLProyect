@@ -35,7 +35,6 @@ namespace DSIXamlProyect
         {
             imagesSrc = new string[] { "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg" };
             images = new Image[5];
-            nombres = new string[] { "Estadio Espinaca", "Estadio Lechuga", "Estadio Yojhan", "Estadio Estadio", "Amamos XAML" };
 
             this.InitializeComponent();
 
@@ -45,7 +44,13 @@ namespace DSIXamlProyect
             images[3] = Escenario4;
             images[4] = Escenario5;
 
-            NombreEscenario.Text = nombres[index];
+            CambiarIdioma();
+        }
+
+        void CambiarIdioma()
+        {
+            SeleccionaEscenario.Text = Idioma.getText(Idioma.Texto.seleccionEscenario);
+            NombreEscenario.Text = Idioma.getText(index + Idioma.Texto.nombre1);
         }
 
         void StablishImages()
@@ -63,7 +68,7 @@ namespace DSIXamlProyect
                 j++;
                 if (j == 5) j = 0;
             }
-            NombreEscenario.Text = nombres[index];
+            CambiarIdioma();
         }
 
         private void GoBack(object sender, RoutedEventArgs e)

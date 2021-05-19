@@ -25,30 +25,30 @@
                     <Image Source="Assets/Volver.png" Height="106" Width="180" Margin="-10,-6,-10,-7"/>
                 </Button>
 
-                <TextBlock  Text="Selecciona escenario" FontSize="70"  FontStretch="Condensed" 
+                <TextBlock x:ConnectionId='5' x:Name="SeleccionaEscenario" Text="Selecciona escenario" FontSize="70"  FontStretch="Condensed" 
                     FontFamily="Kristen ITC"  Foreground="Black" Margin="0,43,0,0" Height="109" Width="730" Canvas.Left="392"/>
 
                 <Image Source="Assets/white.png" Canvas.Left="375" Canvas.Top="363" Height="274" Stretch="Fill" Width="225"/>
-                <Image x:ConnectionId='5' x:Name="Escenario1" Source="Assets/Escenarios/3.jpg" Canvas.Left="381" Canvas.Top="367" Height="266" Stretch="Fill" Width="219"/>
+                <Image x:ConnectionId='6' x:Name="Escenario1" Source="Assets/Escenarios/3.jpg" Canvas.Left="381" Canvas.Top="367" Height="266" Stretch="Fill" Width="219"/>
 
                 <Image Source="Assets/white.png" Canvas.Left="487" Canvas.Top="339" Height="321" Stretch="Fill" Width="263"/>
-                <Image x:ConnectionId='6' x:Name="Escenario2" Source="Assets/Escenarios/2.jpg" Canvas.Left="491" Canvas.Top="343" Height="314" Stretch="Fill" Width="259"/>
+                <Image x:ConnectionId='7' x:Name="Escenario2" Source="Assets/Escenarios/2.jpg" Canvas.Left="491" Canvas.Top="343" Height="314" Stretch="Fill" Width="259"/>
 
                 <Image Source="Assets/white.png" Canvas.Left="1010" Canvas.Top="363" Height="274" Stretch="Fill" Width="113"/>
-                <Image x:ConnectionId='7' x:Name="Escenario5" Source="Assets/Escenarios/5.jpg" Canvas.Left="900" Canvas.Top="367" Height="266" Stretch="Fill" Width="219"/>
+                <Image x:ConnectionId='8' x:Name="Escenario5" Source="Assets/Escenarios/5.jpg" Canvas.Left="900" Canvas.Top="367" Height="266" Stretch="Fill" Width="219"/>
 
                 <Image Source="Assets/white.png" Canvas.Left="885" Canvas.Top="339" Height="322" Stretch="Fill" Width="134"/>
-                <Image x:ConnectionId='8' x:Name="Escenario4" Source="Assets/Escenarios/4.jpg" Canvas.Left="755" Canvas.Top="343" Height="314" Stretch="Fill" Width="259"/>
+                <Image x:ConnectionId='9' x:Name="Escenario4" Source="Assets/Escenarios/4.jpg" Canvas.Left="755" Canvas.Top="343" Height="314" Stretch="Fill" Width="259"/>
 
                 <Image Source="Assets/white.png" Canvas.Left="600" Canvas.Top="320" Height="360" Stretch="Fill" Width="300"/>
-                <Image x:ConnectionId='9'  x:Name="Escenario3" Source="Assets/Escenarios/1.jpg" Canvas.Left="605" Canvas.Top="324" Height="352" Stretch="Fill" Width="290"/>
+                <Image x:ConnectionId='10'  x:Name="Escenario3" Source="Assets/Escenarios/1.jpg" Canvas.Left="605" Canvas.Top="324" Height="352" Stretch="Fill" Width="290"/>
 
 
-                <Button x:ConnectionId='10' Canvas.Left="111" Canvas.Top="431" Height="125" Width="126" TabIndex="1" IsTabStop="True"                    >
+                <Button x:ConnectionId='11' Canvas.Left="111" Canvas.Top="431" Height="125" Width="126" TabIndex="1" IsTabStop="True"                    >
                     <Image Source="Assets/BlackArrow.png"  Height="125" Width="126" Stretch="Fill" Margin="-10,-6,-10,-7"/>
                 </Button>
 
-                <Button x:ConnectionId='11' Canvas.Left="1251" Canvas.Top="431" Height="125" Width="126" TabIndex="2" IsTabStop="True"                   >
+                <Button x:ConnectionId='12' Canvas.Left="1251" Canvas.Top="431" Height="125" Width="126" TabIndex="2" IsTabStop="True"                   >
                     <Image Source="Assets/BlackArrow.png"  Height="125" Width="126" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Margin="-10,-6,-10,-7" >
                         <Image.RenderTransform>
                             <CompositeTransform ScaleX="-1"/>
@@ -58,10 +58,10 @@
 
                 <Image Source="Assets/outstand.png" Canvas.Left="586" Canvas.Top="303" Height="394" Width="329" Stretch="Fill"/>
 
-                <TextBlock x:ConnectionId='12'  x:Name="NombreEscenario" Text="Estadio espinaca" FontSize="55"  FontStretch="Condensed" 
+                <TextBlock x:ConnectionId='13'  x:Name="NombreEscenario" Text="Estadio espinaca" FontSize="55"  FontStretch="Condensed" 
                     FontFamily="Kristen ITC"  Foreground="Black" Margin="0,43,0,0" Height="81" Width="485" Canvas.Left="525" Canvas.Top="666"/>
 
-                <Button x:ConnectionId='13' Canvas.Left="1190" Canvas.Top="765" Height="152"  IsTabStop="True" TabIndex="3" Width="248"                   >
+                <Button x:ConnectionId='14' Canvas.Left="1190" Canvas.Top="765" Height="152"  IsTabStop="True" TabIndex="3" Width="248"                   >
                     <Image Source="Assets/listocirculo.png"  Height="152" Width="248" Stretch="Fill" Margin="-10,-6,-10,-7" />
                 </Button>
 
