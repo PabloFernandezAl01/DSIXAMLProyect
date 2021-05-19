@@ -1,5 +1,6 @@
 WinMetadata\Windows.winmd
 Assets\agilidad.png
+Assets\ajustes.png
 Assets\barraagilidad.png
 Assets\barrafuerza.png
 Assets\barrahabilidad.png
@@ -12,6 +13,7 @@ Assets\bola.png
 Assets\bolaAzul.jpg
 Assets\bolaAzulVacia.png
 Assets\botonListo1.png
+Assets\Chino.png
 Assets\circuloAmarillo.png
 Assets\corasao.png
 Assets\Escenarios\1.jpg
@@ -19,6 +21,7 @@ Assets\Escenarios\2.jpg
 Assets\Escenarios\3.jpg
 Assets\Escenarios\4.jpg
 Assets\Escenarios\5.jpg
+Assets\España.jpg
 Assets\exit_icon.png
 Assets\flecha.png
 Assets\flechacaida.png
@@ -28,6 +31,7 @@ Assets\habilidad.png
 Assets\habilidadbola.png
 Assets\hombregris.png
 Assets\InGame.png
+Assets\Ingles.png
 Assets\joystick.png
 Assets\Listo.png
 Assets\listocirculo.png
@@ -49,6 +53,7 @@ Assets\tennisballred.png
 Assets\toolsIcon.png
 Assets\user_icon.jpg
 Assets\Volver.png
+Assets\Volveralmenu.png
 Assets\white.png
 Assets\Wide310x150Logo.scale-200.png
 Ajustes.xbf

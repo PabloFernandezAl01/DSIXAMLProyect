@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-19T12:55:31.752</Modified>
+      <Modified>2021-05-19T13:26:27.565</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\DSIXamlProyect.exe">
       <PackagePath>entrypoint\DSIXamlProyect.exe</PackagePath>
-      <Modified>2021-05-19T12:55:31.229</Modified>
+      <Modified>2021-05-19T13:26:26.952</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -49,6 +49,10 @@
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\agilidad.png">
       <PackagePath>Assets\agilidad.png</PackagePath>
       <Modified>2021-05-11T10:25:59.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\ajustes.png">
+      <PackagePath>Assets\ajustes.png</PackagePath>
+      <Modified>2021-05-19T13:15:14.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\barraagilidad.png">
       <PackagePath>Assets\barraagilidad.png</PackagePath>
@@ -77,6 +81,10 @@
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\bolaAzulVacia.png">
       <PackagePath>Assets\bolaAzulVacia.png</PackagePath>
       <Modified>2021-05-19T12:42:43.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Chino.png">
+      <PackagePath>Assets\Chino.png</PackagePath>
+      <Modified>2021-05-11T10:25:59.008</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\corasao.png">
       <PackagePath>Assets\corasao.png</PackagePath>
@@ -109,6 +117,10 @@
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\hombregris.png">
       <PackagePath>Assets\hombregris.png</PackagePath>
       <Modified>2021-05-11T10:25:59.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Ingles.png">
+      <PackagePath>Assets\Ingles.png</PackagePath>
+      <Modified>2021-05-11T10:25:59.030</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Listo.png">
       <PackagePath>Assets\Listo.png</PackagePath>
@@ -182,6 +194,10 @@
       <PackagePath>Assets\toolsIcon.png</PackagePath>
       <Modified>2021-05-10T21:46:31.791</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Volveralmenu.png">
+      <PackagePath>Assets\Volveralmenu.png</PackagePath>
+      <Modified>2021-05-19T13:25:19.108</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\white.png">
       <PackagePath>Assets\white.png</PackagePath>
       <Modified>2021-05-10T19:39:42.920</Modified>
@@ -228,6 +244,10 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-10T16:57:40.463</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\España.jpg">
+      <PackagePath>Assets\España.jpg</PackagePath>
+      <Modified>2021-05-11T10:25:59.017</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\Menu.jpg">
       <PackagePath>Assets\Menu.jpg</PackagePath>
       <Modified>2021-05-11T14:12:35.446</Modified>
@@ -266,43 +286,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\DSIXamlProyect.xr.xml">
       <PackagePath>DSIXamlProyect.xr.xml</PackagePath>
-      <Modified>2021-05-19T12:38:18.628</Modified>
+      <Modified>2021-05-19T13:20:08.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-05-19T12:55:31.158</Modified>
+      <Modified>2021-05-19T13:26:26.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\Ajustes.xbf">
       <PackagePath>Ajustes.xbf</PackagePath>
-      <Modified>2021-05-19T12:55:31.158</Modified>
+      <Modified>2021-05-19T13:26:26.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\InGame.xbf">
       <PackagePath>InGame.xbf</PackagePath>
-      <Modified>2021-05-19T12:55:31.158</Modified>
+      <Modified>2021-05-19T13:26:26.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\MainMenu.xbf">
       <PackagePath>MainMenu.xbf</PackagePath>
-      <Modified>2021-05-19T12:55:31.158</Modified>
+      <Modified>2021-05-19T13:26:26.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-05-19T12:55:31.159</Modified>
+      <Modified>2021-05-19T13:26:26.871</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\ModoDeJuego.xbf">
       <PackagePath>ModoDeJuego.xbf</PackagePath>
-      <Modified>2021-05-19T12:55:31.159</Modified>
+      <Modified>2021-05-19T13:26:26.871</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\ModoLocal.xbf">
       <PackagePath>ModoLocal.xbf</PackagePath>
-      <Modified>2021-05-19T12:55:31.159</Modified>
+      <Modified>2021-05-19T13:26:26.871</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionEscenario.xbf">
       <PackagePath>SeleccionEscenario.xbf</PackagePath>
-      <Modified>2021-05-19T12:55:31.159</Modified>
+      <Modified>2021-05-19T13:26:26.871</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionPersonaje.xbf">
       <PackagePath>SeleccionPersonaje.xbf</PackagePath>
-      <Modified>2021-05-19T12:55:31.159</Modified>
+      <Modified>2021-05-19T13:26:26.871</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -310,11 +330,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-05-19T12:43:46.269</Modified>
+      <Modified>2021-05-19T13:26:27.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\Core\DSIXamlProyect.exe">
       <PackagePath>DSIXamlProyect.exe</PackagePath>
-      <Modified>2021-05-19T12:55:31.748</Modified>
+      <Modified>2021-05-19T13:26:27.559</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

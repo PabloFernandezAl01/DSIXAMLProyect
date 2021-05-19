@@ -11,7 +11,7 @@
              VerticalAlignment="Stretch"
              Stretch="Fill">
         <Canvas Height="1000"
-                Width="1500">
+                Width="1500" KeyDown="Canvas_KeyDown">
 
             <Image Source="/Assets/Fondo.png"
                    Stretch="Fill"
@@ -24,12 +24,10 @@
                         Width="467"
                         Background="Orange">
                 <TextBlock Text="Ajustes del Juego"
-                           FontSize="50"
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Center"
-                           FontFamily="Kristen ITC"
+                           FontSize="50"          
+                           Foreground="Black"
                            FontWeight="Bold"
-                           Height="124" />
+                           Height="87" Width="421" />
             </StackPanel>
             <Rectangle Height="559"
                        Canvas.Left="437"
@@ -76,22 +74,34 @@
                     Height="50"
                     FontWeight="Bold" />
             <ToggleSwitch x:Name="toggleSwitch"
+                          Foreground="Black"
                           Canvas.Left="870"
                           Canvas.Top="258"
-                          Width="168" />
+                          Width="168" 
+                            IsTabStop="True"
+                    TabIndex="1"/>
             <ToggleSwitch x:Name="toggleSwitch_Copy"
+                          Foreground="Black"
                           Canvas.Left="870"
                           Canvas.Top="406"
-                          Width="168" />
+                          Width="168"
+                            IsTabStop="True"
+                    TabIndex="2"
+                          />
             <ToggleSwitch x:Name="toggleSwitch_Copy1"
+                          Foreground="Black"
                           Canvas.Left="870"
                           Canvas.Top="560"
-                          Width="168" />
+                          Width="168" 
+                            IsTabStop="True"
+                    TabIndex="3"/>
             <RadioButton x:Name="radioButton"
                          Canvas.Left="853"
                          Canvas.Top="716"
                          Height="48"
-                         Width="153">
+                         Width="153" Foreground="Black"
+                           IsTabStop="True"
+                    TabIndex="4">
                 <Image Source="/Assets/España.jpg" />
 
             </RadioButton>
@@ -100,7 +110,11 @@
                          Canvas.Left="978"
                          Canvas.Top="716"
                          Height="48"
-                         Width="100">
+                           IsTabStop="True"
+                    TabIndex="5"
+                         Width="100" Background="#03F0A7A7" BorderBrush="Black" Foreground="Black"
+                         >
+
                 <Image Source="/Assets/Chino.png" />
 
             </RadioButton>
@@ -108,20 +122,38 @@
                          Canvas.Left="1103"
                          Canvas.Top="715"
                          Height="48"
-                         Width="97">
+                         Width="97" Foreground="Black"
+                           IsTabStop="True"
+                    TabIndex="6">
                 <Image Source="/Assets/Ingles.png" />
 
             </RadioButton>
             <Button x:Name="button1"
                     Click="GoBack"
-                    Canvas.Left="35"
-                    Canvas.Top="36"
+                    Canvas.Left="100"
+                    Canvas.Top="69"
+                    IsTabStop="True"
+                    TabIndex="0"
                     Background="Transparent"
-                    Height="119"
-                    Width="184">
+                    Height="87"
+                    Width="135">
                 <Image Source="Assets/Volver.png"
                        Stretch="Fill"
-                       FocusVisualPrimaryBrush="{x:Null}" />
+                       FocusVisualPrimaryBrush="{x:Null}" Margin="-10,-6,-10,-7" />
+            </Button>
+
+            <Button x:Name="button1copy"
+                    Click="VolverAlMenu"
+                    Canvas.Left="1116"
+                    Canvas.Top="51"
+                    IsTabStop="True"
+                    TabIndex="0"
+                    Background="Transparent"
+                    Height="123"
+                    Width="256">
+                <Image Source="Assets/Volveralmenu.png"
+                       Stretch="Fill"
+                       FocusVisualPrimaryBrush="{x:Null}" Margin="-10,-6,-10,-7" />
             </Button>
 
             <StackPanel Canvas.Left="598"
@@ -133,7 +165,7 @@
                            FontSize="30"
                            VerticalAlignment="Center"
                            HorizontalAlignment="Center"
-                           FontFamily="Kristen ITC"
+                           Foreground="Black"
                            FontWeight="Bold">
 
                 </TextBlock>
@@ -147,7 +179,7 @@
                            FontSize="30"
                            VerticalAlignment="Center"
                            HorizontalAlignment="Center"
-                           FontFamily="Kristen ITC"
+                           Foreground="Black"
                            FontWeight="Bold">
 
                 </TextBlock>
@@ -161,7 +193,7 @@
                            FontSize="30"
                            VerticalAlignment="Center"
                            HorizontalAlignment="Center"
-                           FontFamily="Kristen ITC"
+                            Foreground="Black"
                            FontWeight="Bold">
 
                 </TextBlock>
@@ -175,7 +207,7 @@
                            FontSize="30"
                            VerticalAlignment="Center"
                            HorizontalAlignment="Center"
-                           FontFamily="Kristen ITC"
+                             Foreground="Black"
                            FontWeight="Bold">
 
                 </TextBlock>
