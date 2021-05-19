@@ -7,216 +7,84 @@
       mc:Ignorable="d"
       Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Viewbox HorizontalAlignment="Stretch"
-             VerticalAlignment="Stretch"
-             Stretch="Fill">
-        <Canvas Height="1000"
-                Width="1500" KeyDown="Canvas_KeyDown">
+    <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
+        <Canvas Height="1000" Width="1500" KeyDown="Canvas_KeyDown">
+            
+            <Image Source="/Assets/Fondo.png" Stretch="Fill" Height="1000" Width="1500" />
 
-            <Image Source="/Assets/Fondo.png"
-                   Stretch="Fill"
-                   Height="1000"
-                   Width="1500" />
-
-            <StackPanel Canvas.Left="414"
-                        Canvas.Top="51"
-                        Height="123"
-                        Width="467"
-                        Background="Orange">
-                <TextBlock Text="Ajustes del Juego"
-                           FontSize="50"          
-                           Foreground="Black"
-                           FontWeight="Bold"
-                           Height="87" Width="421" />
+            <StackPanel Canvas.Left="414" Canvas.Top="51"  Height="105" Width="592" Background="Orange">
+                <TextBlock Text="Ajustes del Juego" FontSize="70" Foreground="Black" FontWeight="Bold" Height="87" Width="625"/>
             </StackPanel>
-            <Rectangle Height="559"
-                       Canvas.Left="437"
-                       Stroke="Black"
-                       StrokeThickness="4"
-                       Canvas.Top="179"
-                       Width="1" />
-            <Rectangle Height="1"
-                       Canvas.Left="443"
-                       Stroke="Black"
-                       StrokeThickness="4"
-                       Canvas.Top="273"
-                       Width="150" />
-            <Rectangle Height="1"
-                       Canvas.Left="443"
-                       Stroke="Black"
-                       StrokeThickness="4"
-                       Canvas.Top="575"
-                       Width="150" />
-            <Rectangle Height="1"
-                       Canvas.Left="443"
-                       Stroke="Black"
-                       StrokeThickness="4"
-                       Canvas.Top="737"
-                       Width="150" />
-            <Rectangle Height="1"
-                       Canvas.Left="443"
-                       Stroke="Black"
-                       StrokeThickness="4"
-                       Canvas.Top="421"
-                       Width="150" />
+
+            <Rectangle Height="577" Canvas.Left="437" Stroke="Black" StrokeThickness="4" Canvas.Top="161"  Width="1"/>
+            <Rectangle Height="1" Canvas.Left="443"  Stroke="Black" StrokeThickness="4" Canvas.Top="273"   Width="150"/>
+            <Rectangle Height="1" Canvas.Left="443"  Stroke="Black" StrokeThickness="4"  Canvas.Top="575" Width="150" />
+            <Rectangle Height="1" Canvas.Left="443" Stroke="Black" StrokeThickness="4" Canvas.Top="737"  Width="150" />
+            <Rectangle Height="1" Canvas.Left="443"  Stroke="Black" StrokeThickness="4" Canvas.Top="434" Width="153" RenderTransformOrigin="0.5,0.5" >
+                       
+                <Rectangle.RenderTransform>
+                    <CompositeTransform ScaleY="-1"/>
+                </Rectangle.RenderTransform>
+            </Rectangle>
 
 
+            <Button x:Name="button_Copy2"  Content="EMPAREJADO"  FontFamily="Kristen ITC" FontSize="20" Background="Orange"
+                    Foreground="Black" Canvas.Left="598" Canvas.Top="713"  Width="250"  Height="50"  FontWeight="Bold" />
 
-            <Button x:Name="button_Copy2"
-                    Content="EMPAREJADO"
-                    FontFamily="Kristen ITC"
-                    FontSize="20"
-                    Background="Orange"
-                    Foreground="Black"
-                    Canvas.Left="598"
-                    Canvas.Top="713"
-                    Width="250"
-                    Height="50"
-                    FontWeight="Bold" />
-            <ToggleSwitch x:Name="toggleSwitch"
-                          Foreground="Black"
-                          Canvas.Left="870"
-                          Canvas.Top="258"
-                          Width="168" 
-                            IsTabStop="True"
-                    TabIndex="1"/>
-            <ToggleSwitch x:Name="toggleSwitch_Copy"
-                          Foreground="Black"
-                          Canvas.Left="870"
-                          Canvas.Top="406"
-                          Width="168"
-                            IsTabStop="True"
-                    TabIndex="2"
-                          />
-            <ToggleSwitch x:Name="toggleSwitch_Copy1"
-                          Foreground="Black"
-                          Canvas.Left="870"
-                          Canvas.Top="560"
-                          Width="168" 
-                            IsTabStop="True"
-                    TabIndex="3"/>
-            <RadioButton x:Name="radioButton"
-                         Canvas.Left="853"
-                         Canvas.Top="716"
-                         Height="48"
-                         Width="153" Foreground="Black"
-                           IsTabStop="True"
-                    TabIndex="4">
+            <Button x:Name="MusicaButton" Width="70" Height="70" Canvas.Left="1000" Canvas.Top="240" Background="Red" TabIndex="1"
+                    BorderBrush="Black" BorderThickness="3" Click="MusicaButtonClick"/>
+
+            <Button x:Name="EfectosButton" Width="70" Height="70" Canvas.Left="1000" Canvas.Top="400" Background="Red" TabIndex="2"
+                    BorderBrush="Black" BorderThickness="3" Click="EfectosButtonClick"/>
+
+            <Button x:Name="TutorialesButton" Width="70" Height="70" Canvas.Left="1000" Canvas.Top="540" Background="Red" TabIndex="3"
+                    BorderBrush="Black" BorderThickness="3" Click="TutorialesButtonClick"/>
+
+            <RadioButton x:Name="radioButton" Canvas.Left="883" Canvas.Top="716"  Height="48"  Foreground="Black"
+                        TabIndex="4">
                 <Image Source="/Assets/España.jpg" />
-
             </RadioButton>
 
-            <RadioButton x:Name="radioButton1"
-                         Canvas.Left="978"
-                         Canvas.Top="716"
-                         Height="48"
-                           IsTabStop="True"
-                    TabIndex="5"
-                         Width="100" Background="#03F0A7A7" BorderBrush="Black" Foreground="Black"
-                         >
-
-                <Image Source="/Assets/Chino.png" />
-
+            <RadioButton x:Name="radioButton1"  Canvas.Left="1058" Canvas.Top="716"  Height="48" TabIndex="5"
+                         Width="100" Background="#03F0A7A7" BorderBrush="Black" Foreground="Black">
+                <Image Source="/Assets/Chino.png"/>
             </RadioButton>
-            <RadioButton x:Name="radioButton2"
-                         Canvas.Left="1103"
-                         Canvas.Top="715"
-                         Height="48"
-                         Width="97" Foreground="Black"
-                           IsTabStop="True"
-                    TabIndex="6">
+
+            <RadioButton x:Name="radioButton2" Canvas.Left="1203" Canvas.Top="715"   Height="48" Width="97" Foreground="Black"
+                           TabIndex="6">
                 <Image Source="/Assets/Ingles.png" />
-
             </RadioButton>
-            <Button x:Name="button1"
-                    Click="GoBack"
-                    Canvas.Left="100"
-                    Canvas.Top="69"
-                    IsTabStop="True"
-                    TabIndex="0"
-                    Background="Transparent"
-                    Height="87"
-                    Width="135">
-                <Image Source="Assets/Volver.png"
-                       Stretch="Fill"
-                       FocusVisualPrimaryBrush="{x:Null}" Margin="-10,-6,-10,-7" />
+
+            <Button x:Name="button1" Click="GoBack" Canvas.Left="50"  Canvas.Top="40" IsTabStop="True" TabIndex="0" Background="Transparent"
+                    Height="127" Width="205">
+                <Image Source="Assets/Volver.png" Stretch="Fill"/>
             </Button>
 
-            <Button x:Name="button1copy"
-                    Click="VolverAlMenu"
-                    Canvas.Left="1116"
-                    Canvas.Top="51"
-                    IsTabStop="True"
-                    TabIndex="0"
-                    Background="Transparent"
-                    Height="123"
-                    Width="256">
-                <Image Source="Assets/Volveralmenu.png"
-                       Stretch="Fill"
-                       FocusVisualPrimaryBrush="{x:Null}" Margin="-10,-6,-10,-7" />
+            <Button x:Name="button1copy" Click="VolverAlMenu" Canvas.Left="1116" Canvas.Top="51"  IsTabStop="True" TabIndex="7"
+                    Background="Transparent"  Height="123" Width="256">
+                <Image Source="Assets/Volveralmenu.png" Stretch="Fill"  Margin="-10,-6,-10,-7" />
             </Button>
 
-            <StackPanel Canvas.Left="598"
-                        Canvas.Top="249"
-                        Width="175"
-                        Height="50"
-                        Background="Orange">
-                <TextBlock Text="MUSICA"
-                           FontSize="30"
-                           VerticalAlignment="Center"
-                           HorizontalAlignment="Center"
-                           Foreground="Black"
-                           FontWeight="Bold">
-
-                </TextBlock>
-            </StackPanel>
-            <StackPanel Canvas.Left="598"
-                        Canvas.Top="397"
-                        Width="175"
-                        Height="50"
-                        Background="Orange">
-                <TextBlock Text="EFECTOS"
-                           FontSize="30"
-                           VerticalAlignment="Center"
-                           HorizontalAlignment="Center"
-                           Foreground="Black"
-                           FontWeight="Bold">
-
-                </TextBlock>
-            </StackPanel>
-            <StackPanel Canvas.Left="598"
-                        Canvas.Top="551"
-                        Width="250"
-                        Height="50"
-                        Background="Orange">
-                <TextBlock Text="TUTORIALES"
-                           FontSize="30"
-                           VerticalAlignment="Center"
-                           HorizontalAlignment="Center"
-                            Foreground="Black"
-                           FontWeight="Bold">
-
-                </TextBlock>
-            </StackPanel>
-            <StackPanel Canvas.Left="598"
-                        Canvas.Top="713"
-                        Width="250"
-                        Height="50"
-                        Background="Orange">
-                <TextBlock Text="EMPAREJADO"
-                           FontSize="30"
-                           VerticalAlignment="Center"
-                           HorizontalAlignment="Center"
-                             Foreground="Black"
-                           FontWeight="Bold">
-
-                </TextBlock>
+            <StackPanel Canvas.Left="598" Canvas.Top="249"  Width="175"  Height="50"  Background="Orange">
+                <TextBlock Text="MUSICA" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center" 
+                           Foreground="Black" FontWeight="Bold"/>
             </StackPanel>
 
+            <StackPanel Canvas.Left="596"  Canvas.Top="410"  Width="175" Height="50" Background="Orange">
+                <TextBlock Text="EFECTOS" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"  Foreground="Black"
+                        FontWeight="Bold"/>
 
+            </StackPanel>
 
+            <StackPanel Canvas.Left="598" Canvas.Top="551"  Width="250" Height="50" Background="Orange">
+                <TextBlock Text="TUTORIALES"  FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center" 
+                            Foreground="Black"  FontWeight="Bold"/>
+            </StackPanel>
 
-
+            <StackPanel Canvas.Left="598"  Canvas.Top="713"  Width="250"  Height="50" IsTapEnabled="False" Background="Orange">
+                <TextBlock Text="EMPAREJADO" FontSize="30" VerticalAlignment="Center " HorizontalAlignment="Center"
+                             Foreground="Black"  FontWeight="Bold"/>
+            </StackPanel>
         </Canvas>
     </Viewbox>
 </Page>

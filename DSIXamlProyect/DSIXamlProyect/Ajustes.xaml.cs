@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -21,11 +22,14 @@ namespace DSIXamlProyect
     /// <summary>
     /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
+
     public sealed partial class Ajustes : Page
     {
+        bool one, two, three;
         public Ajustes()
         {
             this.InitializeComponent();
+            one = two = three = false;
         }
 
         private void GoBack(object sender, RoutedEventArgs e)
@@ -51,14 +55,34 @@ namespace DSIXamlProyect
             DependencyObject candidate = null; //Candidato a ser el siguiente foco 
 
             //Teclado
-            if (e.Key == VirtualKey.Down || e.Key == VirtualKey.Right || e.Key == VirtualKey.GamepadDPadDown) findNextElement(candidate, FocusNavigationDirection.Next);
-            else if (e.Key == VirtualKey.Up || e.Key == VirtualKey.Left || e.Key == VirtualKey.GamepadDPadUp) findNextElement(candidate, FocusNavigationDirection.Previous);
+            if (e.Key == VirtualKey.Down || e.Key == VirtualKey.GamepadDPadDown) findNextElement(candidate, FocusNavigationDirection.Down);
+            else if (e.Key == VirtualKey.Up ||  e.Key == VirtualKey.GamepadDPadUp) findNextElement(candidate, FocusNavigationDirection.Up);
+            else if (e.Key == VirtualKey.Left ||  e.Key == VirtualKey.GamepadDPadLeft) findNextElement(candidate, FocusNavigationDirection.Left);
+            else if (e.Key == VirtualKey.Right || e.Key == VirtualKey.GamepadDPadRight) findNextElement(candidate, FocusNavigationDirection.Right);
             e.Handled = true;
         }
 
-        private void button1copy_Click(object sender, RoutedEventArgs e)
+        void click(ref bool a, Button b)
         {
+            a = !a;
+            
+            if(a) b.Background = new SolidColorBrush(Windows.UI.Colors.Green);
+            else b.Background = new SolidColorBrush(Windows.UI.Colors.Red);
+        }
 
+        private void MusicaButtonClick(object sender, RoutedEventArgs e)
+        {
+            click(ref one, MusicaButton);
+        }
+
+        private void EfectosButtonClick(object sender, RoutedEventArgs e)
+        {
+            click(ref two, EfectosButton);
+        }
+
+        private void TutorialesButtonClick(object sender, RoutedEventArgs e)
+        {
+            click(ref three, TutorialesButton);
         }
     }
 }

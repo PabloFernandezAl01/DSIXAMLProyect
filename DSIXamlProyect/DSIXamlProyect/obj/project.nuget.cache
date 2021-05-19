@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KHdwyjF0smQbX4dZ1PWhM7THJCSW9QNKhgbTS7d658B64IArHUs0NhmzlgwZ8Ue4anIMKd2JDWzHOYDZmcUDAg==",
+  "dgSpecHash": "Ge3qkRl6V7kNiRkKkja1ncmWpXIUyOPaG9ILSHFe/O1MJvmiBelGhXTOvqUBa23TtkdQjrnXvtKR0dLdTr7CRA==",
   "success": true,
-  "projectFilePath": "D:\\Usuarios\\Ivism18\\Escritorio\\DSIXAMLProyect\\DSIXamlProyect\\DSIXamlProyect\\DSIXamlProyect.csproj",
+  "projectFilePath": "C:\\Users\\pablo\\OneDrive\\Escritorio\\DSI\\DSIXAMLProyect\\DSIXamlProyect\\DSIXamlProyect\\DSIXamlProyect.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

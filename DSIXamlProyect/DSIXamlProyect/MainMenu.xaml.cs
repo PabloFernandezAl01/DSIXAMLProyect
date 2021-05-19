@@ -28,7 +28,7 @@ namespace DSIXamlProyect
         {
             this.InitializeComponent();
 
-            Idioma.actual = Idioma.Idiomas.Aleman;
+            Idioma.actual = Idioma.Idiomas.Castellano;
 
             BotonJugar.Text = Idioma.getText(Idioma.Texto.jugar);
             BotonAjustes.Text = Idioma.getText(Idioma.Texto.opciones);

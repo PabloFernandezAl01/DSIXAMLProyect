@@ -22,10 +22,10 @@
 
                 <Image Source="Assets/InGame.png" Stretch="Fill" Height="1000" Width="1500"/>
 
-                <Image Source="Assets/blue.png" Height="194" Width="232" Stretch="Fill"/>
+                <Image Source="Assets/blue.png" Height="194" Width="232" Stretch="Fill" Opacity="0.6"/>
                 <TextBlock Text="5" FontSize="150" Height="200" Width="75" Canvas.Top="-12" Canvas.Left="76" Foreground="Black"/>
 
-                <Image Source="Assets/red.png" Height="194" Width="232" Canvas.Left="1268" Stretch="Fill"/>
+                <Image Source="Assets/red.png" Height="194" Width="232" Canvas.Left="1268" Stretch="Fill" Opacity="0.6"/>
                 <TextBlock Text="2" FontSize="150" Height="200" Width="75" Canvas.Top="-12" Canvas.Left="1344" Foreground="Black"/>
 
                 <Image Source="Assets/joystick.png" Canvas.Top="653" Height="297" Width="272" Canvas.Left="76"/>
@@ -38,12 +38,14 @@
                     <Image Source="Assets/circuloAmarillo.png"   Height="106" Width="106" Stretch="Fill" Margin="-10,-6,-10,-7" />
                 </Button>
 
-                <Button x:ConnectionId='5' Canvas.Left="1331" Canvas.Top="194" Height="106" Width="106"                      IsTabStop="True" TabIndex="2">
+                <Button x:ConnectionId='5' Canvas.Left="1384" Canvas.Top="194" Height="106" Width="106"                      IsTabStop="True" TabIndex="2">
                     <Image Source="Assets/toolsIcon.png"   Height="106" Width="106" Stretch="Fill" Margin="-10,-6,-10,-7" />
                 </Button>
 
                 <Image x:ConnectionId='6' x:Name="jugadorRojo" Source="Assets/redPerson.png" Height="233" Width="133" Canvas.Left="477" Canvas.Top="556" Stretch="Fill"/>
-                <Image x:ConnectionId='7'  x:Name="jugadorAzul" Source="Assets/bluePerson.png" Height="193" Width="110" Canvas.Left="885" Canvas.Top="383" Stretch="Fill"/>
+                <ContentControl x:ConnectionId='7' x:Name="jugadorAzul" Height="193" Width="110" Canvas.Left="885" Canvas.Top="383" TabIndex="3">
+                    <Image Source="Assets/bluePerson.png" Stretch="Fill"/>
+                </ContentControl>
 
                 <Image x:ConnectionId='8' x:Name="tennis" Source="Assets/tennisballblue.png" Height="50" Width="50" Canvas.Left="633" Canvas.Top="411" Stretch="Fill" RenderTransformOrigin="2.167,0.3"/>
                 <Image x:ConnectionId='9' x:Name="habilidad" Visibility="Collapsed" Source="Assets/habilidadbola.png" Height="76" Width="96" Canvas.Left="392.875" Canvas.Top="586" Stretch="Fill" RenderTransformOrigin="2.167,0.3" UseLayoutRounding="False" d:LayoutRounding="Auto">

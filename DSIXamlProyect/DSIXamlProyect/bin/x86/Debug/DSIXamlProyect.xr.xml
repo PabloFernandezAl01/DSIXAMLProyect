@@ -28,8 +28,8 @@
       <RootProperty Name="Stretch" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
-      <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Opacity" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="UseLayoutRounding" />
@@ -40,6 +40,7 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
+      <RootProperty Name="IsTapEnabled" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="Orientation" />
@@ -49,6 +50,8 @@
       <RootProperty Name="Stroke" />
       <RootProperty Name="StrokeThickness" />
       <RootProperty Name="Width" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
@@ -59,32 +62,25 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="FontWeight" />
-      <RootProperty Name="IsTabStop" />
       <RootProperty Name="TabIndex" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="IsTabStop" />
       <RootProperty Name="IsEnabled" />
       <RootProperty Name="UseSystemFocusVisuals" />
       <RootProperty Name="Margin" />
       <RootProperty Name="FontStretch" />
       <RootProperty Name="Opacity" />
-      <RootProperty Name="BorderBrush" />
-      <RootProperty Name="BorderThickness" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="RenderTransform" />
       <RootEvent Name="Click" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ToggleSwitch">
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="IsTabStop" />
-      <RootProperty Name="TabIndex" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
       <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="IsTabStop" />
       <RootProperty Name="TabIndex" />
       <RootProperty Name="Content" />
+      <RootProperty Name="Width" />
       <RootProperty Name="Background" />
       <RootProperty Name="BorderBrush" />
     </RootType>
@@ -102,7 +98,11 @@
       <RootProperty Name="FontStretch" />
       <RootProperty Name="Margin" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
+    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
+      <RootProperty Name="ScaleY" />
+      <RootProperty Name="Rotation" />
+      <RootProperty Name="ScaleX" />
+    </RootType>
     <RootType FullName="DSIXamlProyect.Ajustes" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="ColumnDefinitions" />
@@ -119,9 +119,11 @@
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
-      <RootProperty Name="Rotation" />
-      <RootProperty Name="ScaleX" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="TabIndex" />
+      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="DSIXamlProyect.InGame" />
     <RootType FullName="DSIXamlProyect.MainMenu" />
