@@ -103,8 +103,8 @@ namespace DSIXamlProyect
             DependencyObject candidate = null; //Candidato a ser el siguiente foco 
 
             //Teclado
-            if (e.Key == VirtualKey.Down || e.Key == VirtualKey.GamepadDPadDown) findNextElement(candidate, FocusNavigationDirection.Next);
-            else if (e.Key == VirtualKey.Up || e.Key == VirtualKey.GamepadDPadUp) findNextElement(candidate, FocusNavigationDirection.Previous);
+            if (e.Key == VirtualKey.Down ||e.Key == VirtualKey.Right || e.Key == VirtualKey.GamepadDPadDown) findNextElement(candidate, FocusNavigationDirection.Next);
+            else if (e.Key == VirtualKey.Up ||e.Key == VirtualKey.Left ||e.Key == VirtualKey.GamepadDPadUp) findNextElement(candidate, FocusNavigationDirection.Previous);
             e.Handled = true; //Activar el manejo del objeto
         }
     }
