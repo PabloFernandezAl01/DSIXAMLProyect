@@ -159,12 +159,14 @@
     <Content Include="Assets\barravida.png" />
     <Content Include="Assets\blackOutstand.png" />
     <Content Include="Assets\bola.png" />
+    <Content Include="Assets\bolaAzulVacia.png" />
     <Content Include="Assets\corasao.png" />
     <Content Include="Assets\exit_icon.png" />
     <Content Include="Assets\flecha.png" />
     <Content Include="Assets\flechacaida.png" />
     <Content Include="Assets\fuerza.png" />
     <Content Include="Assets\habilidad.png" />
+    <Content Include="Assets\habilidadbola.png" />
     <Content Include="Assets\hombregris.png" />
     <Content Include="Assets\Listo.png" />
     <Content Include="Assets\listocirculo.png" />
@@ -183,6 +185,8 @@
     <Content Include="Assets\red.png" />
     <Content Include="Assets\redPerson.png" />
     <Content Include="Assets\spain_flag.png" />
+    <Content Include="Assets\tennisballblue.png" />
+    <Content Include="Assets\tennisballred.png" />
     <Content Include="Assets\toolsIcon.png" />
     <Content Include="Assets\user_icon.jpg" />
     <Content Include="Assets\white.png" />

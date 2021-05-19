@@ -55,6 +55,9 @@
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\bola.png">
       <PackagePath>Assets\bola.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\bolaAzulVacia.png">
+      <PackagePath>Assets\bolaAzulVacia.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\corasao.png">
       <PackagePath>Assets\corasao.png</PackagePath>
     </AppxPackagedFile>
@@ -72,6 +75,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\habilidad.png">
       <PackagePath>Assets\habilidad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\habilidadbola.png">
+      <PackagePath>Assets\habilidadbola.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\hombregris.png">
       <PackagePath>Assets\hombregris.png</PackagePath>
@@ -120,6 +126,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\spain_flag.png">
       <PackagePath>Assets\spain_flag.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\tennisballblue.png">
+      <PackagePath>Assets\tennisballblue.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\tennisballred.png">
+      <PackagePath>Assets\tennisballred.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\Assets\toolsIcon.png">
       <PackagePath>Assets\toolsIcon.png</PackagePath>

@@ -18,7 +18,7 @@
 
 
         <Viewbox Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
-            <Canvas Width="1500" Height="1000">
+            <Canvas Width="1500" Height="1000" KeyDown="Canvas_KeyDown">
 
                 <Image Source="Assets/InGame.png" Stretch="Fill" Height="1000" Width="1500"/>
 
@@ -30,20 +30,27 @@
 
                 <Image Source="Assets/joystick.png" Canvas.Top="653" Height="297" Width="272" Canvas.Left="76"/>
 
-                <Button Canvas.Left="1177" Canvas.Top="678" Height="248" Width="248">
-                    <Image Source="Assets/bolaAzul.jpg"  Height="248" Width="248" Stretch="Fill" Margin="-10,-6,-10,-7" />
+                <Button Canvas.Left="1177" Canvas.Top="678" Height="248" Width="248"  TabIndex="1" IsTabStop="True" Click="Ability_Click">
+                    <Image x:Name="bolaHabilidad" Source="Assets/bolaAzul.jpg"  Height="248" Width="248" Stretch="Fill" Margin="-10,-6,-10,-7" />
                 </Button>
 
-                <Button Canvas.Left="1071" Canvas.Top="844" Height="106" Width="106"  >
+                <Button Canvas.Left="1071" Canvas.Top="844" Height="106" Width="106"    TabIndex="0" IsTabStop="True" Click="Hit_Click">
                     <Image Source="Assets/circuloAmarillo.png"   Height="106" Width="106" Stretch="Fill" Margin="-10,-6,-10,-7" />
                 </Button>
 
-                <Button Canvas.Left="1331" Canvas.Top="194" Height="106" Width="106"  Click="GoToAjustes">
+                <Button Canvas.Left="1331" Canvas.Top="194" Height="106" Width="106"  Click="GoToAjustes" IsTabStop="True" TabIndex="2">
                     <Image Source="Assets/toolsIcon.png"   Height="106" Width="106" Stretch="Fill" Margin="-10,-6,-10,-7" />
                 </Button>
 
-                <Image Source="Assets/redPerson.png" Height="233" Width="133" Canvas.Left="477" Canvas.Top="556" Stretch="Fill"/>
-                <Image Source="Assets/bluePerson.png" Height="193" Width="110" Canvas.Left="885" Canvas.Top="383" Stretch="Fill"/>
+                <Image x:Name="jugadorRojo" Source="Assets/redPerson.png" Height="233" Width="133" Canvas.Left="477" Canvas.Top="556" Stretch="Fill"/>
+                <Image  x:Name="jugadorAzul" Source="Assets/bluePerson.png" Height="193" Width="110" Canvas.Left="885" Canvas.Top="383" Stretch="Fill"/>
+
+                <Image x:Name="tennis" Source="Assets/tennisballblue.png" Height="50" Width="50" Canvas.Left="633" Canvas.Top="411" Stretch="Fill" RenderTransformOrigin="2.167,0.3"/>
+                <Image x:Name="habilidad" Visibility="Collapsed" Source="Assets/habilidadbola.png" Height="76" Width="96" Canvas.Left="392.875" Canvas.Top="586" Stretch="Fill" RenderTransformOrigin="2.167,0.3" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                    <Image.RenderTransform>
+                        <CompositeTransform Rotation="-243.486"/>
+                    </Image.RenderTransform>
+                </Image>
 
             </Canvas>
         </Viewbox>

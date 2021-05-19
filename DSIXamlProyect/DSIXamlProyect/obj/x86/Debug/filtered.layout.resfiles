@@ -10,6 +10,7 @@ Assets\blue.png
 Assets\bluePerson.png
 Assets\bola.png
 Assets\bolaAzul.jpg
+Assets\bolaAzulVacia.png
 Assets\botonListo1.png
 Assets\circuloAmarillo.png
 Assets\corasao.png
@@ -24,6 +25,7 @@ Assets\flechacaida.png
 Assets\Fondo.png
 Assets\fuerza.png
 Assets\habilidad.png
+Assets\habilidadbola.png
 Assets\hombregris.png
 Assets\InGame.png
 Assets\joystick.png
@@ -42,6 +44,8 @@ Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
+Assets\tennisballblue.png
+Assets\tennisballred.png
 Assets\toolsIcon.png
 Assets\user_icon.jpg
 Assets\Volver.png
