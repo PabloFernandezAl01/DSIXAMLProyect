@@ -327,3 +327,8 @@ C:\Users\Yojhan\Documents\Universidad\Diseño Sistemas Interactivos\DSIXAMLProye
 C:\Users\Yojhan\Documents\Universidad\Diseño Sistemas Interactivos\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionIdioma.xaml
 C:\Users\Yojhan\Documents\Universidad\Diseño Sistemas Interactivos\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionIdioma.xbf
 C:\Users\Yojhan\Documents\Universidad\Diseño Sistemas Interactivos\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionIdioma.xbf
+C:\Users\pablo\OneDrive\Escritorio\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionIdioma.xbf
+C:\Users\pablo\OneDrive\Escritorio\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionIdioma.g.i.cs
+C:\Users\pablo\OneDrive\Escritorio\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionIdioma.g.cs
+C:\Users\pablo\OneDrive\Escritorio\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionIdioma.xaml
+C:\Users\pablo\OneDrive\Escritorio\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionIdioma.xbf

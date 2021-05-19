@@ -27,7 +27,6 @@ namespace DSIXamlProyect
 
         string[] imagesSrc;
         Image[] images;
-        string[] nombres;
 
         int index = 0;
 

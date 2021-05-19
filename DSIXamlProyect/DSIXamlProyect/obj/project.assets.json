@@ -4098,7 +4098,7 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
@@ -8151,24 +8151,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yojhan\\.nuget\\packages\\": {},
+    "C:\\Users\\pablo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yojhan\\Documents\\Universidad\\Diseño Sistemas Interactivos\\DSIXAMLProyect\\DSIXamlProyect\\DSIXamlProyect\\DSIXamlProyect.csproj",
+      "projectUniqueName": "C:\\Users\\pablo\\OneDrive\\Escritorio\\DSI\\DSIXAMLProyect\\DSIXamlProyect\\DSIXamlProyect\\DSIXamlProyect.csproj",
       "projectName": "DSIXamlProyect",
-      "projectPath": "C:\\Users\\Yojhan\\Documents\\Universidad\\Diseño Sistemas Interactivos\\DSIXAMLProyect\\DSIXamlProyect\\DSIXamlProyect\\DSIXamlProyect.csproj",
-      "packagesPath": "C:\\Users\\Yojhan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yojhan\\Documents\\Universidad\\Diseño Sistemas Interactivos\\DSIXAMLProyect\\DSIXamlProyect\\DSIXamlProyect\\obj\\",
+      "projectPath": "C:\\Users\\pablo\\OneDrive\\Escritorio\\DSI\\DSIXAMLProyect\\DSIXamlProyect\\DSIXamlProyect\\DSIXamlProyect.csproj",
+      "packagesPath": "C:\\Users\\pablo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pablo\\OneDrive\\Escritorio\\DSI\\DSIXAMLProyect\\DSIXamlProyect\\DSIXamlProyect\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Yojhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

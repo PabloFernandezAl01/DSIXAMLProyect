@@ -9,17 +9,17 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
-        <Canvas Width="1500" Height="1000">
+        <Canvas Width="1500" Height="1000" KeyDown="Canvas_KeyDown">
             <Image  x:Name="Fondo" Source="Assets/Fondo.png" Stretch="Fill" Height="1000" Width="1500" />
-            <Button x:Name="volver" Background="Transparent" FontStretch="Normal" Height="150" Width="250">
+            <Button x:Name="volver" Background="Transparent" FontStretch="Normal" Click="GoBack" TabIndex="0" Height="150" Width="250">
                 <Image Source="/Assets/Volver.png" AutomationProperties.Name="Slice" Stretch="Fill" />
             </Button>
-            <TextBlock Canvas.Left="300" Canvas.Top="80" Text="Seleccion de personaje" FontSize="80" FontStretch="Condensed" 
+            <TextBlock Canvas.Left="300" Canvas.Top="40" Text="Seleccion de personaje" FontSize="80" FontStretch="Condensed" 
                     FontFamily="Kristen ITC" Foreground="Black" Height="100" Width="1000"/>
-            <Button x:Name="Derecha" Height="138" Background="Transparent" Width="240" FontStretch="Normal" Canvas.Top="500" Canvas.Left="1200">
+            <Button x:Name="Derecha" Height="138" Background="Transparent" Click="rightClick" Width="240" TabIndex="2" FontStretch="Normal" Canvas.Top="500" Canvas.Left="1200">
                 <Image Source="/Assets/flecha.png"/>
             </Button>
-            <Button x:Name="Izquierda" Height="138" Background="Transparent" Width="240" FontStretch="Normal" Canvas.Top="500" Canvas.Left="50">
+            <Button x:Name="Izquierda" Height="138" Background="Transparent" Click="leftClick" TabIndex="1" Width="240" FontStretch="Normal" Canvas.Top="500" Canvas.Left="50">
                 <Image Source="/Assets/flecha.png" RenderTransformOrigin="0.5,0.5">
                     <Image.RenderTransform>
                         <TransformGroup>
@@ -59,16 +59,17 @@
                     <Image Source="Assets/barrahabilidad.png" Width="395"/>
                 </StackPanel>
             </StackPanel>
-            <Button x:Name="Listo" Background="Transparent" FontStretch="Normal" Width="200" Height="200" Canvas.Left="1200" Canvas.Top="800">
+            <Button x:Name="Listo" Background="Transparent" TabIndex="3" Click="GoToEscenario" FontStretch="Normal" Width="200" Height="200" Canvas.Left="1200" Canvas.Top="800">
                 <Image Source="/Assets/listocirculo.png" />
             </Button>
-            <Image Source="Assets/hombregris.png"  Canvas.Left="800" Canvas.Top="200"/>
-            <Image Source="Assets/hombregris.png"  Canvas.Left="400" Canvas.Top="200"/>
-            <Image Source="Assets/hombregris.png"  Canvas.Left="900" Canvas.Top="350"/>
-            <Image Source="Assets/hombregris.png"  Canvas.Left="300" Canvas.Top="350"/>
-            <Image Source="Assets/persona.png" Canvas.Left="600" Canvas.Top="400"/>
-            <Image Source="Assets/flechacaida.png" Canvas.Left="500" Canvas.Top="650" />
-            <Image Source="Assets/flechacaida.png" Canvas.Left="800" Canvas.Top="650" RenderTransformOrigin="0.5,0.5" >
+            <Image x:Name="Player4" Source="Assets/hombregris.png"  Canvas.Left="750" Canvas.Top="150"/>
+            <Image x:Name="Player3" Source="Assets/hombregris.png"  Canvas.Left="450" Canvas.Top="150"/>
+            <Image x:Name="Player5" Source="Assets/hombregris.png"  Canvas.Left="870" Canvas.Top="380"/>
+            <Image x:Name="Player2" Source="Assets/hombregris.png"  Canvas.Left="340" Canvas.Top="380"/>
+            <Image x:Name="Player1" Source="Assets/hombregris.png" Canvas.Left="600" Canvas.Top="450"/>
+            <Image x:Name="MainPlayer" Source="Assets/persona.png" Canvas.Left="600" Canvas.Top="450"/>
+            <Image Source="Assets/flechacaida.png" Canvas.Left="500" Canvas.Top="700" />
+            <Image Source="Assets/flechacaida.png" Canvas.Left="800" Canvas.Top="700" RenderTransformOrigin="0.5,0.5" >
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="-1"/>

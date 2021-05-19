@@ -93,7 +93,7 @@
                       Canvas.Left="1211"
                       Canvas.Top="426"
                       Opacity="0.5"
-                      Click="GoToEscenario"
+                      Click="GoToPersonaje"
                       Height="128"
                       Background="Transparent"
                       Width="218"

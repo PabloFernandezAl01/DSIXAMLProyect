@@ -56,9 +56,9 @@ namespace DSIXamlProyect
                 this.Frame.GoBack();
         }
 
-        private void GoToEscenario(object sender, RoutedEventArgs e)
+        private void GoToPersonaje(object sender, RoutedEventArgs e)
         {
-            if (selectioned) this.Frame.Navigate(typeof(SeleccionEscenario));
+            if (selectioned) this.Frame.Navigate(typeof(SeleccionPersonaje));
         }
 
         void removeFocusAndAlphaToAll()
