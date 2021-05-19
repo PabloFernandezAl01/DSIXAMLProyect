@@ -77,31 +77,32 @@
                         FontSize="40"
                         Foreground="Black" />
             </StackPanel>
-            
+
             <Button   AutomationProperties.Name="Volver"
-                      Height="138"
+                      Height="109"
                       Click="GoBack"
                       Background="Transparent"
-                      Width="240"
-                      HorizontalAlignment="Left"
-                      VerticalAlignment="Top"
-                      Margin="20,70,0,0">
+                      Width="190"
+                      Margin="20,70,0,0" Canvas.Left="77" Canvas.Top="4">
                 <Image Source="/Assets/Volver.png"
-                       AutomationProperties.Name="Slice" />
+                       AutomationProperties.Name="Slice" Stretch="Fill" Margin="-10,-6,-10,-7" />
             </Button>
             <Button   AutomationProperties.Name="Listo"
                       x:Name="Listo"
-                      Canvas.Left="1200"
-                      Canvas.Top="400"
+                      Canvas.Left="1211"
+                      Canvas.Top="426"
                       Opacity="0.5"
                       Click="GoToEscenario"
-                      Height="158"
+                      Height="128"
                       Background="Transparent"
-                      Width="270"
+                      Width="218"
                       Margin="20,20,0,0"
                       RenderTransformOrigin="0.51,0.504">
+                <Button.RenderTransform>
+                    <CompositeTransform Rotation="0"/>
+                </Button.RenderTransform>
                 <Image Source="/Assets/listo.png"
-                       AutomationProperties.Name="Slice"/>
+                       AutomationProperties.Name="Slice" Stretch="Fill" Margin="-10,-6,-10,-7"/>
             </Button>
 
             <TextBox Text="Jugador"

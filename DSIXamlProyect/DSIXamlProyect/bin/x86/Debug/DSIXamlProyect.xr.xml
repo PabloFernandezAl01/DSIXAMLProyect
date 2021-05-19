@@ -57,9 +57,6 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="FontWeight" />
-      <RootProperty Name="FocusVisualSecondaryBrush" />
-      <RootProperty Name="FocusVisualPrimaryBrush" />
-      <RootProperty Name="BorderBrush" />
       <RootProperty Name="IsEnabled" />
       <RootProperty Name="UseSystemFocusVisuals" />
       <RootProperty Name="IsTabStop" />
@@ -67,10 +64,10 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="FontStretch" />
       <RootProperty Name="Opacity" />
+      <RootProperty Name="BorderBrush" />
       <RootProperty Name="BorderThickness" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ToggleSwitch">
@@ -130,10 +127,11 @@
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="Margin" />
     </RootType>
-    <RootType FullName="DSIXamlProyect.ModoLocal" />
     <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
+      <RootProperty Name="Rotation" />
       <RootProperty Name="ScaleX" />
     </RootType>
+    <RootType FullName="DSIXamlProyect.ModoLocal" />
     <RootType FullName="DSIXamlProyect.SeleccionEscenario" />
     <RootType FullName="Windows.UI.Xaml.Media.TransformGroup">
       <RootProperty Name="Children" />

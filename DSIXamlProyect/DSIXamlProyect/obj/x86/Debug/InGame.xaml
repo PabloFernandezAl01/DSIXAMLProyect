@@ -30,15 +30,15 @@
 
                 <Image Source="Assets/joystick.png" Canvas.Top="653" Height="297" Width="272" Canvas.Left="76"/>
 
-                <Button Canvas.Left="1177" Canvas.Top="678" Height="248" Width="248" Background="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}">
+                <Button Canvas.Left="1177" Canvas.Top="678" Height="248" Width="248">
                     <Image Source="Assets/bolaAzul.jpg"  Height="248" Width="248" Stretch="Fill" Margin="-10,-6,-10,-7" />
                 </Button>
 
-                <Button Canvas.Left="1071" Canvas.Top="844" Height="106" Width="106" Background="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" >
+                <Button Canvas.Left="1071" Canvas.Top="844" Height="106" Width="106"  >
                     <Image Source="Assets/circuloAmarillo.png"   Height="106" Width="106" Stretch="Fill" Margin="-10,-6,-10,-7" />
                 </Button>
 
-                <Button x:ConnectionId='2' Canvas.Left="1331" Canvas.Top="194" Height="106" Width="106" Background="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}"                    >
+                <Button x:ConnectionId='2' Canvas.Left="1331" Canvas.Top="194" Height="106" Width="106"                     >
                     <Image Source="Assets/toolsIcon.png"   Height="106" Width="106" Stretch="Fill" Margin="-10,-6,-10,-7" />
                 </Button>
 

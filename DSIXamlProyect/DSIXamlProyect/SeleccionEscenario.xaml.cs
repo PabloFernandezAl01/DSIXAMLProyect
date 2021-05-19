@@ -25,15 +25,20 @@ namespace DSIXamlProyect
     public sealed partial class SeleccionEscenario : Page
     {
 
-        string[] imagesSrc = { "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg" };
-        Image[] images = new Image[5];
-        string[] nombres = { "Estadio Espinaca", "Estadio Lechuga", "Estadio Yojhan", "Estadio Estadio", "Amamos XAML" };
+        string[] imagesSrc;
+        Image[] images;
+        string[] nombres;
 
         int index = 0;
 
         public SeleccionEscenario()
         {
+            imagesSrc = new string[] { "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg" };
+            images = new Image[5];
+            nombres = new string[] { "Estadio Espinaca", "Estadio Lechuga", "Estadio Yojhan", "Estadio Estadio", "Amamos XAML" };
+
             this.InitializeComponent();
+
             images[0] = Escenario1;
             images[1] = Escenario2;
             images[2] = Escenario3;

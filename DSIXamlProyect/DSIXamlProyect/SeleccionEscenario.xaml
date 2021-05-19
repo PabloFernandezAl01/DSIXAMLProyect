@@ -20,8 +20,8 @@
             <Canvas Width="1500" Height="1000" KeyDown="Canvas_KeyDown">
                 <Image Source="Assets/Fondo.png" x:Name="Fondo" Stretch="Fill" Height="1000" Width="1500"/>
 
-                <Button Width="180" Height="106" Canvas.Left="111" x:Name="Volver" IsTabStop="True" TabIndex="0" Canvas.Top="38" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" 
-                        Foreground="{x:Null}" Click="GoBack">
+                <Button Width="180" Height="106" Canvas.Left="111" x:Name="Volver" IsTabStop="True" TabIndex="0" Canvas.Top="38" 
+                        Click="GoBack">
                     <Image Source="Assets/Volver.png" Height="106" Width="180" Margin="-10,-6,-10,-7"/>
                 </Button>
 
@@ -44,11 +44,11 @@
                 <Image  x:Name="Escenario3" Source="Assets/Escenarios/1.jpg" Canvas.Left="605" Canvas.Top="324" Height="352" Stretch="Fill" Width="290"/>
 
 
-                <Button Canvas.Left="111" Canvas.Top="431" Height="125" Width="126" TabIndex="1" IsTabStop="True" Background="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Click="ArrowLeft">
+                <Button Canvas.Left="111" Canvas.Top="431" Height="125" Width="126" TabIndex="1" IsTabStop="True"   Click="ArrowLeft">
                     <Image Source="Assets/BlackArrow.png"  Height="125" Width="126" Stretch="Fill" Margin="-10,-6,-10,-7"/>
                 </Button>
 
-                <Button Canvas.Left="1251" Canvas.Top="431" Height="125" Width="126" TabIndex="2" IsTabStop="True" Background="{x:Null}" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Click="ArrowRight">
+                <Button Canvas.Left="1251" Canvas.Top="431" Height="125" Width="126" TabIndex="2" IsTabStop="True" Click="ArrowRight">
                     <Image Source="Assets/BlackArrow.png"  Height="125" Width="126" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Margin="-10,-6,-10,-7" >
                         <Image.RenderTransform>
                             <CompositeTransform ScaleX="-1"/>
@@ -61,8 +61,7 @@
                 <TextBlock  x:Name="NombreEscenario" Text="Estadio espinaca" FontSize="55"  FontStretch="Condensed" 
                     FontFamily="Kristen ITC"  Foreground="Black" Margin="0,43,0,0" Height="81" Width="485" Canvas.Left="525" Canvas.Top="666"/>
 
-                <Button Canvas.Left="1190" Canvas.Top="765" Height="152"  IsTabStop="True" TabIndex="3" Width="248" Background="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" 
-                        FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Click="GoToIngame">
+                <Button Canvas.Left="1190" Canvas.Top="765" Height="152"  IsTabStop="True" TabIndex="3" Width="248" Click="GoToIngame">
                     <Image Source="Assets/listocirculo.png"  Height="152" Width="248" Stretch="Fill" Margin="-10,-6,-10,-7" />
                 </Button>
 
