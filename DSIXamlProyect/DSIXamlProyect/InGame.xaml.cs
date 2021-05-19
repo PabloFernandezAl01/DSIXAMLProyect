@@ -55,15 +55,19 @@ namespace DSIXamlProyect
                 switch (e.Key)
                 {
                     case VirtualKey.A:
+                    case VirtualKey.GamepadRightThumbstickLeft:
                         jugadorAzul.SetValue(Canvas.LeftProperty, Canvas.GetLeft(jugadorAzul) - 10);
                         break;
                     case VirtualKey.D:
+                    case VirtualKey.GamepadRightThumbstickRight:
                         jugadorAzul.SetValue(Canvas.LeftProperty, Canvas.GetLeft(jugadorAzul) + 10);
                         break;
                     case VirtualKey.S:
+                    case VirtualKey.GamepadRightThumbstickDown:
                         jugadorAzul.SetValue(Canvas.TopProperty, Canvas.GetTop(jugadorAzul) + 10);
                         break;
                     case VirtualKey.W:
+                    case VirtualKey.GamepadRightThumbstickUp:
                         jugadorAzul.SetValue(Canvas.TopProperty, Canvas.GetTop(jugadorAzul) - 10);
                         break;
                 }
