@@ -322,3 +322,8 @@ C:\Users\pablo\OneDrive\Escritorio\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProy
 C:\Users\pablo\OneDrive\Escritorio\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\pablo\OneDrive\Escritorio\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 C:\Users\pablo\OneDrive\Escritorio\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+C:\Users\Yojhan\Documents\Universidad\Diseño Sistemas Interactivos\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionIdioma.g.i.cs
+C:\Users\Yojhan\Documents\Universidad\Diseño Sistemas Interactivos\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionIdioma.g.cs
+C:\Users\Yojhan\Documents\Universidad\Diseño Sistemas Interactivos\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionIdioma.xaml
+C:\Users\Yojhan\Documents\Universidad\Diseño Sistemas Interactivos\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionIdioma.xbf
+C:\Users\Yojhan\Documents\Universidad\Diseño Sistemas Interactivos\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionIdioma.xbf

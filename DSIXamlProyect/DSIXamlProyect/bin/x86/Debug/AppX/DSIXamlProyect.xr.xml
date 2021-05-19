@@ -145,6 +145,7 @@
     </RootType>
     <RootType FullName="DSIXamlProyect.ModoLocal" />
     <RootType FullName="DSIXamlProyect.SeleccionEscenario" />
+    <RootType FullName="DSIXamlProyect.SeleccionIdioma" />
     <RootType FullName="Windows.UI.Xaml.Media.TransformGroup">
       <RootProperty Name="Children" />
     </RootType>

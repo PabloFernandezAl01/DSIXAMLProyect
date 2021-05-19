@@ -142,6 +142,9 @@
       <DependentUpon>SeleccionEscenario.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeleccionIdioma.xaml.cs">
+      <DependentUpon>SeleccionIdioma.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SeleccionPersonaje.xaml.cs">
       <DependentUpon>SeleccionPersonaje.xaml</DependentUpon>
     </Compile>
@@ -154,6 +157,8 @@
   <ItemGroup>
     <Content Include="Assets\agilidad.png" />
     <Content Include="Assets\ajustes.png" />
+    <Content Include="Assets\bandera_alemania.jpg" />
+    <Content Include="Assets\bandera_inglaterra.png" />
     <Content Include="Assets\barraagilidad.png" />
     <Content Include="Assets\barrafuerza.png" />
     <Content Include="Assets\barrahabilidad.png" />
@@ -167,6 +172,7 @@
     <Content Include="Assets\exit_icon.png" />
     <Content Include="Assets\flecha.png" />
     <Content Include="Assets\flechacaida.png" />
+    <Content Include="Assets\french_flag.jpg" />
     <Content Include="Assets\fuerza.png" />
     <Content Include="Assets\habilidad.png" />
     <Content Include="Assets\habilidadbola.png" />
@@ -243,6 +249,10 @@
     <Page Include="SeleccionEscenario.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SeleccionIdioma.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SeleccionPersonaje.xaml">
       <SubType>Designer</SubType>

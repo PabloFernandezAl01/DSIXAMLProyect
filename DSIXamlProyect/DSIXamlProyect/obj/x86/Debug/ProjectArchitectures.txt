@@ -1,1 +1,1 @@
-C:\Users\pablo\OneDrive\Escritorio\DSI\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\DSIXamlProyect.csproj;x86
+C:\Users\Yojhan\Documents\Universidad\Diseño Sistemas Interactivos\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\DSIXamlProyect.csproj;x86

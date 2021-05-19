@@ -19,24 +19,24 @@
             </StackPanel>
 
             <StackPanel Canvas.Left="450" Canvas.Top="400">
-                <Button x:ConnectionId='4'                         Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True" IsTabStop="True" IsEnabled="True" TabIndex="0" x:Name="Jugar">
-                    <TextBlock x:ConnectionId='11' x:Name="BotonJugar" Text=" Jugar" FontSize="40" VerticalAlignment="Center"/>
+                <Button x:ConnectionId='5'                         Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True" IsTabStop="True" IsEnabled="True" TabIndex="0" x:Name="Jugar">
+                    <TextBlock x:ConnectionId='12' x:Name="BotonJugar" Text=" Jugar" FontSize="40" VerticalAlignment="Center"/>
                 </Button>
 
-                    <Button x:ConnectionId='5'                      Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True" IsTabStop="True"  IsEnabled="True" TabIndex="1" x:Name="Ajustes" Margin="0,39.5,0,0">
-                    <TextBlock x:ConnectionId='10' x:Name="BotonAjustes" Text="Ajustes" FontSize="40" VerticalAlignment="Center"/>
+                    <Button x:ConnectionId='6'                      Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True" IsTabStop="True"  IsEnabled="True" TabIndex="1" x:Name="Ajustes" Margin="0,39.5,0,0">
+                    <TextBlock x:ConnectionId='11' x:Name="BotonAjustes" Text="Ajustes" FontSize="40" VerticalAlignment="Center"/>
                 </Button>
-                    <Button x:ConnectionId='6' Width="600" Height="70" Background="#FFF4F0AF" x:Name="IdiomaButton" UseSystemFocusVisuals="True" IsTabStop="True" Margin="0,40,0,0" IsEnabled="True" TabIndex="2">
-                    <TextBlock x:ConnectionId='9' x:Name="BotonIdioma" Text="Idioma" FontSize="40" VerticalAlignment="Center"/>
+                    <Button x:ConnectionId='7'                            Width="600" Height="70" Background="#FFF4F0AF" x:Name="IdiomaButton" UseSystemFocusVisuals="True" IsTabStop="True" Margin="0,40,0,0" IsEnabled="True" TabIndex="2">
+                    <TextBlock x:ConnectionId='10' x:Name="BotonIdioma" Text="Idioma" FontSize="40" VerticalAlignment="Center"/>
                 </Button>
-                    <Button x:ConnectionId='7'                  Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True"  IsTabStop="True" x:Name="Salir" Margin="0,40,0,0"  IsEnabled="True" TabIndex="3">
-                    <TextBlock x:ConnectionId='8' x:Name="BotonSalir" Text="Salir" FontSize="40" VerticalAlignment="Center"/>
+                    <Button x:ConnectionId='8'                  Width="600" Height="70" Background="#FFF4F0AF" UseSystemFocusVisuals="True"  IsTabStop="True" x:Name="Salir" Margin="0,40,0,0"  IsEnabled="True" TabIndex="3">
+                    <TextBlock x:ConnectionId='9' x:Name="BotonSalir" Text="Salir" FontSize="40" VerticalAlignment="Center"/>
                 </Button>
             </StackPanel>
 
             <Image Source="/Assets/play_icon.png" Width="80" Canvas.Left="970" Canvas.Top="400" Height="70" Stretch="Fill"/>
             <Image Source="/Assets/toolsIcon.png" Width="80" Canvas.Left="970" Canvas.Top="509" Height="70" Stretch="Fill"/>
-            <Image Source="/Assets/spain_flag.png" Width="80" Canvas.Left="970" Canvas.Top="619" Height="70" Stretch="Fill"/>
+            <Image x:ConnectionId='4' x:Name="Flag" Source="/Assets/spain_flag.png" Width="80" Canvas.Left="970" Canvas.Top="619" Height="70" Stretch="Fill"/>
             <Image Source="/Assets/exit_icon.png" Width="80" Canvas.Left="970" Canvas.Top="731" Height="70" Stretch="Fill"/>
 
             <Button Canvas.Left="1400" Canvas.Top="900" Width="80" IsEnabled="False" Height="80">

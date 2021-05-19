@@ -1,6 +1,8 @@
 WinMetadata\Windows.winmd
 Assets\agilidad.png
 Assets\ajustes.png
+Assets\bandera_alemania.jpg
+Assets\bandera_inglaterra.png
 Assets\barraagilidad.png
 Assets\barrafuerza.png
 Assets\barrahabilidad.png
@@ -26,6 +28,7 @@ Assets\exit_icon.png
 Assets\flecha.png
 Assets\flechacaida.png
 Assets\Fondo.png
+Assets\french_flag.jpg
 Assets\fuerza.png
 Assets\habilidad.png
 Assets\habilidadbola.png
@@ -65,5 +68,6 @@ MainPage.xbf
 ModoDeJuego.xbf
 ModoLocal.xbf
 SeleccionEscenario.xbf
+SeleccionIdioma.xbf
 SeleccionPersonaje.xbf
 Properties\Default.rd.xml

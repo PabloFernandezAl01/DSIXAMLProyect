@@ -8,7 +8,7 @@ namespace DSIXamlProyect
 {
     static class Idioma
     {
-        public enum Idiomas { Castellano, Ingles, Aleman, Esparanto }
+        public enum Idiomas { Castellano, Ingles, Aleman, Frances }
         public static Idiomas actual;
 
 
@@ -49,7 +49,7 @@ namespace DSIXamlProyect
                 "#~@#€@",
                 "Ä'sòí"
             },
-            { //Esperanto
+            { //Frances
                 "Ulala",
                 "Tacos",
                 "UwU",

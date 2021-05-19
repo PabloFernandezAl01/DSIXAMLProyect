@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -28,12 +29,33 @@ namespace DSIXamlProyect
         {
             this.InitializeComponent();
 
-            Idioma.actual = Idioma.Idiomas.Castellano;
+            //Idioma.actual = Idioma.Idiomas.Castellano;
+            CambiarIdioma();
+        }
 
+
+        private void CambiarIdioma()
+        {
             BotonJugar.Text = Idioma.getText(Idioma.Texto.jugar);
             BotonAjustes.Text = Idioma.getText(Idioma.Texto.opciones);
             BotonIdioma.Text = Idioma.getText(Idioma.Texto.idioma);
             BotonSalir.Text = Idioma.getText(Idioma.Texto.salir);
+
+            switch (Idioma.actual)
+            {
+                case Idioma.Idiomas.Castellano:
+                    Flag.Source = new BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\spain_flag.png"));
+                    break;
+                case Idioma.Idiomas.Ingles:
+                    Flag.Source = new BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\bandera_inglaterra.png"));
+                    break;
+                case Idioma.Idiomas.Aleman:
+                    Flag.Source = new BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\bandera_alemania.jpg"));
+                    break;
+                case Idioma.Idiomas.Frances:
+                    Flag.Source = new BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\french_flag.jpg"));
+                    break;
+            }
         }
 
         private void GoToAjustes(object sender, RoutedEventArgs e)
@@ -83,6 +105,11 @@ namespace DSIXamlProyect
                 (candidate as Control).Focus(FocusState.Keyboard);
             }
             e.Handled = true; //Activar el manejo del objeto
+        }
+
+        private void IdiomaButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(SeleccionIdioma), e);
         }
     }
 }
