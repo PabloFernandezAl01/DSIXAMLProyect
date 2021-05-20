@@ -14,8 +14,8 @@
             <Button x:ConnectionId='4' x:Name="volver" Background="Transparent" FontStretch="Normal"                TabIndex="0" Height="150" Width="250">
                 <Image Source="/Assets/Volver.png" AutomationProperties.Name="Slice" Stretch="Fill" />
             </Button>
-            <TextBlock x:ConnectionId='5' x:Name="seleccionPersonaje" Canvas.Top="40" Text="Seleccion de personaje" FontSize="80" FontStretch="Condensed" 
-                    FontFamily="Kristen ITC" Foreground="Black" Height="100" Width="1000"/>
+            <TextBlock x:ConnectionId='5' x:Name="seleccionPersonaje" Canvas.Top="21" Text="Seleccion de personaje" FontSize="80" FontStretch="Condensed" 
+                    FontFamily="Kristen ITC" Foreground="Black" Height="100" Width="1000" Canvas.Left="355"/>
             <Button x:ConnectionId='6' x:Name="Derecha" Height="138" Background="Transparent"                    Width="240" TabIndex="2" FontStretch="Normal" Canvas.Top="500" Canvas.Left="1200">
                 <Image Source="/Assets/flecha.png"/>
             </Button>

@@ -1,4 +1,3 @@
-WinMetadata\Windows.winmd
 Assets\agilidad.png
 Assets\ajustes.png
 Assets\bandera_alemania.jpg
@@ -71,3 +70,4 @@ SeleccionEscenario.xbf
 SeleccionIdioma.xbf
 SeleccionPersonaje.xbf
 Properties\Default.rd.xml
+WinMetadata\Windows.winmd
