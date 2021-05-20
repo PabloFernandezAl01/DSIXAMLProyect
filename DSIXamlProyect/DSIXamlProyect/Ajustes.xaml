@@ -45,17 +45,12 @@
 
             <RadioButton x:Name="radioButton1"  Canvas.Left="1008" Canvas.Top="716"  Height="48" TabIndex="5" Click="IdiomaFrances"
                          Width="100" Background="#03F0A7A7" BorderBrush="Black" Foreground="Black">
-                <Image Source="/Assets/french_flag.jpg" Width="87" Stretch="Fill"/>
+                <Image Source="/Assets/Chino.png" Width="87" Stretch="Fill"/>
             </RadioButton>
 
             <RadioButton x:Name="radioButton2" Canvas.Left="1150" Canvas.Top="716"   Height="48" Width="97" Foreground="Black" Click="IdiomaIngles"
                            TabIndex="6">
                 <Image Source="/Assets/Ingles.png" />
-            </RadioButton>
-
-            <RadioButton  Canvas.Left="1300" Canvas.Top="716"   Height="48" Width="97" Foreground="Black" Click="IdiomaAleman"
-                           TabIndex="6">
-                <Image Source="/Assets/bandera_alemania.jpg"  Stretch="Fill" Width="75" Height="44" />
             </RadioButton>
 
             <Button x:Name="button1" Click="GoBack" Canvas.Left="50"  Canvas.Top="40" IsTabStop="True" TabIndex="0" Background="Transparent"
