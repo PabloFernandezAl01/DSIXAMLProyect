@@ -34,6 +34,13 @@ namespace DSIXamlProyect
             players[2] = Player3;  bars[2] = Bar3;
             players[3] = Player4;  bars[3] = Bar4;
             players[4] = Player5;
+
+            CambiarIdioma();
+        }
+
+        void CambiarIdioma()
+        {
+            seleccionPersonaje.Text = Idioma.getText(Idioma.Texto.seleccionDePersonaje);
         }
 
         private void GoToEscenario(object sender, RoutedEventArgs e)

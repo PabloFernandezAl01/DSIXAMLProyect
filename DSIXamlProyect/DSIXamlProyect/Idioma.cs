@@ -44,7 +44,9 @@ namespace DSIXamlProyect
             nombre2,
             nombre3,
             nombre4,
-            nombre5
+            nombre5,
+            //==========================
+            seleccionDePersonaje
         }
 
         public static string getText(Texto texto)
@@ -88,7 +90,9 @@ namespace DSIXamlProyect
                 "Estadio Lechuga", 
                 "Estadio Yojhan", 
                 "Estadio Estadio", 
-                "Amamos XAML"
+                "Amamos XAML",
+
+                "Seleccion de personaje"
             },
             { //Ingles
                 "Play",
@@ -120,7 +124,9 @@ namespace DSIXamlProyect
                 "Lettuce's stadium",
                 "Yojhan's stadium",
                 "Stadium Stadium",
-                "We Love XAML"
+                "We Love XAML",
+
+                "Choose your character"
             },
             { //Aleman
                 "Adasdaskdj",
@@ -152,7 +158,9 @@ namespace DSIXamlProyect
                 "Estadio Amor",
                 "Estadio Abejita",
                 "Estadio Felicidad",
-                "<3 XAML"
+                "<3 XAML",
+
+                "Fürhtenthon"
             },
             { //Frances
                 "Jouer",
@@ -184,7 +192,9 @@ namespace DSIXamlProyect
                 "Stade Lechuga",
                 "Stade Yojhan",
                 "Stade Stade",
-                "Nous aimons XAML"
+                "Nous aimons XAML",
+
+                "Sélection de personnage"
             }};
     }
 }
