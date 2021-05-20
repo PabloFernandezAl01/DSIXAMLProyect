@@ -24,14 +24,15 @@ namespace DSIXamlProyect
     public sealed partial class SeleccionPersonaje : Page
     {
         Image[] players = new Image[5];
+        ProgressBar[] bars = new ProgressBar[4];
         int pos = 0;
         public SeleccionPersonaje()
         {
             this.InitializeComponent();
-            players[0] = Player1;
-            players[1] = Player2;
-            players[2] = Player3;
-            players[3] = Player4;
+            players[0] = Player1;  bars[0] = Bar1;
+            players[1] = Player2;  bars[1] = Bar2;
+            players[2] = Player3;  bars[2] = Bar3;
+            players[3] = Player4;  bars[3] = Bar4;
             players[4] = Player5;
         }
 
@@ -59,6 +60,12 @@ namespace DSIXamlProyect
             MainPlayer.SetValue(Canvas.TopProperty, players[pos].GetValue(Canvas.TopProperty));
         }
 
+        void randomProgessBarValue()
+        {
+            Random rnd = new Random();
+            for(int i = 0;i <4; i++) bars[i].Value = rnd.Next(0, 100);
+        }
+
         private void Canvas_KeyDown(object sender, KeyRoutedEventArgs e)
         {
             DependencyObject candidate = null; //Candidato a ser el siguiente foco 
@@ -75,12 +82,14 @@ namespace DSIXamlProyect
         {
             pos--; if (pos < 0) pos = 4;
             setPosition();
+            randomProgessBarValue();
         }
 
         private void leftClick(object sender, RoutedEventArgs e)
         {
             pos++; if (pos > 4) pos = 0;
             setPosition();
+            randomProgessBarValue();
         }
 
     }

@@ -44,19 +44,19 @@
             <StackPanel Orientation="Vertical" Canvas.Left="300" Canvas.Top="800">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="Assets/corasao.png" Width="40"/>
-                    <Image Source="Assets/barravida.png" Width="395"/>
+                    <ProgressBar Width="400" Height="30" x:Name="Bar1" Value="40" Foreground="#FFD31B1B"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Image Source="Assets/agilidad.png" Width="40"/>
-                    <Image Source="Assets/barraagilidad.png" Width="394"/>
+                    <ProgressBar Width="400" Height="30"  Value="60"  x:Name="Bar2" Foreground="#FF2FA6DA"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Image Source="Assets/fuerza.png" Width="40"/>
-                    <Image Source="Assets/barrafuerza.png" Width="391"/>
+                    <ProgressBar Width="400" Height="30"  Value="30"  x:Name="Bar3" Foreground="#FF438943"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Image Source="Assets/habilidad.png" Width="40" Height="40"/>
-                    <Image Source="Assets/barrahabilidad.png" Width="395"/>
+                    <ProgressBar Width="400" Height="30"  Value="80" x:Name="Bar4" Foreground="#FFBFBF40"/>
                 </StackPanel>
             </StackPanel>
             <Button x:Name="Listo" Background="Transparent" TabIndex="3" Click="GoToEscenario" FontStretch="Normal" Width="200" Height="200" Canvas.Left="1200" Canvas.Top="800">
