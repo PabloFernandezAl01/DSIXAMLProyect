@@ -9,7 +9,7 @@
 
     <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill">
         <Canvas Height="1000" Width="1500" KeyDown="Canvas_KeyDown">
-            
+
             <Image Source="/Assets/Fondo.png" Stretch="Fill" Height="1000" Width="1500" />
 
             <StackPanel Canvas.Left="414" Canvas.Top="51"  Height="105" Width="auto" Background="Orange">
@@ -21,14 +21,14 @@
             <Rectangle Height="1" Canvas.Left="443"  Stroke="Black" StrokeThickness="4"  Canvas.Top="575" Width="150" />
             <Rectangle Height="1" Canvas.Left="443" Stroke="Black" StrokeThickness="4" Canvas.Top="737"  Width="150" />
             <Rectangle Height="1" Canvas.Left="443"  Stroke="Black" StrokeThickness="4" Canvas.Top="434" Width="153" RenderTransformOrigin="0.5,0.5" >
-                       
+
                 <Rectangle.RenderTransform>
                     <CompositeTransform ScaleY="-1"/>
                 </Rectangle.RenderTransform>
             </Rectangle>
 
 
-           
+
             <Button x:Name="MusicaButton" Width="70" Height="70" Canvas.Left="1000" Canvas.Top="240" Background="Red" TabIndex="1"
                     BorderBrush="Black" BorderThickness="3" Click="MusicaButtonClick"/>
 
@@ -38,19 +38,24 @@
             <Button x:Name="TutorialesButton" Width="70" Height="70" Canvas.Left="1000" Canvas.Top="540" Background="Red" TabIndex="3"
                     BorderBrush="Black" BorderThickness="3" Click="TutorialesButtonClick"/>
 
-            <RadioButton x:Name="radioButton" Canvas.Left="883" Canvas.Top="716"  Height="48"  Foreground="Black"
+            <RadioButton x:Name="radioButton" Canvas.Left="883" Canvas.Top="716"  Height="48"  Foreground="Black" Click="IdiomaCastellano"
                         TabIndex="4">
                 <Image Source="/Assets/España.jpg" />
             </RadioButton>
 
-            <RadioButton x:Name="radioButton1"  Canvas.Left="1058" Canvas.Top="716"  Height="48" TabIndex="5"
+            <RadioButton x:Name="radioButton1"  Canvas.Left="1008" Canvas.Top="716"  Height="48" TabIndex="5" Click="IdiomaFrances"
                          Width="100" Background="#03F0A7A7" BorderBrush="Black" Foreground="Black">
-                <Image Source="/Assets/Chino.png"/>
+                <Image Source="/Assets/french_flag.jpg" Width="87" Stretch="Fill"/>
             </RadioButton>
 
-            <RadioButton x:Name="radioButton2" Canvas.Left="1203" Canvas.Top="715"   Height="48" Width="97" Foreground="Black"
+            <RadioButton x:Name="radioButton2" Canvas.Left="1150" Canvas.Top="716"   Height="48" Width="97" Foreground="Black" Click="IdiomaIngles"
                            TabIndex="6">
                 <Image Source="/Assets/Ingles.png" />
+            </RadioButton>
+
+            <RadioButton  Canvas.Left="1300" Canvas.Top="716"   Height="48" Width="97" Foreground="Black" Click="IdiomaAleman"
+                           TabIndex="6">
+                <Image Source="/Assets/bandera_alemania.jpg"  Stretch="Fill" Width="75" Height="44" />
             </RadioButton>
 
             <Button x:Name="button1" Click="GoBack" Canvas.Left="50"  Canvas.Top="40" IsTabStop="True" TabIndex="0" Background="Transparent"

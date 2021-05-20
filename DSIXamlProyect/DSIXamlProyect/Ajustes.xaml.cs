@@ -66,8 +66,8 @@ namespace DSIXamlProyect
 
             //Teclado
             if (e.Key == VirtualKey.Down || e.Key == VirtualKey.GamepadDPadDown) findNextElement(candidate, FocusNavigationDirection.Down);
-            else if (e.Key == VirtualKey.Up ||  e.Key == VirtualKey.GamepadDPadUp) findNextElement(candidate, FocusNavigationDirection.Up);
-            else if (e.Key == VirtualKey.Left ||  e.Key == VirtualKey.GamepadDPadLeft) findNextElement(candidate, FocusNavigationDirection.Left);
+            else if (e.Key == VirtualKey.Up || e.Key == VirtualKey.GamepadDPadUp) findNextElement(candidate, FocusNavigationDirection.Up);
+            else if (e.Key == VirtualKey.Left || e.Key == VirtualKey.GamepadDPadLeft) findNextElement(candidate, FocusNavigationDirection.Left);
             else if (e.Key == VirtualKey.Right || e.Key == VirtualKey.GamepadDPadRight) findNextElement(candidate, FocusNavigationDirection.Right);
             e.Handled = true;
         }
@@ -75,14 +75,38 @@ namespace DSIXamlProyect
         void click(ref bool a, Button b)
         {
             a = !a;
-            
-            if(a) b.Background = new SolidColorBrush(Windows.UI.Colors.Green);
+
+            if (a) b.Background = new SolidColorBrush(Windows.UI.Colors.Green);
             else b.Background = new SolidColorBrush(Windows.UI.Colors.Red);
         }
 
         private void MusicaButtonClick(object sender, RoutedEventArgs e)
         {
             click(ref one, MusicaButton);
+        }
+
+        private void IdiomaCastellano(object sender, RoutedEventArgs e)
+        {
+            Idioma.actual = Idioma.Idiomas.Castellano;
+            cambiarIdioma();
+        }
+
+        private void IdiomaFrances(object sender, RoutedEventArgs e)
+        {
+            Idioma.actual = Idioma.Idiomas.Frances;
+            cambiarIdioma();
+        }
+
+        private void IdiomaIngles(object sender, RoutedEventArgs e)
+        {
+            Idioma.actual = Idioma.Idiomas.Ingles;
+            cambiarIdioma();
+        }
+
+        private void IdiomaAleman(object sender, RoutedEventArgs e)
+        {
+            Idioma.actual = Idioma.Idiomas.Aleman;
+            cambiarIdioma();
         }
 
         private void EfectosButtonClick(object sender, RoutedEventArgs e)
