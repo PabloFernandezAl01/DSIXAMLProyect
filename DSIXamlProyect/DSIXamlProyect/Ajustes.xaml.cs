@@ -87,26 +87,26 @@ namespace DSIXamlProyect
 
         private void IdiomaCastellano(object sender, RoutedEventArgs e)
         {
-            Idioma.actual = Idioma.Idiomas.Castellano;
-            cambiarIdioma();
+            //Idioma.actual = Idioma.Idiomas.Castellano;
+            //cambiarIdioma();
         }
 
         private void IdiomaFrances(object sender, RoutedEventArgs e)
         {
-            Idioma.actual = Idioma.Idiomas.Frances;
-            cambiarIdioma();
+            //Idioma.actual = Idioma.Idiomas.Frances;
+            //cambiarIdioma();
         }
 
         private void IdiomaIngles(object sender, RoutedEventArgs e)
         {
-            Idioma.actual = Idioma.Idiomas.Ingles;
-            cambiarIdioma();
+            //Idioma.actual = Idioma.Idiomas.Ingles;
+            //cambiarIdioma();
         }
 
         private void IdiomaAleman(object sender, RoutedEventArgs e)
         {
-            Idioma.actual = Idioma.Idiomas.Aleman;
-            cambiarIdioma();
+            //Idioma.actual = Idioma.Idiomas.Aleman;
+            //cambiarIdioma();
         }
 
         private void EfectosButtonClick(object sender, RoutedEventArgs e)
