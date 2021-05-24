@@ -178,6 +178,7 @@
     <Content Include="Assets\habilidadbola.png" />
     <Content Include="Assets\hombregris.png" />
     <Content Include="Assets\Ingles.png" />
+    <Content Include="Assets\joystickExterior.png" />
     <Content Include="Assets\Listo.png" />
     <Content Include="Assets\listocirculo.png" />
     <Content Include="Assets\Menu.jpg" />

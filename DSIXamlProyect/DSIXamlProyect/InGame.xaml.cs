@@ -7,6 +7,7 @@ using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Gaming.Input;
 using Windows.System;
+using Windows.UI.Input;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -32,6 +33,9 @@ namespace DSIXamlProyect
         private Gamepad mainGamepad = null;
         private GamepadReading reading, prereading;
         private DispatcherTimer GameTimer = null;
+
+        double xOri, yOri;
+        bool clicked = false;
 
         public InGame()
         {
@@ -111,6 +115,18 @@ namespace DSIXamlProyect
                 jugadorAzul.SetValue(Canvas.LeftProperty, L + MovX);
                 jugadorAzul.SetValue(Canvas.TopProperty, T - MovY);
             }
+
+
+            //No tiene que ver con el mando pero aprovecho que el timer esta ya hecho
+            if (clicked)
+            {
+                if (Canvas.GetLeft(joystick) < xOri - 10) jugadorRojo.SetValue(Canvas.LeftProperty, Canvas.GetLeft(jugadorRojo) - 5);
+                if (Canvas.GetLeft(joystick) > xOri + 10) jugadorRojo.SetValue(Canvas.LeftProperty, Canvas.GetLeft(jugadorRojo) + 5);
+
+                if (Canvas.GetTop(joystick) < yOri - 10) jugadorRojo.SetValue(Canvas.TopProperty, Canvas.GetTop(jugadorRojo) - 5);
+                if (Canvas.GetTop(joystick) > yOri + 10) jugadorRojo.SetValue(Canvas.TopProperty, Canvas.GetTop(jugadorRojo) + 5);
+            }
+
         }
 
         private void GoToAjustes(object sender, RoutedEventArgs e)
@@ -187,6 +203,34 @@ namespace DSIXamlProyect
 
                 habilidad.Visibility = Visibility.Collapsed;
             }
+        }
+
+        private void Image_PointerPressed(object sender, PointerRoutedEventArgs e)
+        {
+            clicked = true;
+            xOri = Canvas.GetLeft(joystick);
+            yOri = Canvas.GetTop(joystick);
+        }
+
+        private void Image_PointerMoved(object sender, PointerRoutedEventArgs e)
+        {
+            if (clicked)
+            {
+                PointerPoint point = e.GetCurrentPoint(canvasJoystick);
+
+                if (point.Position.X > 0 && point.Position.X < canvasJoystick.Width && point.Position.Y > 0 && point.Position.Y < canvasJoystick.Height)
+                {
+                    joystick.SetValue(Canvas.LeftProperty, point.Position.X - 50);
+                    joystick.SetValue(Canvas.TopProperty, point.Position.Y - 50);
+                }
+            }
+        }
+
+        private void Image_PointerReleased(object sender, PointerRoutedEventArgs e)
+        {
+            clicked = false;
+            joystick.SetValue(Canvas.LeftProperty, xOri);
+            joystick.SetValue(Canvas.TopProperty, yOri);
         }
 
         private void Hit_Click(object sender, RoutedEventArgs e)

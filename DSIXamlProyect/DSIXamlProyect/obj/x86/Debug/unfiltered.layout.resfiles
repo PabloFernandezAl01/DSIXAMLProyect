@@ -1,3 +1,4 @@
+WinMetadata\Windows.winmd
 Assets\agilidad.png
 Assets\ajustes.png
 Assets\bandera_alemania.jpg
@@ -35,6 +36,7 @@ Assets\hombregris.png
 Assets\InGame.png
 Assets\Ingles.png
 Assets\joystick.png
+Assets\joystickExterior.png
 Assets\Listo.png
 Assets\listocirculo.png
 Assets\LockScreenLogo.scale-200.png
@@ -70,4 +72,3 @@ SeleccionEscenario.xbf
 SeleccionIdioma.xbf
 SeleccionPersonaje.xbf
 Properties\Default.rd.xml
-WinMetadata\Windows.winmd

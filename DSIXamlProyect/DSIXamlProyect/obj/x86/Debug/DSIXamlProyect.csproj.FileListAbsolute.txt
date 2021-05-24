@@ -504,3 +504,8 @@ C:\hlocal\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\MultipleQua
 C:\hlocal\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\ProjectArchitectures.txt
 C:\hlocal\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 C:\hlocal\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\bin\x86\Debug\SeleccionIdioma.xbf
+D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionIdioma.g.i.cs
+D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionIdioma.g.cs
+D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionIdioma.xaml
+D:\Usuarios\Ivism18\Escritorio\DSIXAMLProyect\DSIXamlProyect\DSIXamlProyect\obj\x86\Debug\SeleccionIdioma.xbf

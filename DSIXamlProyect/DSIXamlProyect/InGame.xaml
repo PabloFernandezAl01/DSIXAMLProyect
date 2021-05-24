@@ -53,6 +53,14 @@
                         <CompositeTransform Rotation="-243.486"/>
                     </Image.RenderTransform>
                 </Image>
+                <Canvas x:Name="canvasJoystick" Height="174" Width="198" Canvas.Left="119" Canvas.Top="715"  PointerMoved="Image_PointerMoved" 
+                       PointerReleased="Image_PointerReleased" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <Image  x:Name="joystick"
+                        Source="Assets/joystickExterior.png" Stretch="Fill" Height="103" Width="104" Canvas.Left="45" Canvas.Top="36"
+                          PointerPressed="Image_PointerPressed"
+                           PointerMoved="Image_PointerMoved"
+                           PointerReleased="Image_PointerReleased"/>
+                </Canvas>
 
             </Canvas>
         </Viewbox>

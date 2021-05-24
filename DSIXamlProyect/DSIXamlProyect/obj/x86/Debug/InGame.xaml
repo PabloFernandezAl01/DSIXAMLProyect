@@ -31,7 +31,7 @@
                 <Image Source="Assets/joystick.png" Canvas.Top="653" Height="297" Width="272" Canvas.Left="76"/>
 
                 <Button x:ConnectionId='3' Canvas.Left="1177" Canvas.Top="678" Height="248" Width="248"  TabIndex="1" IsTabStop="True"                      >
-                    <Image x:ConnectionId='10' x:Name="bolaHabilidad" Source="Assets/bolaAzul.jpg"  Height="248" Width="248" Stretch="Fill" Margin="-10,-6,-10,-7" />
+                    <Image x:ConnectionId='12' x:Name="bolaHabilidad" Source="Assets/bolaAzul.jpg"  Height="248" Width="248" Stretch="Fill" Margin="-10,-6,-10,-7" />
                 </Button>
 
                 <Button x:ConnectionId='4' Canvas.Left="1071" Canvas.Top="844" Height="106" Width="106"    TabIndex="0" IsTabStop="True"                  >
@@ -53,6 +53,14 @@
                         <CompositeTransform Rotation="-243.486"/>
                     </Image.RenderTransform>
                 </Image>
+                <Canvas x:ConnectionId='10' x:Name="canvasJoystick" Height="174" Width="198" Canvas.Left="119" Canvas.Top="715"                                    
+                                                               HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <Image x:ConnectionId='11'  x:Name="joystick"
+                        Source="Assets/joystickExterior.png" Stretch="Fill" Height="103" Width="104" Canvas.Left="45" Canvas.Top="36"
+                                                               
+                                                            
+                                                                  />
+                </Canvas>
 
             </Canvas>
         </Viewbox>
